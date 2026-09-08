@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description: "Journal articles, book chapters, working papers, and policy reports by Keaton Miller, University of Oregon."
 toc: true
 toc-depth: 2
 toc-title: "Sections"

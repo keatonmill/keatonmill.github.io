@@ -18,6 +18,15 @@ about:
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=bzA33fIAAAAJ
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0001-5508-1643
+    - icon: journal-text
+      text: RePEc
+      href: https://ideas.repec.org/f/pmi1140.html
+    - icon: file-earmark-richtext
+      text: SSRN
+      href: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2550050
 ---
 
 **Associate Professor of Economics**\
@@ -28,7 +37,7 @@ I am an industrial organization economist who studies how firms, consumers, and 
 
 ### Contact
 
-[Department of Economics](https://economics.uoregon.edu/)\
+[Department of Economics](https://socialsciences.uoregon.edu/economics)\
 435 PLC\
 1285 University of Oregon\
 Eugene, OR 97403-1285

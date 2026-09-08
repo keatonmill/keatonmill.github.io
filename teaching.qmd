@@ -1,8 +1,7 @@
 ---
 title: "Teaching"
+description: "Courses at the Department of Economics, University of Oregon. Expand a course for its description."
 ---
-
-Courses taught at the Department of Economics, University of Oregon. Expand a course for its description.
 
 ## Undergraduate
 
