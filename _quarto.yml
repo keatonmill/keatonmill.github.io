@@ -2,6 +2,10 @@ project:
   type: website
   output-dir: _site
   post-render: fix-links.py
+  # Legacy Squarespace files: always ship s/ so old /s/<file> URLs resolve,
+  # even for files no page links to (e.g. the Monte Carlo zip).
+  resources:
+    - s/
 
 website:
   title: "Keaton Miller"

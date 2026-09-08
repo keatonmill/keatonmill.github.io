@@ -28,6 +28,8 @@ There are two PDF directories, on purpose:
   URLs are cited in Google Scholar, CVs, and other people's papers, so they
   must keep working. Do not rename or move anything in `s/`. Link to them as
   `s/<filename>`.
+  `_quarto.yml` lists `s/` under `project.resources`, so every file there is
+  published even if no page links to it.
 - `assets/pdf/` — everything new. Drop a new PDF here and link to it as
   `assets/pdf/yourfile.pdf`.
 
