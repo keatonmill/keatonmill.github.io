@@ -88,3 +88,9 @@ directory and the Google Scholar profile (`scholar.txt`, fetched 2026-09-08).
 
 - Teaching: EC 410/510 The Economics of Power added by Keaton; the three
   Squarespace syllabi moved from `s/` to `assets/pdf/` (old URLs now 404).
+
+- 2026-09-08, later: coauthor names linked to their homepages (17 of 22 found;
+  no page found for Ghoshal-Datta, Jiang, Wood, Ben-Shahar, Ducharme). Media
+  coverage list added under Policy Reports & Media from a web search; three
+  Daily Emerald items quoting Keaton on union bargaining / UO budget / job
+  market (2024–2025) were found but not added pending his decision.

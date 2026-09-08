@@ -85,6 +85,11 @@ a {
     color: #5a5a5a;
     font-style: italic;
     margin-bottom: 0.15rem;
+
+    a {
+      color: inherit;
+      text-decoration-color: #c9c9c9;
+    }
   }
 
   .outlet {
