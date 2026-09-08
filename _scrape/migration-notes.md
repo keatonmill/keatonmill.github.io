@@ -85,3 +85,6 @@ directory and the Google Scholar profile (`scholar.txt`, fetched 2026-09-08).
 - 2026-09-08, later: Work in Progress section removed at Keaton's request (the two
   remaining items were not being actively pursued). Home-page bio rewritten to
   name research topics; research page gained a section TOC.
+
+- Teaching: EC 410/510 The Economics of Power added by Keaton; the three
+  Squarespace syllabi moved from `s/` to `assets/pdf/` (old URLs now 404).

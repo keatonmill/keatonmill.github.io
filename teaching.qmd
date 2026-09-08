@@ -9,7 +9,7 @@ Courses taught at the Department of Economics, University of Oregon. Expand a co
 :::: {.paper}
 ### EC 201: Principles of Microeconomics
 
-[[Sample syllabus](s/ec201-sample-syllabus-miller.pdf)]{.paper-links}
+[[Sample syllabus](assets/pdf/ec201-sample-syllabus.pdf)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Course description
@@ -20,9 +20,20 @@ The course begins with a simple model of markets based on the idea that consumer
 ::::
 
 :::: {.paper}
+### EC 410/510 (Experimental course code): The Economics of Power
+
+[[Sample syllabus](assets/pdf/ec410-sample-syllabus-econ-of-power.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Course description
+Often our choices are constrained or influenced by the power that others wield over us. Whether it’s the power of a large social media corporation to determine what constitutes acceptable content for their platform, the power of a manager to fire employees at will, or the power of the primary earner in a marriage to compel their partner to endure mistreatment, systems of power pervade our experience of ourselves, each other, and the world around us. Where does power come from? How is it wielded? How should we live in a world filled with giants? This course will attempt to answer these questions through the lens of economic analysis, both theoretical and empirical. In the first half of the course we will discuss power systems at scales ranging from interpersonal to international. The second half of the course will feature an ongoing simulation based on real-world power struggles.
+:::
+::::
+
+:::: {.paper}
 ### EC 460/560: Theories of Industrial Organization
 
-[[Sample syllabus](s/ec460-sample-syllabus-miller.pdf)]{.paper-links}
+[[Sample syllabus](assets/pdf/ec460-sample-syllabus.pdf)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Course description
@@ -37,7 +48,7 @@ The course begins with a review of consumer and producer theory with a focus on 
 :::: {.paper}
 ### EC 607: Seminar in Industrial Organization: Structural Methods and Applications
 
-[[Sample syllabus](s/ec607-sample-syllabus-miller.pdf)]{.paper-links}
+[[Sample syllabus](assets/pdf/ec607-sample-syllabus.pdf)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Course description

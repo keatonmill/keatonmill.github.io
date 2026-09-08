@@ -33,6 +33,8 @@ Two directories, on purpose:
   file there is published regardless of whether a page links to it
   (`project.resources` in `_quarto.yml`). **Do not add to, rename, or delete
   anything in `s/`.**
+  (Exception already made: the three sample syllabi were moved to
+  `assets/pdf/` in September 2026, since syllabus links are not cited.)
 
 ### Updating a draft
 

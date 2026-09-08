@@ -25,4 +25,5 @@ Three of the 18 assets are teaching-page syllabi that were not in the original
 inventory: `ec201-`, `ec460-`, and `ec607-sample-syllabus-miller.pdf`.
 
 The legacy files are served from `../s/` on the new site so old `/s/<file>`
-URLs keep working (see the top-level README).
+URLs keep working (see the top-level README), except the three syllabi,
+which were moved to `../assets/pdf/` in September 2026.
