@@ -51,7 +51,12 @@ One-time setup after creating the GitHub repository:
 
 1. Push this folder to the repository.
 2. In the repo settings, go to **Settings → Pages** and set **Source** to
-   **GitHub Actions**.
+   **GitHub Actions**. For a `<handle>.github.io` repo GitHub turns Pages on
+   automatically in legacy (Jekyll, deploy-from-branch) mode the moment the
+   first push lands, and that Jekyll build can race the Actions deploy and
+   overwrite it. If the live site shows the README instead of the home page,
+   switch the source to GitHub Actions and re-run the workflow (Actions →
+   Publish website → Run workflow).
 
 ### Custom domain (keatonmiller.org)
 
