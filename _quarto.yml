@@ -16,8 +16,13 @@ website:
   image: assets/img/headshot.jpg
   open-graph: true
   twitter-card: true
-  # Analytics: paste a GA4 measurement ID (G-XXXXXXXXXX) to enable.
-  # google-analytics: "G-XXXXXXXXXX"
+  google-analytics:
+    tracking-id: "G-Z0XFT68NXD"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    style: simple
+    palette: light
   navbar:
     pinned: true
     left:
