@@ -81,3 +81,7 @@ directory and the Google Scholar profile (`scholar.txt`, fetched 2026-09-08).
 - Mortgage-servicer paper: "Under review" removed (rejected; being revised).
 - "In Search of Peace and Quiet": kept under Working Papers unchanged;
   Keaton says it may be defunct.
+
+- 2026-09-08, later: Work in Progress section removed at Keaton's request (the two
+  remaining items were not being actively pursued). Home-page bio rewritten to
+  name research topics; research page gained a section TOC.

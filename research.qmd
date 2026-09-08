@@ -1,5 +1,8 @@
 ---
 title: "Research"
+toc: true
+toc-depth: 2
+toc-title: "Sections"
 ---
 
 ## Publications
@@ -370,16 +373,6 @@ Many retail industries feature price promotion holidays: periods close to calend
 ## Abstract
 U.S. antitrust policy requires firms to disclose sizable acquisition plans to the Department of Justice before completing any transactions so effects on competition can be proactively evaluated. It has been difficult to test the effects of this policy given the difficulty of defining potential and actual acquisitions across industries. We construct a novel dataset of acquisitions in the cable television industry to study the acquisition behavior of several large firms. We test the effect of the disclosure threshold and the nature of local competition on the probability that a small firm is acquired. We find the program has a small but significant impact on large firms' propensities to purchase horizontal (overbuilt) competitors but no significant effect on other types of acquisitions. Our results are robust to several variations of the test.
 :::
-::::
-
-## Work in Progress
-
-:::: {.paper}
-### Approximate Markov-Perfect Equilibria When State Spaces are Continuous
-::::
-
-:::: {.paper}
-### Imperfectly Competitive Firms, Imperfectly Competitive Politics
 ::::
 
 ## Policy Reports & Media
