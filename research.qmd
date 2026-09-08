@@ -2,235 +2,369 @@
 title: "Research"
 ---
 
+## Publications
+
+:::: {.paper}
+### Shifting Tax Incidence: Evidence from the Washington State Cannabis Market
+
+[with Benjamin Hansen, Kendall Houghton, and Caroline Weber]{.authors}\
+[*Journal of Policy Analysis and Management*, 45(3): e70041, 2026]{.outlet}
+
+[[Published version](https://doi.org/10.1002/pam.70041) · [Paper](s/2022-01-tax-invariance-draft.pdf) (January 2022 draft) · [NBER Working Paper](https://www.nber.org/papers/w23632)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We study how prices respond when a 25% gross receipts tax remitted by cannabis manufacturers was eliminated in Washington state and the retail excise tax was simultaneously increased from 25% to 37%. Standard theory suggests that this change should have increased welfare for manufacturers, retailers, and consumers; instead, our analysis shows that the reform unexpectedly shifted benefits toward manufacturers at the expense of retailers and consumers, who faced higher tax-inclusive prices post-reform. We hypothesize that this outcome was driven by behavioral factors such as anchoring and loss aversion. Our findings add to a growing body of evidence that tax reforms can affect market outcomes in ways not predicted by standard economic models, offering a cautionary lesson for policymakers considering similar reforms.
+:::
+::::
+
+:::: {.paper}
+### Early Evidence on the Effects of Open Mobile In-App Payment Systems from South Korea
+
+[with Boyoon Chang]{.authors}\
+[*Journal of Competition Law & Economics*, nhaf034, 2025]{.outlet}
+
+[[Published version](https://doi.org/10.1093/joclec/nhaf034) · [Paper](s/2024-06-24-in_app_billing.pdf) (June 2024 draft)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Mobile app platforms are highly concentrated: Apple and Google each distribute over 75% of the total number of apps installed on the relevant devices. These platforms generally require developers to use a built-in system for processing payments with a commission rate of 30% for both the initial purchase of an app and any subsequent in-app purchases. In September 2021, South Korea became the first country to ban this lock-in; purchases made in the country may be conducted through any billing system developers wish. We analyze the short-term impact of this policy change (and Apple's subsequent adaptation) on demand for apps and revenue using difference-in-differences techniques and data on apps offered through Apple's App Store from a leading app analytics firm from January 2021 to December 2022. We find no evidence that the policy change generated substantive changes in South Korea's app marketplace.
+:::
+::::
+
+:::: {.paper}
+### Medicare Advantage
+
+[In *Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust*, pp. 338–344, 2024]{.outlet}
+
+[[Published version](https://www.elgaronline.com/abstract/book/9781802200546/chapter52.xml)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+The public–private partnership currently called "Medicare Advantage" has grown and changed considerably since the first trials of "Medicare Part C" in 1982; today it covers roughly half of eligible seniors in the United States. In this chapter, I provide an overview of the current iteration of the program and its funding structure. I summarize recent research on competition within the program, the potential for cost efficiencies, risk adjustment, and quality comparisons between plans offered within the program and the traditional fee-for-service Medicare system.
+:::
+::::
+
+:::: {.paper}
+### Capturing and Harvesting in Medicare Advantage Plan Design
+
+[*Health Affairs Scholar*, 2(6): qxae077, 2024]{.outlet}
+
+[[Published version](https://academic.oup.com/healthaffairsscholar/advance-article/doi/10.1093/haschl/qxae077/7687291)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Consumers in health insurance markets have inertia stemming from the desire to maintain relationships with providers and other frictions involved in switching plans. In other markets that feature inertia, suppliers respond with pricing strategies that vary by market share: lowering markups to capture consumers when market shares are low, and raising markups to harvest profits once market share has been established. I tested for this behavior in the Medicare Advantage market by examining how MA plan sponsors changed the financial terms of their plans in response to changes in market share from 2007-2021 using a first-difference model with fixed effects. I found evidence that plans increase premiums, copays, and out-of-pocket limits when market shares increase. The results imply that for every 1% increase in market share, plan sponsors subsequently increase out-of-pocket costs by 1% in the following year.
+:::
+::::
+
+:::: {.paper}
+### Changes in Rail Rates for U.S. Commodity Grain Shipments Over Time
+
+[with Wesley W. Wilson]{.authors}\
+[*Research in Transportation Economics*, 102: 101359, 2023]{.outlet}
+
+[[Published version](https://www.sciencedirect.com/science/article/abs/pii/S0739885923000999)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+The deregulation of the U.S. railroad industry has largely been considered a success, as costs and rates have fallen due to changes in the mix of traffic and industry consolidation. However, rates did not fall as quickly as costs, and since 2000 rates have been rising while many measures of cost have remained relatively stable. We investigate these changes in rail rates using a sample of agricultural shipments from 2000–2016. We provide evidence that even after controlling for changes in cost drivers such as fuel, the relationships between prices and determinants have changed over time, suggesting that railroad pricing rules have driven increases in rates faced by shippers.
+:::
+::::
+
+:::: {.paper}
+### Reducing Medicare Advantage Benchmarks Will Decrease Plan Generosity, But Those Effects Will Likely Be Modest
+
+[with Michael Chernew, Amil Petrin, and Robert Town]{.authors}\
+[*Health Affairs*, 42(4): 479–487, 2023]{.outlet}
+
+[[Published version](https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2022.01031)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Concerns that Medicare Advantage plans are overpaid have motivated calls to reduce Medicare Advantage benchmarks – the dollar amount set by CMS against which MA plans bid to set premiums and fund extra benefits. However, cutting benchmarks may lead to higher MA enrollee premiums and decreased plan generosity. We assess the relationship between Medicare Advantage benchmarks, plan generosity and benefits. We estimate that a $1000 per year decrease in benchmarks would lead to small increases in annual premiums of about $60 and annual deductibles of about $27. Copays would also increase modestly and the propensity to offer benefits would generally decline by less than 5 percentage points, with the greatest impact on the availability of dental, hearing and vision benefits. These results suggest that, while cuts to Medicare Advantage benchmarks will adversely affect plan generosity, those effects will be modest.
+:::
+::::
+
+:::: {.paper}
+### Watching the Grass Grow: Does Recreational Cannabis Legalization Affect Retail and Agricultural Wages?
+
+[with Sichao Jiang]{.authors}\
+[*Journal of Cannabis Research*, 4(1): 42, 2022]{.outlet}
+
+[[Published version](https://jcannabisresearch.biomedcentral.com/articles/10.1186/s42238-022-00149-6) · [Paper](s/2022-01-27-cannabis-wages-resubmission.pdf) (January 2022 draft)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Over the past several years, cannabis has become legal for recreational use in several U.S. states and jurisdictions around the world. The opening of these markets has led to the establishment of hundreds of cannabis production and retail firms with accompanying demand for labor, leading to concerns about spillover effects on wages from incumbents. We study the markets for agricultural and retail labor in Washington and Colorado, early legalizers with now-established cannabis markets. Using a synthetic control technique to account for the possibility of border-state spillover effects and machine learning techniques for data imputation and variable selection, we find no evidence that cannabis legalization is associated with increases in per-employee wages, neither within industries most similar to cannabis production or retail, nor in more broad industry categories. We conclude that cannabis legalization is unlikely to negatively impact incumbent firms through the labor market channel.
+:::
+::::
+
+:::: {.paper}
+### Vertical Integration and Production Inefficiency in the Presence of a Gross Receipts Tax
+
+[with Benjamin Hansen and Caroline Weber]{.authors}\
+[*Journal of Public Economics*, 212: 104693, 2022]{.outlet}
+
+[[Published version](https://www.sciencedirect.com/science/article/pii/S0047272722000950?dgcid=author) · [NBER Working Paper](https://www.nber.org/papers/w28478)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We quantify the effects of a gross receipts tax (GRT) on vertical integration for the first time. We use data from the Washington state recreational cannabis industry, which has numerous advantages including a clean natural experiment: a 25% GRT imposed on cannabis firms was subsequently replaced by an excise tax at retail. We find the short-run elasticity of vertical integration with respect to the intermediate good net-of-tax rate is -0.15 and the long-run elasticity is about twice as large. We find these incentives lead to large output losses -- production increases by 23 percent when the GRT is eliminated.
+:::
+::::
+
+:::: {.paper}
+### Up in Smoke? The Market for Cannabis
+
+[with Benjamin Hansen and Caroline Weber]{.authors}\
+[In *Handbook of Labor, Human Resources and Population Economics*, 2021]{.outlet}
+
+[[Published version](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-57365-6_138-1)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Legal access to recreational cannabis continues to expand across the globe. With each new market comes new legal structures and regulations. In this chapter we first review the regulations and market structures of the newly legalized recreational markets in the United States, Canada and Uruguay. We then discuss the emerging literature on the industrial organization of the cannabis industry, which provides new evidence on market competition and the price elasticity of demand. We proceed to review the expanding research on cannabis taxation and the black market. This research has meaningful public policy conclusions for how tax rates and structures affect revenue generation and the black market, key arguments for legalization. We finish by reviewing the public health literature on legalization, and its findings on how legalization has affected cannabis use, dangerous driving, and the use and abuse of other drugs.
+:::
+::::
+
+:::: {.paper}
+### The Effect of Cannabis Legalization on Substance Demand and Tax Revenues
+
+[with Boyoung Seo]{.authors}\
+[*National Tax Journal*, 74(1): 107–145, 2021]{.outlet}
+
+[[Published version](https://www.journals.uchicago.edu/doi/abs/10.1086/712915?journalCode=ntj) · [Paper](s/2019-01-05-tax-revenues-substances-RESTAT.pdf) (January 2019 draft) · [News coverage in the Wall Street Journal](https://www.wsj.com/articles/companies-betting-on-pot-may-be-worse-off-when-the-smoke-clears-1539338460)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Marijuana advocates argue legalization will increase tax revenues. If legal substances are substitutes, marijuana revenues may crowd out other taxes. We study tax revenues around Washington's legalization of marijuana using detailed administrative and scanner data. We estimate a flexible demand system for marijuana, alcohol, and tobacco and control for prices. We find legalizing marijuana leads to a 5% decrease in alcohol demand and a 12% decrease in tobacco demand. Liquor and cigarettes are most affected. 40% of state marijuana tax revenue is offset by reductions elsewhere. A 1% increase in Washington's marijuana tax, currently the highest nationwide, increases revenue 0.2%.
+:::
+::::
+
+:::: {.paper}
+### Federalism, Partial Prohibition, and Cross Border Sales: Evidence from Recreational Marijuana
+
+[with Benjamin Hansen and Caroline Weber]{.authors}\
+[*Journal of Public Economics*, 187: 104159, 2020]{.outlet}
+
+[[Published version](https://www.sciencedirect.com/science/article/abs/pii/S0047272720300232)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Marijuana is partially prohibited: though banned federally, it is available to 1 in 4 U.S. adults under state statutes. We measure the size of the interstate trade generated by state-level differences in legal status with a natural experiment: Oregon allowed stores to sell marijuana for recreational use on October 1, 2015, next to Washington where stores had been selling recreational marijuana since July 2014. Using administrative data covering the universe of Washington's sales and a differences-in-discontinuities approach, we find retailers along the Oregon border experienced a 36% decline in sales immediately after Oregon's market opened. We investigate the home location of recent online reviewers of marijuana retailers and find similar cross-border patterns. By the end of Washington's 2018 fiscal year, our results imply that Washington had earned between $44 million and $75 million in tax revenue from cross-border shoppers. These cross-border incentives may create a "race to legalize."
+:::
+::::
+
+:::: {.paper}
+### Sharing the Sacrifice, Minimizing the Pain: Optimal Wage Reductions
+
+[*Economics Letters*, 196: 109503, 2020]{.outlet}
+
+[[Published version](https://www.sciencedirect.com/science/article/abs/pii/S0165176520303086) · [Paper](s/2020-08-17-revision-full-manuscript.pdf) (August 2020 draft)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Faced with temporary revenue shocks, employers may choose to implement wage reductions -- this has been a common response for U.S. universities during the COVID-19 pandemic. I provide a framework for optimal reductions when labor is inelastic wherein a planner balances the need to "minimize the pain" and "share the sacrifice." I show that for a broad class of utility functions the optimal schedule includes (1) a cutoff wage below which the reduction is zero and (2) weakly progressive reduction rates above the cutoff wage. I illustrate the results using wage data from a large U.S. university.
+:::
+::::
+
+:::: {.paper}
+### Taxing the Potency of Sin Goods: Evidence from Recreational Cannabis and Liquor Markets
+
+[with Benjamin Hansen, Boyoung Seo, and Caroline Weber]{.authors}\
+[*National Tax Journal*, 73(2): 511–544, 2020]{.outlet}
+
+[[Published version](https://ntanet.org/NTJ/73/2/ntj-v73n02p511-544-Taxing-Potency-of-Sin-Goods.html) · [Preprint](s/ntj-forum-preprint.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Cannabis is legal to purchase for over 28 percent of United States citizens. A central argument used in public campaigns for cannabis legalization has focused on the tax revenue that legal cannabis markets could generate. Recently, some policy makers and politicians have debated switching from traditional ad valorem taxes to taxes on potency, aiming to reduce the potential externalities associated with highly potent products. In this paper, we construct a theoretical model to predict the implications of a potency-based tax in an environment with market power. We then estimate the demand for cannabis potency based on administrative records of sales and potency from Washington state. We finish by conducting counterfactual analyses comparing revenue and potency outcomes from potency-based taxes vs. the traditional price-based taxes.
+:::
+::::
+
+:::: {.paper}
+### Environmentalism, Stimulus, and Inequality Reduction Through Industrial Policy: Did Cash for Clunkers Achieve the Trifecta?
+
+[with Wesley W. Wilson and Nick Wood]{.authors}\
+[*Economic Inquiry*, 58(3): 1109–1128, 2020]{.outlet}
+
+[[Published version](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.12889)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+The 2009 American Cash for Clunkers program, which subsidized consumers who scrapped old vehicles and purchased new vehicles, was promoted by appealing to multiple constituencies. We evaluate the policy and alternatives according to its stated goals: economic stimulus, emissions reductions, and reducing inequality. We calibrate a dynamic partial equilibrium portfolio model to match consumer expenditure data from 1998-2011 focusing on heterogeneity across cars and trucks. We find the program generated $0.17 in environmental benefits, $0.48 in consumer surplus, and $0.79 in additional spending per subsidy dollar. Since subsidies largely went to middle-income infra-marginal consumers, the program exacerbated income inequality.
+:::
+::::
+
+:::: {.paper}
+### Early Evidence on Recreational Marijuana Legalization and Traffic Fatalities
+
+[with Benjamin Hansen and Caroline Weber]{.authors}\
+[*Economic Inquiry*, 58(2): 547–568, 2020]{.outlet}
+
+[[Published version](https://onlinelibrary.wiley.com/doi/10.1111/ecin.12751)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Over the last few years, marijuana has become legally available for recreational use to roughly a quarter of Americans. Policy makers have long expressed concerns about the substantial external costs of alcohol, and similar costs could come with the liberalization of marijuana policy. Indeed, the fraction of fatal accidents in which at least one driver tested positive for tetrahydrocannabinol has increased nationwide by an average of 10% from 2013 to 2016. For Colorado and Washington, both of which legalized marijuana in 2014, these increases were 92% and 28%, respectively. However, identifying a causal effect is difficult due to the presence of significant confounding factors. We test for a causal effect of marijuana legalization on traffic fatalities in Colorado and Washington with a synthetic control approach using records on fatal traffic accidents from 2000 to 2016. We find the synthetic control groups saw similar changes in marijuana-related, alcohol-related, and overall traffic fatality rates despite not legalizing recreational marijuana.
+:::
+::::
+
+:::: {.paper}
+### Governance Structure and Exit: Evidence from California Hospitals
+
+[with Wesley W. Wilson]{.authors}\
+[*Review of Industrial Organization*, 53(1): 31–55, 2018]{.outlet}
+
+[[Published version](https://link.springer.com/article/10.1007/s11151-017-9595-7)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Most inpatient and emergency health care services in the U.S. are delivered by non-profit organizations. To understand the impact of policies that are designed to affect competitive outcomes in hospital markets, it's important to understand whether the "non-profit" structure changes the behavior and competitive conduct of firms. Given the complexity of the product space within which hospitals operate, we focus on more easily interpreted decisions within the hospital market: entry and exit. Using comprehensive administrative data for the universe of California hospitals from 1980 to 2013, we document the observed entry and exit behavior. We estimate flexible exit policy functions and demonstrate a difference in behavior between for-profit and non-profit firms that exists after accounting for several observable characteristics of hospitals. We find differences in observed behavior: this is a finding that strongly suggests that there are differences in the underlying objective function of the various firms.
+:::
+::::
+
 ## Working Papers
 
 :::: {.paper}
-### Efficiency, Insurance, and Redistribution Effects of Government Policies
+### The Impacts of Mortgage Servicer Licensing Requirements
 
-[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
-[Revise & resubmit, *Journal of Political Economy*]{.outlet}
+[with Edder Martinez-Lazo]{.authors}\
+[Under review]{.outlet}
 
-[[Paper](assets/pdf/combined_manuscript_revision.pdf)]{.paper-links}
+[[Paper](s/2024-06-23-servicer-reforms.pdf) (June 2024)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-This paper decomposes welfare measures of policy reforms into parts attributable to redistribution and parts due to efficiency. We further decompose efficiency into subcomponents such as gains from better insurance against idiosyncratic and aggregate risk. Our decomposition of welfare measures associated with alternative feasible allocations is cast in terms of a coordinate system that uses generalized Pareto–Negishi weights to capture inequality and production and consumption wedges to capture distortions. Our decomposition has several desirable properties. It attributes welfare changes from movements along a Pareto frontier to redistribution; it attributes negative efficiency changes to movements away from the Pareto frontier; and it produces subcomponent shares of welfare changes that are numeraire-invariant and symmetric with respect to the direction of the reform. Our decomposition can be explained in terms of an implicit tax-and-transfer system in which redistribution captures real income changes, efficiency captures deadweight losses and output costs.
+The 2007-2008 U.S. financial crisis illustrated the way in which mortgage servicers, through their role in influencing delinquencies, foreclosures, and in administering mortgage modification programs, can influence housing market outcomes at a broad scale. We study a wave of state-level mortgage servicer licensing laws passed in the wake of the crisis. We study mortgage market outcomes using a difference-in-differences approach and pooled mortgage-backed security outcomes using an exposure design. We find evidence that the reforms decreased late-stage delinquencies and foreclosures. Compliance costs may have been passed through to increased interest rates. Other borrower and loan characteristics were unchanged.
 :::
 ::::
 
 :::: {.paper}
-### A Perturbational Approach for Approximating Heterogeneous-Agent Models
+### The Optimal Geographic Distribution of Managed Competition Subsidies
 
-[with Anmol Bhandari, Thomas Bourany, and Mikhail Golosov]{.authors}
+[with Amil Petrin, Robert Town, and Michael Chernew]{.authors}\
+[Revise and resubmit]{.outlet}
 
-[[Paper](assets/pdf/BBEG_master2.pdf) · [Code](https://github.com/apb-umn/bbeg)]{.paper-links}
+[[Paper](s/2023-01-20-Optimal_Managed_Competition_Subsidies-paper.pdf) (January 2023) · [Monte Carlo code](s/mc_release.zip) (September 2022)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-We develop a perturbational technique to approximate equilibria of a wide class of discrete-time dynamic stochastic general equilibrium heterogeneous-agent models with complex state spaces, including multi-dimensional distributions of endogenous variables. We show that approximating policy functions and stochastic process that governs the distributional state to any order is equivalent to solving small systems of linear equations that characterize values of certain directional derivatives. We analytically derive the coefficients of these linear systems and show that they satisfy simple recursive relations, making their numerical implementation quick and efficient. Compared to existing state-of-the-art techniques, our method is faster in constructing first-order approximations and extends to higher orders, capturing the effects of risk that are ignored by many current methods. We illustrate how to apply our method to a broad set of questions such as impacts of first- and second-moment shocks, welfare effect of macroeconomic risk and stabilization policies, endogenous household portfolio formation, and transition dynamics in heterogeneous agent general equilibrium settings.
+When markets fail to provide socially optimal outcomes, governments often intervene through "managed competition" where firms compete for per-consumer subsidies. We introduce a framework for determining the optimal subsidy schedule that features heterogeneity in consumer preferences and inertia, and firms with heterogeneous costs that can set prices and product characteristics in response to changes in the subsidy. We apply it to the Medicare Advantage program, which offers Medicare recipients private insurance that replaces Traditional Medicare. We calculate counterfactual equilibria as a function of the subsidies by estimating policy functions for product characteristics from the data and solving for Nash equilibria in prices. The consumer-welfare-maximizing budget-neutral schedule increases aggregate annual consumer welfare by $4.6 billion over the current policy and is well-approximated with a linear rule using market-level observables.
 :::
 ::::
 
 :::: {.paper}
-### Business Income Underreporting and Public Finance
+### In Search of Peace and Quiet: The Heterogeneous Impacts of Short-Term Rentals on Housing Prices
 
-[with Anmol Bhandari, Ellen McGrattan, and Yuki Yao]{.authors}
+[with Brett Garcia and John Morehouse]{.authors}
 
-[[Paper](assets/pdf/BSEefg_paper.pdf)]{.paper-links}
+[[Paper](s/2022-04-01-rsue-resubmission-paper.pdf) (April 2022)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-This paper proposes a new dynamic theory of business taxation that takes into account income underreporting by owners and potential reputational losses if tax evasion is discovered. Taxpayers are assumed to be of two types: those that are always compliant regardless of opportunity and those that cheat if it is economically beneficial to do so. Opportunities arise in self-employment but, in equilibrium, only for business owners that can weather the costs of an audit, which include fines for past taxes owed and losses in business brand. The theory is used to predict the aggregate and distributional impacts of increased enforcement efforts and then to run policy counterfactuals. In order to assess quantitative impacts, a baseline model is parameterized to be in line with data from the U.S. national accounts and National Research Program (NRP) random audits. The main policy experiments compare the impacts of increased public spending financed either by increased taxation on business incomes or increased enforcement efforts aimed at their owners. Higher enforcement leads to larger declines in entrepreneurship, less investment in financial assets, and lower average business ages as compared to an economy with higher taxes on business income. However, because of better selection, business productivity, investment, and receipts are higher with increased enforcement.
+The supply of housing for short-term rental (STR) has grown dramatically with the emergence of platforms such as Airbnb. This trend has led to contradictory concerns about increasing housing prices and negative externalities. We provide evidence that in some areas, STRs can decrease housing prices. Using a parsimonious model of housing occupancy with externalities, we show the marginal effect of STRs on housing prices depends on the net impact of STRs on local amenities. Using zip-code-level data from Los Angeles County, California, we show heterogeneity in the marginal effects of Airbnb listings on housing prices across localities. We then examine the consequences of a 2015 law restricting STRs within the City of Santa Monica in the coastal region of Los Angeles County. In that City, we estimate a negative relationship between the prevalence of STRs and housing prices. Using a differences-in-differences approach, we show that the 2015 law increased housing prices -- which can be rationalized by our theory. Finally, we provide evidence for a potential mechanism: "party-related" nuisance calls to the Santa Monica Police Department decreased after the policy was enacted.
 :::
 ::::
 
 :::: {.paper}
-### Efficient Aggregation in Heterogeneous-Agent Models with Bounded Rationality
+### Are Firms' Cost Predictions Accurate? Evidence from Medicare Advantage
 
-[with Giorgi Nikolaishvili]{.authors}
+[with Sichao Jiang]{.authors}
 
-[[Paper](assets/pdf/evansnikolaishvili_2025.pdf)]{.paper-links}
+[[Paper](s/2022-02-08-ma-bid.pdf) (February 2022)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-A key challenge in heterogeneous-agent models with bounded rationality is the intensive computational burden of repeatedly aggregating policy functions when solving for temporary equilibrium within a given period. This cost scales with belief heterogeneity, creating a severe bottleneck. We propose a fast aggregation method that replaces repeated summations with a compact representation of aggregate demand as a function of prices, delivering speedups of several orders of magnitude over conventional approaches while preserving accuracy. Demonstrated in a model with multiple dimensions of belief heterogeneity, our method directly overcomes a central obstacle to simulating boundedly rational heterogeneous-agent economies and extends the scope of feasible applications.
+Many firms employ forecasters to predict future market conditions. We investigate the accuracy of these predictions in the context of Medicare Advantage, where insurers receive subsidies from the government and compete to provide health insurance to seniors. As part of the "bidding" process, firms must submit forecasts of their costs. Insurers have incentives to report accurately, as these predictions are used to determine both the level of the subsidy and (implicitly) the degree to which that subsidy can be spent on various plan features. We collect data on predictions and realized expenses per member per month at the plan-service-category level from 2008-2015, and document three stylized facts. First, on average firms overestimate future costs. Second, this overestimation decreases with the experience of the firm. Firms in more competitive markets (as measured by the number of other firms present) form more accurate estimates. We show that firms with higher costs than expected generally offer plans that feature greater patient cost sharing (i.e. higher deductibles and copays).
 :::
 ::::
 
 :::: {.paper}
-### Optimal Taxation with Persistent Idiosyncratic Investment Risk
+### Estimating Costs When Consumers Have Inertia: Are Private Medicare Firms More Efficient?
 
-[[Paper](assets/pdf/InvestmentRisk.pdf)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-We study the role of capital taxation in a general equilibrium heterogeneous agent economy with uninsurable investment risk characterized by persistent productivity shocks to the firms privately owned by the entrepreneurs. In contrast to models with i.i.d. investment risk, the inclusion of persistent investment risk does not allow for easy aggregation. Instead, in solving this model we use a novel application of perturbation theory to economies with heterogeneous agents. This application exploits a symmetry that reduces the computational burden of approximating policy rules via a truncated Taylor expansion, allowing us to change the point of approximation to be the closest non-degenerate steady state to the current state of the planner's problem as the economy evolves. The presence of idiosyncratic investment risk leads to an under-accumulation of capital, which leads the Ramsey planner to have two conflicting motives in setting the capital tax. On the one hand, the planner wishes to correct the under-accumulation of capital by subsidizing saving. On the other hand, the planner wants to use capital taxes to redistribute from agents whose investments paid off to those whose investments did not perform well. In the presence of i.i.d. productivity shocks the first motive dominates and the planner moves to correct the savings decisions of the agents, but we find that with persistent shocks the motive for redistribution dominates, leading the government to tax capital. This result is robust to the inclusion of financial frictions.
-:::
-::::
-
-## Published Papers
-
-:::: {.paper}
-### Managing Public Portfolios
-
-[with Léo Aparisi de Lannoy, Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
-[*Journal of Political Economy*, 133(12): 3903–3951, 2025]{.outlet}
-
-[[Paper](assets/pdf/abegs4.pdf) · [Published version](https://doi.org/10.1086/738150)]{.paper-links}
+[[Paper](s/2019-06-30-ma-costs-RAND.pdf) (June 2019)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-We develop a unified framework for optimal management of public portfolios for a general class of macro-finance models imposing very few restrictions on households' risk and liquidity preferences or market structure for financial assets. Small-noise expansions to first-order conditions for a Ramsey plan can be reorganized into a formula for an optimal portfolio of government financial assets that isolates four motives balanced at an optimum: (1) hedging interest rate risk, (2) hedging primary deficit risk, (3) supplying liquid assets, and (4) internalizing equilibrium effects of public policies on financial asset prices. We directly calibrate quantitative measures of these four motives. Hedging interest rate risk plays a dominant role in shaping an optimal portfolio of financial assets for the U.S. federal government.
+When consumers have inertia, firms have an intertemporal pricing incentive to capture and then harvest market share. This implies that marginal cost estimators derived from static profit-maximization first-order conditions may be biased depending on the distribution of shares in the data. I examine this empirically with the Medicare Advantage program, through which seniors may obtain health insurance through private firms rather than the traditional public system. I present evidence that firms behave dynamically, and estimate a dynamic multiproduct oligopoly model which incorporates inertia and adverse selection. I find MA firms face costs which may exceed the government's, contrary to static estimates.
 :::
 ::::
 
 :::: {.paper}
-### Approximating Transition Dynamics with Discrete Choice
+### Modeling the Costs and Benefits of Civil Court Case Resolution
 
-[with Anmol Bhandari and Ellen McGrattan]{.authors}\
-[Forthcoming, *JPE Macroeconomics* (Special Issue on Economic Dynamics, Uncertainty, and Computation)]{.outlet}
+[with Amil Petrin]{.authors}
 
-[[Paper](assets/pdf/bem_final.pdf)]{.paper-links}
+[[Paper](s/costs-benefits-civil-feb-28.pdf) (February 2018)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-This paper develops a method for analyzing policy reforms in general equilibrium settings with discrete choice. Computing transition paths in these settings is computationally challenging, particularly in models with substantial heterogeneity and many endogenous states. We extend perturbation methods to handle discrete choice by appropriately tracking both intensive-margin changes conditional on discrete choices that are relatively small and extensive-margin changes resulting from a switch in a discrete choice that are relatively large. The method is fast, scalable, and efficient, providing good initial estimates for global solution methods. We demonstrate our method by analyzing optimal business taxation in a model with occupational choice between entrepreneurship and paid employment.
+Civil courts provide a setting in which society's citizens can right a believed wrong. Resolving the case determines whether a wrong was committed and, if so, the damages caused. Determining which acts are bad can also benefit society by deterring future acts of the same nature. We estimate the costs of case resolution directly from court accounting data. We estimate the benefit to society by assuming that the court's view of the damages—the judgment—is correlated with society's view of the benefit of righting the wrong. Additional benefits come when the resolution of the case deters future bad acts—the size of the judgment reflects the size of the bad acts deterred. We apply our approach to all civil cases handled by the Fourth Judicial Court of Minnesota from 2008 to 2012. Average judgments are magnitudes larger than costs: the average Contract case judgment in our data is $440,685 and the average cost to the court is $1,183. Over the sample period, the total court costs for the cases we consider were $23.1 million and the total judgments were $1.5 billion.
 :::
 ::::
 
 :::: {.paper}
-### Local Rationality
+### Retail Price Holidays: Theory and Evidence
 
-[with Alex Li and Bruce McGough]{.authors}\
-[*Journal of Economic Behavior & Organization*, 205: 216–236, 2023]{.outlet}
+[with Benjamin Hansen, Kendall Houghton, and Caroline Weber]{.authors}
 
-[[Paper](assets/pdf/LR_01Nov2022.pdf) · [Published version](https://doi.org/10.1016/j.jebo.2022.11.005)]{.paper-links}
+[[Paper](s/price-promotion-holidays-2.pdf) (June 2018)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-A new behavioral concept, local rationality, is developed within the context of a simple heterogeneous-agent model with incomplete markets. To make savings decisions, agents forecast the shadow price of asset holdings. Absent aggregate uncertainty, locally rational agents forecast shadow prices rationally, and thereby make optimal state-contingent decisions. They use adaptive learning to extend their forecasts to accommodate aggregate uncertainty. Over time the state evolves to an ergodic distribution near the economy's restricted perceptions equilibrium. In a partial equilibrium environment we develop intuition for locally rational decision making, documenting an important hysteresis effect. General equilibrium dynamics are examined via a calibration exercise. Calibrated representative-agent RBC models induce low consumption volatility relative to the data. Extending the model by either incorporating adaptive learning or heterogeneous agents fails to alter this conclusion. Via the hysteresis effect, local rationality, which interacts heterogeneity and adaptive learning, significantly improves the model's fit along this dimension.
+Many retail industries feature price promotion holidays: periods close to calendar anchors when most firms simultaneously offer discounts, such as back-to-school sales in August or Black Friday sales after Thanksgiving. Models of sales by individual firms rely on supply side mechanisms, such as cost or inventory shocks, to explain discounting behavior. We analyze a price promotion holiday in the recreational marijuana industry and document facts that conflict with these traditional models. Despite an arguably exogenous increase in demand due to the proximity to a cultural event and constant marginal costs and inventories, firms choose to lower prices substantially. To explain these observations, we present a stylized model of price competition in which firms compete for customers with heterogeneous price sensitivities. An exogenous demand shock increases demand from both consumers types, and crucially increases the ratio of price-sensitive to price-insensitive consumers leading to a different optimal pricing strategy for the firm.
 :::
 ::::
 
 :::: {.paper}
-### The RPEs of RBCs and other DSGEs
+### Does Premerger Notification Matter? Evidence from Cable Television
 
-[with George Evans and Bruce McGough]{.authors}\
-[*Journal of Economic Dynamics and Control*, 143: 104492, 2022]{.outlet}
-
-[[Paper](assets/pdf/RPE_RBC_FINAL.pdf) · [Published version](https://doi.org/10.1016/j.jedc.2022.104492)]{.paper-links}
+[with Kailin Clarke]{.authors}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-In a broad class of non-linear representative agent models, represented by a system of difference equations, we replace rational expectations with linear forecast models conditioning on a predetermined set of regressors. Within this framework, a restricted perceptions equilibrium (RPE) corresponds to a forecast rule that is optimal within that class of models. Local uniqueness of a stationary rational expectations equilibrium (REE) near the non-stochastic steady state is shown to guarantee the existence, uniqueness and E-stability of an RPE local to that steady state. A benchmark RBC model with government spending shocks illustrates the theoretical results.
-:::
-::::
-
-:::: {.paper}
-### Bounded Rationality and Unemployment Dynamics
-
-[with George Evans and Bruce McGough]{.authors}\
-[*Economics Letters*, 210: 110150, 2022]{.outlet}
-
-[[Paper](assets/pdf/BRUD_2021May11.pdf) · [Published version](https://doi.org/10.1016/j.econlet.2021.110150)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-Using the bounded rationality implementation developed in Evans, Evans, and McGough (2021), we consider unemployment dynamics driven by aggregate productivity shocks within a McCall-type labor-search model. We find that bounded rationality magnifies the impact effect of a decline in productivity on unemployment. Over the course of a recession, bounded rationality induces excess pessimism, resulting in higher unemployment relative to the rational model.
-:::
-::::
-
-:::: {.paper}
-### Learning When to Say No
-
-[with George Evans and Bruce McGough]{.authors}\
-[*Journal of Economic Theory*, 194: 105240, 2021]{.outlet}
-
-[[Paper](assets/pdf/L2SN_01March2021.pdf) · [Published version](https://doi.org/10.1016/j.jet.2021.105240)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-We consider boundedly-rational agents in McCall's model of intertemporal job search. Agents update over time their perception of the value of waiting for an additional job offer using value-function learning. A first-principles argument applied to a stationary environment demonstrates asymptotic convergence to fully optimal decision-making. In environments with actual or possible structural change our agents are assumed to discount past data. Using simulations, we consider a change in unemployment benefits, and study the effect of the associated learning dynamics on unemployment and its duration. Separately, in a calibrated exercise we show the potential of our model of bounded rationality to resolve a frictional wage dispersion puzzle.
-:::
-::::
-
-:::: {.paper}
-### Inequality, Business Cycles, and Monetary-Fiscal Policy
-
-[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
-[*Econometrica*, 89(6): 2559–2599, 2021]{.outlet}
-
-[[Paper](assets/pdf/begs2_ecma.pdf) · [Published version](https://doi.org/10.3982/ECTA16414)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-We study optimal monetary and fiscal policies in a New Keynesian model with heterogeneous agents, incomplete markets, and nominal rigidities. Our approach uses small-noise expansions and Fréchet derivatives to approximate equilibria quickly and efficiently. Responses of optimal policies to aggregate shocks differ qualitatively from what they would be in a corresponding representative agent economy and are an order of magnitude larger. A motive to provide insurance that arises from heterogeneity and incomplete markets outweighs price stabilization motives.
-:::
-::::
-
-:::: {.paper}
-### Public Debt in Economies with Heterogeneous Agents
-
-[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
-[*Journal of Monetary Economics*, 91: 39–51, 2017]{.outlet}
-
-[[Paper](assets/pdf/BEGS3_revision.pdf) · [Published version](https://doi.org/10.1016/j.jmoneco.2017.09.007)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-We study public debt in competitive equilibria in which a government chooses transfers and taxes optimally and in addition decides how thoroughly to enforce debt contracts. If the government enforces perfectly, asset inequality is determined in an optimum competitive equilibrium but the level of government debt is not. Welfare increases if private debt contracts are not enforced. Borrowing frictions let the government gather monopoly rents that come from issuing public debt without facing competing private borrowers. Regardless of whether the government chooses to enforce private debt contracts, the level of initial government debt does not affect an optimal allocation.
-:::
-::::
-
-:::: {.paper}
-### Fiscal Policy and Debt Management with Incomplete Markets
-
-[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
-[*Quarterly Journal of Economics*, 132(2): 617–663, 2017]{.outlet}
-
-[[Paper](assets/pdf/begs1_final.pdf) · [Published version](https://doi.org/10.1093/qje/qjw041)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-A Ramsey planner chooses a distorting tax on labor and manages a portfolio of securities in an environment with incomplete markets. We develop a method that uses second order approximations of the policy functions to the planner's Bellman equation to obtain expressions for the unconditional and conditional moments of debt and taxes in closed form such as the mean and variance of the invariant distribution as well as the speed of mean reversion. Using this, we establish that asymptotically the planner's portfolio minimizes an appropriately defined measure of fiscal risk. Our analytic expressions that approximate moments of the invariant distribution can be readily applied to data recording the primary government deficit, aggregate consumption, and returns on traded securities. Applying our theory to U.S. data, we find that an optimal target debt level is negative but close to zero, that the invariant distribution of debt is very dispersed, and that mean reversion is slow.
-:::
-::::
-
-:::: {.paper}
-### History-Dependent Public Policies
-
-[with Thomas J. Sargent]{.authors}\
-[in *Macroeconomics at the Service of Public Policy* (T. J. Sargent and J. Vilmunen, eds.), Oxford University Press, 2013]{.outlet}
-
-[[Published version](https://doi.org/10.1093/acprof:oso/9780199666126.003.0008)]{.paper-links}
-
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-A planner is compelled to raise a prescribed present value of revenues by levying a distorting tax on the output of a representative firm that faces adjustment costs and resides within a rational expectations equilibrium. We describe recursive representations both for a Ramsey plan and for a set of credible plans. Continuations of Ramsey plans are not Ramsey plans. Continuations of credible plans are credible plans. As they are often constructed, continuations of optimal inflation target paths are not optimal inflation target paths.
+U.S. antitrust policy requires firms to disclose sizable acquisition plans to the Department of Justice before completing any transactions so effects on competition can be proactively evaluated. It has been difficult to test the effects of this policy given the difficulty of defining potential and actual acquisitions across industries. We construct a novel dataset of acquisitions in the cable television industry to study the acquisition behavior of several large firms. We test the effect of the disclosure threshold and the nature of local competition on the probability that a small firm is acquired. We find the program has a small but significant impact on large firms' propensities to purchase horizontal (overbuilt) competitors but no significant effect on other types of acquisitions. Our results are robust to several variations of the test.
 :::
 ::::
 
 ## Work in Progress
 
 :::: {.paper}
-### Perturbation Theory with Heterogeneous Agents: A Multi-Country Application
+### Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
+
+[with Niru Ghoshal-Datta and Michael Chernew]{.authors}
 ::::
 
 :::: {.paper}
-### Risk and Monetary Policy in a New Keynesian Model
-
-[with Anmol Bhandari and Mikhail Golosov]{.authors}
+### Approximate Markov-Perfect Equilibria When State Spaces are Continuous
 ::::
 
 :::: {.paper}
-### Learning to Optimize
+### Imperfectly Competitive Firms, Imperfectly Competitive Politics
+::::
 
-[with George Evans and Bruce McGough]{.authors}
+## Policy Reports & Media
+
+:::: {.paper}
+### The Economic Costs of Climate Change for Oregonians: A First Look
+
+[with Noelwah R. Netusil, Ernie Niemi, Joshua Skov, and John Talberth]{.authors}\
+[Forum on Oregon Climate Economics, October 2024]{.outlet}
+
+[[Report](https://kval.com/resources/pdf/da93b656-0c7f-47e6-80c7-377a33c26635-economiccostofclimatechangeoregonians.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Summary
+By increasing the frequency and intensity of heatwaves, wildfires, droughts, flooding and other impacts, climate change imposes costs on Oregon's economy every year, on every Oregonian. We present a review of public data and research results to provide an initial, partial assessment of these costs both today and into the future.
+:::
 ::::
 
 :::: {.paper}
-### Why Do Consumers Demand High-Cost Credit Products?
+### "Companies Betting on Pot May Be Worse Off When the Smoke Clears"
 
-[with David Low]{.authors}
+[*Wall Street Journal*, October 2018. Coverage of "The Effect of Cannabis Legalization on Substance Demand and Tax Revenues"]{.outlet}
+
+[[Article](https://www.wsj.com/articles/companies-betting-on-pot-may-be-worse-off-when-the-smoke-clears-1539338460)]{.paper-links}
 ::::
