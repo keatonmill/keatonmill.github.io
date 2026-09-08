@@ -45,3 +45,5 @@ format:
     theme: [cosmo, theme.scss]
     toc: false
     link-external-newwindow: true
+    # Replaces the bundled consent widget's stock ad-centric wording.
+    include-after-body: _includes/cookie-consent-text.html

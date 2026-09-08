@@ -1,0 +1,60 @@
+<!-- Rewrites the cookie banner and preferences-center copy.
+
+The consent widget Quarto bundles (TermsFeed cookie-consent) ships fixed
+English text about "personalized content and targeted ads" and offers
+Functionality / Targeting-and-advertising categories. None of that applies
+here: the only non-essential cookie this site sets is Google Analytics.
+Quarto exposes no option for this copy, so we patch the widget's own
+translation table and panel contents right after it runs, before the browser
+paints anything. -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof cookieconsent === "undefined") return;
+  var cc = cookieconsent.cookieConsentObject;
+  if (!cc || !cc.i18n || !cc.i18n.availableTranslations) return;
+
+  var lang = cc.i18n.availableTranslations[cc.i18n.userLang];
+  if (!lang || !lang.i18n) return;
+  var t = lang.i18n;
+
+  t.nb_title = "This site uses cookies";
+  t.nb_text =
+    "This site uses Google Analytics to count visits and see which pages " +
+    "people read. Nothing else is tracked, and declining does not change " +
+    "how the site works.";
+  t.pc_title = "Cookie preferences";
+  t.pc_yprivacy_text_2 =
+    "Cookies are small text files stored on your computer when you visit a " +
+    "website. The only non-essential cookies this site sets are Google " +
+    "Analytics cookies, which record anonymized visit statistics.";
+  t.pc_yprivacy_text_3 =
+    "You can decline those cookies, or remove cookies already stored on your " +
+    "computer, without changing how any page on this site works.";
+
+  // The banner is already built by the time this runs, so update it in place.
+  var title = document.getElementById("cc-nb-title");
+  if (title) title.innerHTML = t.nb_title;
+  var text = document.getElementById("cc-nb-text");
+  if (text) text.innerHTML = t.nb_text;
+
+  var levels = cc.cookieLevels;
+  if (!levels || !levels.preferenceItems) return;
+
+  // The preferences center is only built on first open, but its panel HTML
+  // was assembled from the stock strings during run(), so rebuild the one
+  // panel whose wording we changed and drop the two categories this site
+  // never uses.
+  levels.preferenceItems = levels.preferenceItems.filter(function (item) {
+    return item.id !== "functionality" && item.id !== "targeting";
+  });
+  levels.preferenceItems.forEach(function (item) {
+    if (item.content_container !== "content_your_privacy") return;
+    item.content =
+      "<p class='cc-cp-body-content-entry-title'>" + t.pc_yprivacy_text_1 +
+      "</p><p class='cc-cp-body-content-entry-text'>" + t.pc_yprivacy_text_2 +
+      "</p><p class='cc-cp-body-content-entry-text'>" + t.pc_yprivacy_text_3 +
+      "</p>";
+  });
+});
+</script>
