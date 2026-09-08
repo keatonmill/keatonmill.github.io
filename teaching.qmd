@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+---
+
+Courses taught at the Department of Economics, University of Oregon.
+
+## Graduate
+
+:::: {.paper}
+### EC 607: Computational Economics
+
+[Fall 2016 · Winter 2018 · Spring 2021 · Spring 2022 · Spring 2023 · Spring 2024 · Spring 2025]{.terms}
+::::
+
+:::: {.paper}
+### EC 607: Core Macroeconomics
+
+[Spring 2016 · Spring 2017 · Spring 2019 · Spring 2021 · Spring 2022 · Spring 2024 · Spring 2025 · Spring 2026]{.terms}
+::::
+
+## Undergraduate
+
+:::: {.paper}
+### EC 410: Computational Economics
+
+[[Course website](https://econevans.com/UndergraduateComputationalCourse/)]{.paper-links}
+
+[Winter 2016 · Fall 2016 · Spring 2019 · Spring 2026]{.terms}
+::::
+
+:::: {.paper}
+### EC 313: Intermediate Macroeconomic Theory
+
+[Winter 2016 · Spring 2017 · Winter 2018 · Winter 2019 · Winter 2020 · Winter 2022 · Winter 2023 · Winter 2024 · Winter 2026]{.terms}
+::::
+
+:::: {.paper}
+### EC 480/580: International Finance
+
+[Spring 2023 · Winter 2024]{.terms}
+::::

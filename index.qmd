@@ -1,0 +1,33 @@
+---
+title: "Keaton Miller"
+image: assets/img/headshot.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:keatonm@uoregon.edu
+    - icon: file-earmark-text
+      text: CV
+      href: assets/pdf/Keaton-Miller-CV.pdf
+    - icon: mortarboard
+      text: Research
+      href: research.html
+---
+
+**Associate Professor of Economics**\
+**Director of Graduate Studies**\
+University of Oregon
+
+<!-- Bio paragraph is rebuilt from the Squarespace scrape in Phase 3. -->
+
+### Contact
+
+Department of Economics\
+435 PLC\
+1285 University of Oregon\
+Eugene, OR 97403-1285
+
+keatonm \[at\] uoregon.edu

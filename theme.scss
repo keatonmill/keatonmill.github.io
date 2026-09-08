@@ -1,0 +1,119 @@
+/*-- scss:defaults --*/
+
+// University of Oregon palette, used sparingly
+$uo-green: #154733;
+$uo-green-light: #1d6442;
+$uo-yellow: #fee123;
+
+$primary: $uo-green;
+$link-color: $uo-green-light;
+$body-color: #2b2b2b;
+
+$navbar-bg: #ffffff;
+$navbar-fg: $uo-green;
+$navbar-hl: $uo-green;
+
+$footer-bg: #ffffff;
+$footer-fg: #6c6c6c;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family: "Merriweather", Georgia, serif;
+$headings-color: $uo-green;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+
+// Thin green rule under the navbar with a slim yellow keyline — the one
+// overt nod to UO branding
+.navbar {
+  border-bottom: 3px solid $uo-green;
+  box-shadow: 0 3px 0 rgba($uo-yellow, 0.55);
+
+  .navbar-title {
+    font-family: $headings-font-family;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-link {
+    font-weight: 600;
+  }
+
+  .nav-link.active {
+    box-shadow: inset 0 -3px 0 $uo-yellow;
+  }
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+h2 {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 0.3rem;
+  margin-top: 2.2rem;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: $uo-green;
+    text-decoration-color: $uo-yellow;
+    text-decoration-thickness: 2px;
+  }
+}
+
+.nav-footer {
+  border-top: 2px solid $uo-green;
+  font-size: 0.85rem;
+}
+
+// Research page: paper entries
+.paper {
+  margin-bottom: 1.6rem;
+
+  h3 {
+    font-size: 1.12rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .authors {
+    color: #5a5a5a;
+    font-style: italic;
+    margin-bottom: 0.15rem;
+  }
+
+  .outlet {
+    font-weight: 600;
+    color: $uo-green;
+  }
+
+  .paper-links {
+    font-size: 0.92rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+
+  .terms {
+    color: #5a5a5a;
+    font-size: 0.95rem;
+  }
+
+  .callout {
+    margin-top: 0.4rem;
+  }
+}
+
+// Collapsible abstracts: quieter than default callouts
+.callout.callout-style-simple {
+  border-left: 3px solid rgba($uo-green, 0.35);
+}
+
+// About page tweaks
+div.quarto-about-trestles .about-entity .about-image {
+  border: 4px solid #f2f2f2;
+}

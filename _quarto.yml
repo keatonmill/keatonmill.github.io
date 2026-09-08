@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+  post-render: fix-links.py
+
+website:
+  title: "Keaton Miller"
+  description: "Associate Professor of Economics and Director of Graduate Studies, University of Oregon"
+  favicon: assets/img/favicon.ico
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: assets/pdf/Keaton-Miller-CV.pdf
+        text: CV
+  page-footer:
+    center: |
+      © 2026 Keaton Miller · Department of Economics, University of Oregon
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: false
+    link-external-newwindow: true

@@ -1,0 +1,236 @@
+---
+title: "Research"
+---
+
+## Working Papers
+
+:::: {.paper}
+### Efficiency, Insurance, and Redistribution Effects of Government Policies
+
+[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
+[Revise & resubmit, *Journal of Political Economy*]{.outlet}
+
+[[Paper](assets/pdf/combined_manuscript_revision.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+This paper decomposes welfare measures of policy reforms into parts attributable to redistribution and parts due to efficiency. We further decompose efficiency into subcomponents such as gains from better insurance against idiosyncratic and aggregate risk. Our decomposition of welfare measures associated with alternative feasible allocations is cast in terms of a coordinate system that uses generalized Pareto–Negishi weights to capture inequality and production and consumption wedges to capture distortions. Our decomposition has several desirable properties. It attributes welfare changes from movements along a Pareto frontier to redistribution; it attributes negative efficiency changes to movements away from the Pareto frontier; and it produces subcomponent shares of welfare changes that are numeraire-invariant and symmetric with respect to the direction of the reform. Our decomposition can be explained in terms of an implicit tax-and-transfer system in which redistribution captures real income changes, efficiency captures deadweight losses and output costs.
+:::
+::::
+
+:::: {.paper}
+### A Perturbational Approach for Approximating Heterogeneous-Agent Models
+
+[with Anmol Bhandari, Thomas Bourany, and Mikhail Golosov]{.authors}
+
+[[Paper](assets/pdf/BBEG_master2.pdf) · [Code](https://github.com/apb-umn/bbeg)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We develop a perturbational technique to approximate equilibria of a wide class of discrete-time dynamic stochastic general equilibrium heterogeneous-agent models with complex state spaces, including multi-dimensional distributions of endogenous variables. We show that approximating policy functions and stochastic process that governs the distributional state to any order is equivalent to solving small systems of linear equations that characterize values of certain directional derivatives. We analytically derive the coefficients of these linear systems and show that they satisfy simple recursive relations, making their numerical implementation quick and efficient. Compared to existing state-of-the-art techniques, our method is faster in constructing first-order approximations and extends to higher orders, capturing the effects of risk that are ignored by many current methods. We illustrate how to apply our method to a broad set of questions such as impacts of first- and second-moment shocks, welfare effect of macroeconomic risk and stabilization policies, endogenous household portfolio formation, and transition dynamics in heterogeneous agent general equilibrium settings.
+:::
+::::
+
+:::: {.paper}
+### Business Income Underreporting and Public Finance
+
+[with Anmol Bhandari, Ellen McGrattan, and Yuki Yao]{.authors}
+
+[[Paper](assets/pdf/BSEefg_paper.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+This paper proposes a new dynamic theory of business taxation that takes into account income underreporting by owners and potential reputational losses if tax evasion is discovered. Taxpayers are assumed to be of two types: those that are always compliant regardless of opportunity and those that cheat if it is economically beneficial to do so. Opportunities arise in self-employment but, in equilibrium, only for business owners that can weather the costs of an audit, which include fines for past taxes owed and losses in business brand. The theory is used to predict the aggregate and distributional impacts of increased enforcement efforts and then to run policy counterfactuals. In order to assess quantitative impacts, a baseline model is parameterized to be in line with data from the U.S. national accounts and National Research Program (NRP) random audits. The main policy experiments compare the impacts of increased public spending financed either by increased taxation on business incomes or increased enforcement efforts aimed at their owners. Higher enforcement leads to larger declines in entrepreneurship, less investment in financial assets, and lower average business ages as compared to an economy with higher taxes on business income. However, because of better selection, business productivity, investment, and receipts are higher with increased enforcement.
+:::
+::::
+
+:::: {.paper}
+### Efficient Aggregation in Heterogeneous-Agent Models with Bounded Rationality
+
+[with Giorgi Nikolaishvili]{.authors}
+
+[[Paper](assets/pdf/evansnikolaishvili_2025.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+A key challenge in heterogeneous-agent models with bounded rationality is the intensive computational burden of repeatedly aggregating policy functions when solving for temporary equilibrium within a given period. This cost scales with belief heterogeneity, creating a severe bottleneck. We propose a fast aggregation method that replaces repeated summations with a compact representation of aggregate demand as a function of prices, delivering speedups of several orders of magnitude over conventional approaches while preserving accuracy. Demonstrated in a model with multiple dimensions of belief heterogeneity, our method directly overcomes a central obstacle to simulating boundedly rational heterogeneous-agent economies and extends the scope of feasible applications.
+:::
+::::
+
+:::: {.paper}
+### Optimal Taxation with Persistent Idiosyncratic Investment Risk
+
+[[Paper](assets/pdf/InvestmentRisk.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We study the role of capital taxation in a general equilibrium heterogeneous agent economy with uninsurable investment risk characterized by persistent productivity shocks to the firms privately owned by the entrepreneurs. In contrast to models with i.i.d. investment risk, the inclusion of persistent investment risk does not allow for easy aggregation. Instead, in solving this model we use a novel application of perturbation theory to economies with heterogeneous agents. This application exploits a symmetry that reduces the computational burden of approximating policy rules via a truncated Taylor expansion, allowing us to change the point of approximation to be the closest non-degenerate steady state to the current state of the planner's problem as the economy evolves. The presence of idiosyncratic investment risk leads to an under-accumulation of capital, which leads the Ramsey planner to have two conflicting motives in setting the capital tax. On the one hand, the planner wishes to correct the under-accumulation of capital by subsidizing saving. On the other hand, the planner wants to use capital taxes to redistribute from agents whose investments paid off to those whose investments did not perform well. In the presence of i.i.d. productivity shocks the first motive dominates and the planner moves to correct the savings decisions of the agents, but we find that with persistent shocks the motive for redistribution dominates, leading the government to tax capital. This result is robust to the inclusion of financial frictions.
+:::
+::::
+
+## Published Papers
+
+:::: {.paper}
+### Managing Public Portfolios
+
+[with Léo Aparisi de Lannoy, Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
+[*Journal of Political Economy*, 133(12): 3903–3951, 2025]{.outlet}
+
+[[Paper](assets/pdf/abegs4.pdf) · [Published version](https://doi.org/10.1086/738150)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We develop a unified framework for optimal management of public portfolios for a general class of macro-finance models imposing very few restrictions on households' risk and liquidity preferences or market structure for financial assets. Small-noise expansions to first-order conditions for a Ramsey plan can be reorganized into a formula for an optimal portfolio of government financial assets that isolates four motives balanced at an optimum: (1) hedging interest rate risk, (2) hedging primary deficit risk, (3) supplying liquid assets, and (4) internalizing equilibrium effects of public policies on financial asset prices. We directly calibrate quantitative measures of these four motives. Hedging interest rate risk plays a dominant role in shaping an optimal portfolio of financial assets for the U.S. federal government.
+:::
+::::
+
+:::: {.paper}
+### Approximating Transition Dynamics with Discrete Choice
+
+[with Anmol Bhandari and Ellen McGrattan]{.authors}\
+[Forthcoming, *JPE Macroeconomics* (Special Issue on Economic Dynamics, Uncertainty, and Computation)]{.outlet}
+
+[[Paper](assets/pdf/bem_final.pdf)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+This paper develops a method for analyzing policy reforms in general equilibrium settings with discrete choice. Computing transition paths in these settings is computationally challenging, particularly in models with substantial heterogeneity and many endogenous states. We extend perturbation methods to handle discrete choice by appropriately tracking both intensive-margin changes conditional on discrete choices that are relatively small and extensive-margin changes resulting from a switch in a discrete choice that are relatively large. The method is fast, scalable, and efficient, providing good initial estimates for global solution methods. We demonstrate our method by analyzing optimal business taxation in a model with occupational choice between entrepreneurship and paid employment.
+:::
+::::
+
+:::: {.paper}
+### Local Rationality
+
+[with Alex Li and Bruce McGough]{.authors}\
+[*Journal of Economic Behavior & Organization*, 205: 216–236, 2023]{.outlet}
+
+[[Paper](assets/pdf/LR_01Nov2022.pdf) · [Published version](https://doi.org/10.1016/j.jebo.2022.11.005)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+A new behavioral concept, local rationality, is developed within the context of a simple heterogeneous-agent model with incomplete markets. To make savings decisions, agents forecast the shadow price of asset holdings. Absent aggregate uncertainty, locally rational agents forecast shadow prices rationally, and thereby make optimal state-contingent decisions. They use adaptive learning to extend their forecasts to accommodate aggregate uncertainty. Over time the state evolves to an ergodic distribution near the economy's restricted perceptions equilibrium. In a partial equilibrium environment we develop intuition for locally rational decision making, documenting an important hysteresis effect. General equilibrium dynamics are examined via a calibration exercise. Calibrated representative-agent RBC models induce low consumption volatility relative to the data. Extending the model by either incorporating adaptive learning or heterogeneous agents fails to alter this conclusion. Via the hysteresis effect, local rationality, which interacts heterogeneity and adaptive learning, significantly improves the model's fit along this dimension.
+:::
+::::
+
+:::: {.paper}
+### The RPEs of RBCs and other DSGEs
+
+[with George Evans and Bruce McGough]{.authors}\
+[*Journal of Economic Dynamics and Control*, 143: 104492, 2022]{.outlet}
+
+[[Paper](assets/pdf/RPE_RBC_FINAL.pdf) · [Published version](https://doi.org/10.1016/j.jedc.2022.104492)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+In a broad class of non-linear representative agent models, represented by a system of difference equations, we replace rational expectations with linear forecast models conditioning on a predetermined set of regressors. Within this framework, a restricted perceptions equilibrium (RPE) corresponds to a forecast rule that is optimal within that class of models. Local uniqueness of a stationary rational expectations equilibrium (REE) near the non-stochastic steady state is shown to guarantee the existence, uniqueness and E-stability of an RPE local to that steady state. A benchmark RBC model with government spending shocks illustrates the theoretical results.
+:::
+::::
+
+:::: {.paper}
+### Bounded Rationality and Unemployment Dynamics
+
+[with George Evans and Bruce McGough]{.authors}\
+[*Economics Letters*, 210: 110150, 2022]{.outlet}
+
+[[Paper](assets/pdf/BRUD_2021May11.pdf) · [Published version](https://doi.org/10.1016/j.econlet.2021.110150)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Using the bounded rationality implementation developed in Evans, Evans, and McGough (2021), we consider unemployment dynamics driven by aggregate productivity shocks within a McCall-type labor-search model. We find that bounded rationality magnifies the impact effect of a decline in productivity on unemployment. Over the course of a recession, bounded rationality induces excess pessimism, resulting in higher unemployment relative to the rational model.
+:::
+::::
+
+:::: {.paper}
+### Learning When to Say No
+
+[with George Evans and Bruce McGough]{.authors}\
+[*Journal of Economic Theory*, 194: 105240, 2021]{.outlet}
+
+[[Paper](assets/pdf/L2SN_01March2021.pdf) · [Published version](https://doi.org/10.1016/j.jet.2021.105240)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We consider boundedly-rational agents in McCall's model of intertemporal job search. Agents update over time their perception of the value of waiting for an additional job offer using value-function learning. A first-principles argument applied to a stationary environment demonstrates asymptotic convergence to fully optimal decision-making. In environments with actual or possible structural change our agents are assumed to discount past data. Using simulations, we consider a change in unemployment benefits, and study the effect of the associated learning dynamics on unemployment and its duration. Separately, in a calibrated exercise we show the potential of our model of bounded rationality to resolve a frictional wage dispersion puzzle.
+:::
+::::
+
+:::: {.paper}
+### Inequality, Business Cycles, and Monetary-Fiscal Policy
+
+[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
+[*Econometrica*, 89(6): 2559–2599, 2021]{.outlet}
+
+[[Paper](assets/pdf/begs2_ecma.pdf) · [Published version](https://doi.org/10.3982/ECTA16414)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We study optimal monetary and fiscal policies in a New Keynesian model with heterogeneous agents, incomplete markets, and nominal rigidities. Our approach uses small-noise expansions and Fréchet derivatives to approximate equilibria quickly and efficiently. Responses of optimal policies to aggregate shocks differ qualitatively from what they would be in a corresponding representative agent economy and are an order of magnitude larger. A motive to provide insurance that arises from heterogeneity and incomplete markets outweighs price stabilization motives.
+:::
+::::
+
+:::: {.paper}
+### Public Debt in Economies with Heterogeneous Agents
+
+[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
+[*Journal of Monetary Economics*, 91: 39–51, 2017]{.outlet}
+
+[[Paper](assets/pdf/BEGS3_revision.pdf) · [Published version](https://doi.org/10.1016/j.jmoneco.2017.09.007)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+We study public debt in competitive equilibria in which a government chooses transfers and taxes optimally and in addition decides how thoroughly to enforce debt contracts. If the government enforces perfectly, asset inequality is determined in an optimum competitive equilibrium but the level of government debt is not. Welfare increases if private debt contracts are not enforced. Borrowing frictions let the government gather monopoly rents that come from issuing public debt without facing competing private borrowers. Regardless of whether the government chooses to enforce private debt contracts, the level of initial government debt does not affect an optimal allocation.
+:::
+::::
+
+:::: {.paper}
+### Fiscal Policy and Debt Management with Incomplete Markets
+
+[with Anmol Bhandari, Mikhail Golosov, and Thomas J. Sargent]{.authors}\
+[*Quarterly Journal of Economics*, 132(2): 617–663, 2017]{.outlet}
+
+[[Paper](assets/pdf/begs1_final.pdf) · [Published version](https://doi.org/10.1093/qje/qjw041)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+A Ramsey planner chooses a distorting tax on labor and manages a portfolio of securities in an environment with incomplete markets. We develop a method that uses second order approximations of the policy functions to the planner's Bellman equation to obtain expressions for the unconditional and conditional moments of debt and taxes in closed form such as the mean and variance of the invariant distribution as well as the speed of mean reversion. Using this, we establish that asymptotically the planner's portfolio minimizes an appropriately defined measure of fiscal risk. Our analytic expressions that approximate moments of the invariant distribution can be readily applied to data recording the primary government deficit, aggregate consumption, and returns on traded securities. Applying our theory to U.S. data, we find that an optimal target debt level is negative but close to zero, that the invariant distribution of debt is very dispersed, and that mean reversion is slow.
+:::
+::::
+
+:::: {.paper}
+### History-Dependent Public Policies
+
+[with Thomas J. Sargent]{.authors}\
+[in *Macroeconomics at the Service of Public Policy* (T. J. Sargent and J. Vilmunen, eds.), Oxford University Press, 2013]{.outlet}
+
+[[Published version](https://doi.org/10.1093/acprof:oso/9780199666126.003.0008)]{.paper-links}
+
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+A planner is compelled to raise a prescribed present value of revenues by levying a distorting tax on the output of a representative firm that faces adjustment costs and resides within a rational expectations equilibrium. We describe recursive representations both for a Ramsey plan and for a set of credible plans. Continuations of Ramsey plans are not Ramsey plans. Continuations of credible plans are credible plans. As they are often constructed, continuations of optimal inflation target paths are not optimal inflation target paths.
+:::
+::::
+
+## Work in Progress
+
+:::: {.paper}
+### Perturbation Theory with Heterogeneous Agents: A Multi-Country Application
+::::
+
+:::: {.paper}
+### Risk and Monetary Policy in a New Keynesian Model
+
+[with Anmol Bhandari and Mikhail Golosov]{.authors}
+::::
+
+:::: {.paper}
+### Learning to Optimize
+
+[with George Evans and Bruce McGough]{.authors}
+::::
+
+:::: {.paper}
+### Why Do Consumers Demand High-Cost Credit Products?
+
+[with David Low]{.authors}
+::::
