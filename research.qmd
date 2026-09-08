@@ -22,7 +22,7 @@ Beginning in 2024, CMS implemented version 28 (V28) of the Medicare Advantage (M
 [with Amil Petrin, Robert Town, and Michael Chernew]{.authors}\
 [Forthcoming, *RAND Journal of Economics*]{.outlet}
 
-[[Paper](s/2026-09-03-Optimal_Managed_Competition_Subsidies.pdf) (September 2026) · [Monte Carlo code](s/mc_release.zip) (September 2022)]{.paper-links}
+[[Paper](assets/pdf/managed-competition.pdf) (September 2026) · [Monte Carlo code](s/mc_release.zip) (September 2022)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -264,7 +264,7 @@ Most inpatient and emergency health care services in the U.S. are delivered by n
 
 [with Tom Ben-Shahar]{.authors}
 
-[[Paper](s/2026-09-08-higher-ed-unions.pdf) (September 2026)]{.paper-links}
+[[Paper](assets/pdf/faculty-unions.pdf) (September 2026)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -277,7 +277,7 @@ Faculty unionization has expanded substantially in U.S. higher education over th
 
 [with Tom Ben-Shahar and Andrew Ducharme]{.authors}
 
-[[Paper](s/2026-09-08-higher-ed-foundation-transparency.pdf) (September 2026)]{.paper-links}
+[[Paper](assets/pdf/foundation-transparency.pdf) (September 2026)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -290,7 +290,7 @@ Independent foundations play an increasing role in funding higher education, lea
 
 [with Edder Martinez-Lazo]{.authors}
 
-[[Paper](s/2024-06-23-servicer-reforms.pdf) (June 2024)]{.paper-links}
+[[Paper](assets/pdf/mortgage-servicer-licensing.pdf) (June 2024)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -303,7 +303,7 @@ The 2007-2008 U.S. financial crisis illustrated the way in which mortgage servic
 
 [with Brett Garcia and John Morehouse]{.authors}
 
-[[Paper](s/2022-04-01-rsue-resubmission-paper.pdf) (April 2022)]{.paper-links}
+[[Paper](assets/pdf/short-term-rentals.pdf) (April 2022)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -316,7 +316,7 @@ The supply of housing for short-term rental (STR) has grown dramatically with th
 
 [with Sichao Jiang]{.authors}
 
-[[Paper](s/2022-02-08-ma-bid.pdf) (February 2022)]{.paper-links}
+[[Paper](assets/pdf/ma-cost-predictions.pdf) (February 2022)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -327,7 +327,7 @@ Many firms employ forecasters to predict future market conditions. We investigat
 :::: {.paper}
 ### Estimating Costs When Consumers Have Inertia: Are Private Medicare Firms More Efficient?
 
-[[Paper](s/2019-06-30-ma-costs-RAND.pdf) (June 2019)]{.paper-links}
+[[Paper](assets/pdf/ma-inertia-costs.pdf) (June 2019)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -340,7 +340,7 @@ When consumers have inertia, firms have an intertemporal pricing incentive to ca
 
 [with Amil Petrin]{.authors}
 
-[[Paper](s/costs-benefits-civil-feb-28.pdf) (February 2018)]{.paper-links}
+[[Paper](assets/pdf/civil-court-costs-benefits.pdf) (February 2018)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -353,7 +353,7 @@ Civil courts provide a setting in which society's citizens can right a believed 
 
 [with Benjamin Hansen, Kendall Houghton, and Caroline Weber]{.authors}
 
-[[Paper](s/price-promotion-holidays-2.pdf) (June 2018)]{.paper-links}
+[[Paper](assets/pdf/retail-price-holidays.pdf) (June 2018)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract

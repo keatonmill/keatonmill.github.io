@@ -11,6 +11,8 @@ rendering; it is kept in the repo for reference.
 | `index.txt`, `research.txt`, `teaching.txt` | Same, as plain text |
 | `asset-urls.txt` | Every `/s/<file>` link found across the three pages (18 files) |
 | `assets/` | Those 18 files, downloaded with their original filenames, plus `headshot.jpg` |
+| `raw/scholar.html`, `scholar.txt` | Google Scholar profile as fetched 2026-09-08, and a parsed listing |
+| `migration-notes.md` | What changed when the research page was rebuilt, and what Keaton resolved |
 
 All 18 assets were checked with `file` and are genuine PDFs (17) or a zip
 archive (1); none is a saved error page. The headshot came from the

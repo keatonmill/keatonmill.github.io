@@ -1,0 +1,9 @@
+---
+title: "Page not found"
+---
+
+The page or file you were looking for isn't here.
+
+**If you're looking for a draft of a paper**, go to the [Research](/research.html) page. Drafts are updated in place, so an older link may have been retired in favor of the current version.
+
+Otherwise, try the [home page](/index.html) or my [CV](/assets/pdf/Keaton-Miller-CV.pdf).
