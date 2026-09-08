@@ -5,7 +5,7 @@ toc-depth: 2
 toc-title: "Sections"
 ---
 
-## Publications
+## Journal Articles
 
 :::: {.paper}
 ### Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
@@ -58,19 +58,6 @@ We study how prices respond when a 25% gross receipts tax remitted by cannabis m
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
 Mobile app platforms are highly concentrated—Apple and Google each distribute over 75% of the total number of apps installed on the relevant devices. These platforms generally require developers to use a built-in system for processing payments with a commission rate of 30% for both the initial purchase of an app and any subsequent in-app purchases. In September 2021, South Korea became the first country to ban this lock-in; purchases made in the country may be conducted through any billing system developers wish. We analyze the short-term impact of this policy change (and Apple’s subsequent adaptation) on demand for apps and revenue using difference-in-differences techniques and data on apps offered through Apple’s App Store from a leading app analytics firm from January 2021 to December 2022. We find no evidence that the policy change generated substantive changes in South Korea’s app marketplace.
-:::
-::::
-
-:::: {.paper}
-### Medicare Advantage
-
-[In *Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust*, pp. 338–344, 2024]{.outlet}
-
-[[Published version](https://www.elgaronline.com/abstract/book/9781802200546/chapter52.xml)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-The public–private partnership currently called "Medicare Advantage" has grown and changed considerably since the first trials of "Medicare Part C" in 1982; today it covers roughly half of eligible seniors in the United States. In this chapter, I provide an overview of the current iteration of the program and its funding structure. I summarize recent research on competition within the program, the potential for cost efficiencies, risk adjustment, and quality comparisons between plans offered within the program and the traditional fee-for-service Medicare system.
 :::
 ::::
 
@@ -146,20 +133,6 @@ Concerns that Medicare Advantage (MA) plans are overpaid have motivated calls to
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
 We quantify the effects of a gross receipts tax (GRT) on vertical integration for the first time. We use data from the Washington state recreational cannabis industry, which has numerous advantages including a clean natural experiment: a 25% GRT imposed on cannabis firms was subsequently replaced by an excise tax at retail. We find the short-run elasticity of vertical integration with respect to the intermediate good net-of-tax rate is −0.15 and the long-run elasticity is about twice as large. We find these incentives lead to large output losses – production increases by 23 percent when the GRT is eliminated.
-:::
-::::
-
-:::: {.paper}
-### Up in Smoke? The Market for Cannabis
-
-[with Benjamin Hansen and Caroline Weber]{.authors}\
-[In *Handbook of Labor, Human Resources and Population Economics*, 2021]{.outlet}
-
-[[Published version](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-57365-6_138-1)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-Legal access to recreational cannabis continues to expand across the globe. With each new market comes new legal structures and regulations. In this chapter we first review the regulations and market structures of the newly legalized recreational markets in the United States, Canada, and Uruguay. We then discuss the emerging literature on the industrial organization of the cannabis industry, which provides new evidence on market competition and the price elasticity of demand. We proceed to review the expanding research on cannabis taxation and the black market. This research has meaningful public policy conclusions for how tax rates and structures affect revenue generation and the black market, key arguments for legalization. We finish by reviewing the public health literature on legalization, and its findings on how legalization has affected cannabis use, dangerous driving, and the use and abuse of other drugs.
 :::
 ::::
 
@@ -257,6 +230,35 @@ Over the last few years, marijuana has become legally available for recreational
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
 Most inpatient and emergency health care services in the U.S. are delivered by non-profit organizations. To understand the impact of policies that are designed to affect competitive outcomes in hospital markets, it's important to understand whether the "non-profit" structure changes the behavior and competitive conduct of firms. Given the complexity of the product space within which hospitals operate, we focus on more easily interpreted decisions within the hospital market: entry and exit. Using comprehensive administrative data for the universe of California hospitals from 1980 to 2013, we document the observed entry and exit behavior. We estimate flexible exit policy functions and demonstrate a difference in behavior between for-profit and non-profit firms that exists after accounting for several observable characteristics of hospitals. We find differences in observed behavior: this is a finding that strongly suggests that there are differences in the underlying objective function of the various firms.
+:::
+::::
+
+## Book Chapters
+
+:::: {.paper}
+### Medicare Advantage
+
+[In *Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust*, pp. 338–344, 2024]{.outlet}
+
+[[Published version](https://www.elgaronline.com/abstract/book/9781802200546/chapter52.xml)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+The public–private partnership currently called "Medicare Advantage" has grown and changed considerably since the first trials of "Medicare Part C" in 1982; today it covers roughly half of eligible seniors in the United States. In this chapter, I provide an overview of the current iteration of the program and its funding structure. I summarize recent research on competition within the program, the potential for cost efficiencies, risk adjustment, and quality comparisons between plans offered within the program and the traditional fee-for-service Medicare system.
+:::
+::::
+
+:::: {.paper}
+### Up in Smoke? The Market for Cannabis
+
+[with Benjamin Hansen and Caroline Weber]{.authors}\
+[In *Handbook of Labor, Human Resources and Population Economics*, 2021]{.outlet}
+
+[[Published version](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-57365-6_138-1)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Legal access to recreational cannabis continues to expand across the globe. With each new market comes new legal structures and regulations. In this chapter we first review the regulations and market structures of the newly legalized recreational markets in the United States, Canada, and Uruguay. We then discuss the emerging literature on the industrial organization of the cannabis industry, which provides new evidence on market competition and the price elasticity of demand. We proceed to review the expanding research on cannabis taxation and the black market. This research has meaningful public policy conclusions for how tax rates and structures affect revenue generation and the black market, key arguments for legalization. We finish by reviewing the public health literature on legalization, and its findings on how legalization has affected cannabis use, dangerous driving, and the use and abuse of other drugs.
 :::
 ::::
 
