@@ -59,3 +59,25 @@ directory and the Google Scholar profile (`scholar.txt`, fetched 2026-09-08).
   2018), price holidays (June 2018). Premerger notification has no draft.
 - Scholar's remaining entries are conference abstracts, SSRN/Kelley versions,
   the 2015 dissertation, and a 2014 mimeo; none added.
+
+## Resolved 2026-09-08 (Keaton's review)
+
+- Published abstracts now used where obtainable: JPAM, JCLE, Health Affairs
+  Scholar, Health Affairs, J. Cannabis Research (structured abstract), NTJ
+  2021 and 2020, Economics Letters, both Economic Inquiry papers, Handbook
+  chapter, RIO. The Cash for Clunkers figures changed with the published
+  text ($0.28 consumer surplus, $0.31 net spending; JEL codes dropped).
+  **Still the Squarespace text:** the two *J. Public Economics* papers and
+  the *Research in Transportation Economics* paper. ScienceDirect blocks
+  automated access and neither Crossref, Semantic Scholar nor OpenAlex
+  carries Elsevier abstracts. The RTE one was evidently copied from
+  ScienceDirect already; the two JPubE ones may be working-paper versions.
+- Tax invariance: January 2022 draft link removed (file stays in `s/`).
+- Climate report links to https://www.oregonforce.org/s/economic-cost-of-climate-change-oregonians.pdf.
+- "Payment Shocks to Medicare Advantage Plans" → Publications, forthcoming
+  in *Health Affairs*. No abstract or draft yet; add when available.
+- "Optimal Geographic Distribution of Managed Competition Subsidies" →
+  Publications, forthcoming in *RAND Journal of Economics*.
+- Mortgage-servicer paper: "Under review" removed (rejected; being revised).
+- "In Search of Peace and Quiet": kept under Working Papers unchanged;
+  Keaton says it may be defunct.

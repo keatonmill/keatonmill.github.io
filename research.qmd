@@ -5,12 +5,33 @@ title: "Research"
 ## Publications
 
 :::: {.paper}
+### Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
+
+[with Niru Ghoshal-Datta and Michael Chernew]{.authors}\
+[Forthcoming, *Health Affairs*]{.outlet}
+::::
+
+:::: {.paper}
+### The Optimal Geographic Distribution of Managed Competition Subsidies
+
+[with Amil Petrin, Robert Town, and Michael Chernew]{.authors}\
+[Forthcoming, *RAND Journal of Economics*]{.outlet}
+
+[[Paper](s/2023-01-20-Optimal_Managed_Competition_Subsidies-paper.pdf) (January 2023) · [Monte Carlo code](s/mc_release.zip) (September 2022)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+When markets fail to provide socially optimal outcomes, governments often intervene through "managed competition" where firms compete for per-consumer subsidies. We introduce a framework for determining the optimal subsidy schedule that features heterogeneity in consumer preferences and inertia, and firms with heterogeneous costs that can set prices and product characteristics in response to changes in the subsidy. We apply it to the Medicare Advantage program, which offers Medicare recipients private insurance that replaces Traditional Medicare. We calculate counterfactual equilibria as a function of the subsidies by estimating policy functions for product characteristics from the data and solving for Nash equilibria in prices. The consumer-welfare-maximizing budget-neutral schedule increases aggregate annual consumer welfare by $4.6 billion over the current policy and is well-approximated with a linear rule using market-level observables.
+:::
+::::
+
+:::: {.paper}
 ### Shifting Tax Incidence: Evidence from the Washington State Cannabis Market
 
 [with Benjamin Hansen, Kendall Houghton, and Caroline Weber]{.authors}\
 [*Journal of Policy Analysis and Management*, 45(3): e70041, 2026]{.outlet}
 
-[[Published version](https://doi.org/10.1002/pam.70041) · [Paper](s/2022-01-tax-invariance-draft.pdf) (January 2022 draft) · [NBER Working Paper](https://www.nber.org/papers/w23632)]{.paper-links}
+[[Published version](https://doi.org/10.1002/pam.70041) · [NBER Working Paper](https://www.nber.org/papers/w23632)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -28,7 +49,7 @@ We study how prices respond when a 25% gross receipts tax remitted by cannabis m
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Mobile app platforms are highly concentrated: Apple and Google each distribute over 75% of the total number of apps installed on the relevant devices. These platforms generally require developers to use a built-in system for processing payments with a commission rate of 30% for both the initial purchase of an app and any subsequent in-app purchases. In September 2021, South Korea became the first country to ban this lock-in; purchases made in the country may be conducted through any billing system developers wish. We analyze the short-term impact of this policy change (and Apple's subsequent adaptation) on demand for apps and revenue using difference-in-differences techniques and data on apps offered through Apple's App Store from a leading app analytics firm from January 2021 to December 2022. We find no evidence that the policy change generated substantive changes in South Korea's app marketplace.
+ABSTRACT Mobile app platforms are highly concentrated—Apple and Google each distribute over 75% of the total number of apps installed on the relevant devices. These platforms generally require developers to use a built-in system for processing payments with a commission rate of 30% for both the initial purchase of an app and any subsequent in-app purchases. In September 2021, South Korea became the first country to ban this lock-in; purchases made in the country may be conducted through any billing system developers wish. We analyze the short-term impact of this policy change (and Apple’s subsequent adaptation) on demand for apps and revenue using difference-in-differences techniques and data on apps offered through Apple’s App Store from a leading app analytics firm from January 2021 to December 2022. We find no evidence that the policy change generated substantive changes in South Korea’s app marketplace.
 :::
 ::::
 
@@ -54,7 +75,7 @@ The public–private partnership currently called "Medicare Advantage" has grown
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Consumers in health insurance markets have inertia stemming from the desire to maintain relationships with providers and other frictions involved in switching plans. In other markets that feature inertia, suppliers respond with pricing strategies that vary by market share: lowering markups to capture consumers when market shares are low, and raising markups to harvest profits once market share has been established. I tested for this behavior in the Medicare Advantage market by examining how MA plan sponsors changed the financial terms of their plans in response to changes in market share from 2007-2021 using a first-difference model with fixed effects. I found evidence that plans increase premiums, copays, and out-of-pocket limits when market shares increase. The results imply that for every 1% increase in market share, plan sponsors subsequently increase out-of-pocket costs by 1% in the following year.
+Consumers in health insurance markets have inertia stemming from the desire to maintain relationships with providers and other frictions involved in switching plans. In other markets that feature inertia, suppliers respond with pricing strategies that vary by market share: lowering markups to capture consumers when market shares are low and raising markups to harvest profits once market share has been established. I tested for this behavior in the Medicare Advantage (MA) market by examining how MA plan sponsors changed the financial terms of their plans in response to changes in market share from 2007 to 2021 using a first-difference model with fixed effects. I found evidence that plans increase premiums, copays, and out-of-pocket limits when market shares increase. The results imply that for every 1% increase in market share, plan sponsors subsequently increase out-of-pocket costs by 1% in the following year.
 :::
 ::::
 
@@ -82,7 +103,7 @@ The deregulation of the U.S. railroad industry has largely been considered a suc
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Concerns that Medicare Advantage plans are overpaid have motivated calls to reduce Medicare Advantage benchmarks – the dollar amount set by CMS against which MA plans bid to set premiums and fund extra benefits. However, cutting benchmarks may lead to higher MA enrollee premiums and decreased plan generosity. We assess the relationship between Medicare Advantage benchmarks, plan generosity and benefits. We estimate that a $1000 per year decrease in benchmarks would lead to small increases in annual premiums of about $60 and annual deductibles of about $27. Copays would also increase modestly and the propensity to offer benefits would generally decline by less than 5 percentage points, with the greatest impact on the availability of dental, hearing and vision benefits. These results suggest that, while cuts to Medicare Advantage benchmarks will adversely affect plan generosity, those effects will be modest.
+Concerns that Medicare Advantage (MA) plans are overpaid have motivated calls to reduce MA benchmarks, the dollar amounts set by the Centers for Medicare and Medicaid Services (CMS) against which MA plans bid to set premiums and fund extra benefits. However, cutting benchmarks may lead to higher MA enrollee premiums and decreased plan generosity. We assessed the relationships between MA benchmarks and plan generosity and benefits. We estimated that a $1,000 per year decrease in benchmarks would lead to small increases in annual premiums of about $60 and increases in annual deductibles of about $27. Copays would also increase modestly, and the propensity to offer benefits would generally decline by less than 5 percentage points, with the greatest impact being on the availability of dental, hearing, and vision benefits. These results suggest that although cuts to MA benchmarks would adversely affect plan generosity, those effects would be modest.
 :::
 ::::
 
@@ -96,7 +117,13 @@ Concerns that Medicare Advantage plans are overpaid have motivated calls to redu
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Over the past several years, cannabis has become legal for recreational use in several U.S. states and jurisdictions around the world. The opening of these markets has led to the establishment of hundreds of cannabis production and retail firms with accompanying demand for labor, leading to concerns about spillover effects on wages from incumbents. We study the markets for agricultural and retail labor in Washington and Colorado, early legalizers with now-established cannabis markets. Using a synthetic control technique to account for the possibility of border-state spillover effects and machine learning techniques for data imputation and variable selection, we find no evidence that cannabis legalization is associated with increases in per-employee wages, neither within industries most similar to cannabis production or retail, nor in more broad industry categories. We conclude that cannabis legalization is unlikely to negatively impact incumbent firms through the labor market channel.
+**Background.** Over the past several years, cannabis has become legal for recreational use in many US states and jurisdictions around the world. The opening of these markets has led to the establishment of hundreds of cannabis production and retail firms with accompanying demand for labor, leading to concerns about spillover effects on wages from incumbents.
+
+**Methods.** We study the markets for agricultural and retail labor in Washington and Colorado from 2000 to 2019 using differences-in-differences with synthetic controls. We employ employment data from the Quarterly Census of Employment and Wages, state-level demographic data from the US Census Bureau, and agricultural data from the National Agricultural Statistics Service. We use the least absolute shrinkage and selection operator (LASSO) for variable selection and classification and regression trees (CART) for chained imputation of missing values.
+
+**Results.** We find little-to-no evidence of a significant difference in weekly wages per worker generated by cannabis legalization: the log of the weekly wage per worker decreases by 0.013 in Washington’s agricultural sector (p value 0.091) and increases by 0.059 in Washington’s retail sector (p value 0.606). Results in Colorado are qualitatively similar. These results are limited in part by the short post-legalization period of the data.
+
+**Conclusions.** Cannabis legalization is unlikely to negatively impact incumbent agriculture or retail firms through the labor market channel.
 :::
 ::::
 
@@ -124,7 +151,7 @@ We quantify the effects of a gross receipts tax (GRT) on vertical integration fo
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Legal access to recreational cannabis continues to expand across the globe. With each new market comes new legal structures and regulations. In this chapter we first review the regulations and market structures of the newly legalized recreational markets in the United States, Canada and Uruguay. We then discuss the emerging literature on the industrial organization of the cannabis industry, which provides new evidence on market competition and the price elasticity of demand. We proceed to review the expanding research on cannabis taxation and the black market. This research has meaningful public policy conclusions for how tax rates and structures affect revenue generation and the black market, key arguments for legalization. We finish by reviewing the public health literature on legalization, and its findings on how legalization has affected cannabis use, dangerous driving, and the use and abuse of other drugs.
+Legal access to recreational cannabis continues to expand across the globe. With each new market comes new legal structures and regulations. In this chapter we first review the regulations and market structures of the newly legalized recreational markets in the United States, Canada, and Uruguay. We then discuss the emerging literature on the industrial organization of the cannabis industry, which provides new evidence on market competition and the price elasticity of demand. We proceed to review the expanding research on cannabis taxation and the black market. This research has meaningful public policy conclusions for how tax rates and structures affect revenue generation and the black market, key arguments for legalization. We finish by reviewing the public health literature on legalization, and its findings on how legalization has affected cannabis use, dangerous driving, and the use and abuse of other drugs.
 :::
 ::::
 
@@ -138,7 +165,7 @@ Legal access to recreational cannabis continues to expand across the globe. With
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Marijuana advocates argue legalization will increase tax revenues. If legal substances are substitutes, marijuana revenues may crowd out other taxes. We study tax revenues around Washington's legalization of marijuana using detailed administrative and scanner data. We estimate a flexible demand system for marijuana, alcohol, and tobacco and control for prices. We find legalizing marijuana leads to a 5% decrease in alcohol demand and a 12% decrease in tobacco demand. Liquor and cigarettes are most affected. 40% of state marijuana tax revenue is offset by reductions elsewhere. A 1% increase in Washington's marijuana tax, currently the highest nationwide, increases revenue 0.2%.
+Cannabis advocates argue that legalization will increase tax revenues. However, if legal substances are substitutes, cannabis revenues may cannibalize other taxes. We document substitution between legal cannabis products and alcohol and tobacco products using detailed administrative and scanner data from Washington State. We estimate a flexible demand system for legal substances and find legalizing cannabis leads to a 15 percent decrease in alcohol, mainly by liquor and wine, and 5 percent decrease in cigarette demand. Approximately 40 percent of Washington’s 2015 cannabis revenue was cannibalized from preexisting sources. We find that Washington’s current substance taxes, even after accounting for substitution, are on the upward-sloping side of the Laffer curve.
 :::
 ::::
 
@@ -165,7 +192,7 @@ Marijuana is partially prohibited: though banned federally, it is available to 1
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Faced with temporary revenue shocks, employers may choose to implement wage reductions -- this has been a common response for U.S. universities during the COVID-19 pandemic. I provide a framework for optimal reductions when labor is inelastic wherein a planner balances the need to "minimize the pain" and "share the sacrifice." I show that for a broad class of utility functions the optimal schedule includes (1) a cutoff wage below which the reduction is zero and (2) weakly progressive reduction rates above the cutoff wage. I illustrate the results using wage data from a large U.S. university.
+Faced with temporary revenue shocks, employers may implement wage reductions — a common response to COVID-19 for U.S. universities. I provide a framework for optimal reductions when labor is inelastic wherein a planner balances “minimizing the pain” and “sharing the sacrifice.” I show that for a broad class of utility functions the optimal schedule includes (1) a cutoff wage below which the reduction is zero and (2) weakly progressive reduction rates above the cutoff wage. I illustrate the results using data from a large U.S. university.
 :::
 ::::
 
@@ -179,7 +206,7 @@ Faced with temporary revenue shocks, employers may choose to implement wage redu
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Cannabis is legal to purchase for over 28 percent of United States citizens. A central argument used in public campaigns for cannabis legalization has focused on the tax revenue that legal cannabis markets could generate. Recently, some policy makers and politicians have debated switching from traditional ad valorem taxes to taxes on potency, aiming to reduce the potential externalities associated with highly potent products. In this paper, we construct a theoretical model to predict the implications of a potency-based tax in an environment with market power. We then estimate the demand for cannabis potency based on administrative records of sales and potency from Washington state. We finish by conducting counterfactual analyses comparing revenue and potency outcomes from potency-based taxes vs. the traditional price-based taxes.
+Cannabis is legal to purchase for over 28 percent of U.S. citizens. A central argument used in public campaigns for cannabis legalization has focused on the tax revenue that legal cannabis markets could generate. Recently, some policy makers and politicians have debated switching from traditional ad valorem taxes to taxes on potency, aiming to reduce the potential externalities associated with highly potent products. In this paper, we construct a theoretical model to predict the implications of a potency-based tax in an environment with market power. We then estimate the demand for cannabis potency based on administrative records of sales and potency from Washington state. We finish by conducting counterfactual analyses comparing revenue and potency outcomes from potency-based taxes versus the traditional price-based taxes.
 :::
 ::::
 
@@ -193,7 +220,7 @@ Cannabis is legal to purchase for over 28 percent of United States citizens. A c
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-The 2009 American Cash for Clunkers program, which subsidized consumers who scrapped old vehicles and purchased new vehicles, was promoted by appealing to multiple constituencies. We evaluate the policy and alternatives according to its stated goals: economic stimulus, emissions reductions, and reducing inequality. We calibrate a dynamic partial equilibrium portfolio model to match consumer expenditure data from 1998-2011 focusing on heterogeneity across cars and trucks. We find the program generated $0.17 in environmental benefits, $0.48 in consumer surplus, and $0.79 in additional spending per subsidy dollar. Since subsidies largely went to middle-income infra-marginal consumers, the program exacerbated income inequality.
+The 2009 American Cash for Clunkers program, which subsidized consumers who scrapped old vehicles and purchased new vehicles, was promoted by appealing to multiple constituencies. We evaluate the policy and alternatives according to its stated goals: emissions reductions, economic stimulus, and reducing inequality. We calibrate a dynamic partial equilibrium portfolio model to match consumer expenditure data from 1998 to 2011 focusing on heterogeneity across cars and trucks. We find the program generated $0.17 in environmental benefits, $0.28 in consumer surplus, and $0.31 in net discounted additional spending per subsidy dollar. Since subsidies largely went to middle-income infra-marginal consumers, the program exacerbated consumption inequality. We evaluate alternative policy designs and find no policy which simultaneously improves all outcomes.
 :::
 ::::
 
@@ -207,7 +234,7 @@ The 2009 American Cash for Clunkers program, which subsidized consumers who scra
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Over the last few years, marijuana has become legally available for recreational use to roughly a quarter of Americans. Policy makers have long expressed concerns about the substantial external costs of alcohol, and similar costs could come with the liberalization of marijuana policy. Indeed, the fraction of fatal accidents in which at least one driver tested positive for tetrahydrocannabinol has increased nationwide by an average of 10% from 2013 to 2016. For Colorado and Washington, both of which legalized marijuana in 2014, these increases were 92% and 28%, respectively. However, identifying a causal effect is difficult due to the presence of significant confounding factors. We test for a causal effect of marijuana legalization on traffic fatalities in Colorado and Washington with a synthetic control approach using records on fatal traffic accidents from 2000 to 2016. We find the synthetic control groups saw similar changes in marijuana-related, alcohol-related, and overall traffic fatality rates despite not legalizing recreational marijuana.
+Over the last few years, marijuana has become legally available for recreational use to roughly a quarter of Americans. Policy makers have long expressed concerns about the substantial external costs of alcohol, and similar costs could come with the liberalization of marijuana policy. Indeed, the fraction of fatal accidents in which at least one driver tested positive for tetrahydrocannabinol has increased nationwide by an average of 10% from 2013 to 2016. For Colorado and Washington, both of which legalized marijuana in 2014, these increases were 92% and 28%, respectively. However, identifying a causal effect is difficult due to the presence of significant confounding factors. We test for a causal effect of marijuana legalization on traffic fatalities in Colorado and Washington with a synthetic control approach using records on fatal traffic accidents from 2000 to 2016. We find the synthetic control groups saw similar changes in marijuana-related, alcohol-related, and overall traffic fatality rates despite not legalizing recreational marijuana. ( JEL K42, I12, I18)
 :::
 ::::
 
@@ -230,28 +257,13 @@ Most inpatient and emergency health care services in the U.S. are delivered by n
 :::: {.paper}
 ### The Impacts of Mortgage Servicer Licensing Requirements
 
-[with Edder Martinez-Lazo]{.authors}\
-[Under review]{.outlet}
+[with Edder Martinez-Lazo]{.authors}
 
 [[Paper](s/2024-06-23-servicer-reforms.pdf) (June 2024)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
 The 2007-2008 U.S. financial crisis illustrated the way in which mortgage servicers, through their role in influencing delinquencies, foreclosures, and in administering mortgage modification programs, can influence housing market outcomes at a broad scale. We study a wave of state-level mortgage servicer licensing laws passed in the wake of the crisis. We study mortgage market outcomes using a difference-in-differences approach and pooled mortgage-backed security outcomes using an exposure design. We find evidence that the reforms decreased late-stage delinquencies and foreclosures. Compliance costs may have been passed through to increased interest rates. Other borrower and loan characteristics were unchanged.
-:::
-::::
-
-:::: {.paper}
-### The Optimal Geographic Distribution of Managed Competition Subsidies
-
-[with Amil Petrin, Robert Town, and Michael Chernew]{.authors}\
-[Revise and resubmit]{.outlet}
-
-[[Paper](s/2023-01-20-Optimal_Managed_Competition_Subsidies-paper.pdf) (January 2023) · [Monte Carlo code](s/mc_release.zip) (September 2022)]{.paper-links}
-
-::: {.callout-note appearance="simple" collapse="true" icon="false"}
-## Abstract
-When markets fail to provide socially optimal outcomes, governments often intervene through "managed competition" where firms compete for per-consumer subsidies. We introduce a framework for determining the optimal subsidy schedule that features heterogeneity in consumer preferences and inertia, and firms with heterogeneous costs that can set prices and product characteristics in response to changes in the subsidy. We apply it to the Medicare Advantage program, which offers Medicare recipients private insurance that replaces Traditional Medicare. We calculate counterfactual equilibria as a function of the subsidies by estimating policy functions for product characteristics from the data and solving for Nash equilibria in prices. The consumer-welfare-maximizing budget-neutral schedule increases aggregate annual consumer welfare by $4.6 billion over the current policy and is well-approximated with a linear rule using market-level observables.
 :::
 ::::
 
@@ -332,12 +344,6 @@ U.S. antitrust policy requires firms to disclose sizable acquisition plans to th
 ## Work in Progress
 
 :::: {.paper}
-### Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
-
-[with Niru Ghoshal-Datta and Michael Chernew]{.authors}
-::::
-
-:::: {.paper}
 ### Approximate Markov-Perfect Equilibria When State Spaces are Continuous
 ::::
 
@@ -353,7 +359,7 @@ U.S. antitrust policy requires firms to disclose sizable acquisition plans to th
 [with Noelwah R. Netusil, Ernie Niemi, Joshua Skov, and John Talberth]{.authors}\
 [Forum on Oregon Climate Economics, October 2024]{.outlet}
 
-[[Report](https://kval.com/resources/pdf/da93b656-0c7f-47e6-80c7-377a33c26635-economiccostofclimatechangeoregonians.pdf)]{.paper-links}
+[[Report](https://www.oregonforce.org/s/economic-cost-of-climate-change-oregonians.pdf)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Summary
