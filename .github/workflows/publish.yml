@@ -15,6 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      # quarto render runs scripts/build.py as its pre-render step
+      - run: python3 -m pip install --disable-pip-version-check pyyaml
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: quarto render
       - uses: actions/upload-pages-artifact@v5

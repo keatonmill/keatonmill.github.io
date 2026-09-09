@@ -373,6 +373,19 @@
   abstract_heading: Abstract
   abstract: |-
     Independent foundations play an increasing role in funding higher education, leading to calls for transparency regarding their donors and operations. Some have opposed such efforts, arguing that disclosure requirements may discourage donations and reduce endowment growth. Using panel data on public institutions from IPEDS and the foundations associated with them from IRS disclosures, we employ the difference-in-differences estimator of Callaway and Sant'Anna (2021) and estimate the causal effect of state transparency laws on both the stock of foundation assets and the flow of gifts to foundations. We also test for changes in the net price paid by in-state students and institutional expenditures. We find no statistically significant effect on any outcome, a result robust to alternative treatment definitions, sample restrictions, control compositions, and an augmented synthetic control estimator. Our design rules out severe sustained donor flight, the strongest version of the policy concern, but cannot reject more modest gift reductions. We interpret these results as evidence that transparency mandates do not produce detectable medium-run harm to foundation finances.
+- id: climate-household-impacts
+  title: A Method of Estimating the Impacts of Climate Change on Oregon Household Budgets
+  section: Working Papers
+  status: under-review
+  authors:
+  - miller
+  links:
+  - label: Paper
+    url: assets/pdf/climate-household-impacts.pdf
+    note: (December 2025)
+  abstract_heading: Abstract
+  abstract: |-
+    Climate change communication faces challenges in polarized media environments. While economic framing generates stronger public engagement than health or geographical approaches, most analyses focus on macroeconomic outcomes rather than household budgets. This paper addresses that gap by estimating climate change impacts on typical Oregon household budgets. Synthesizing literature on sectoral price changes and consumer demand, I develop a translational framework making economic consequences accessible to non-experts. Results indicate that by 2050, medium-income households will experience annual welfare losses of $9,525, representing 9.1% of income. This household-level analysis helps communicate climate change’s tangible economic effects to the public.
 - id: mortgage-servicer-licensing
   title: The Impacts of Mortgage Servicer Licensing Requirements
   section: Working Papers

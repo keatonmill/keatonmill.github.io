@@ -4,6 +4,7 @@ description: "Journal articles, book chapters, working papers, and policy report
 toc: true
 toc-depth: 2
 toc-title: "Sections"
+# GENERATED FILE -- edit data/*.yml and run scripts/build.py instead.
 ---
 
 ## Journal Articles
@@ -288,6 +289,17 @@ Faculty unionization has expanded substantially in U.S. higher education over th
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
 Independent foundations play an increasing role in funding higher education, leading to calls for transparency regarding their donors and operations. Some have opposed such efforts, arguing that disclosure requirements may discourage donations and reduce endowment growth. Using panel data on public institutions from IPEDS and the foundations associated with them from IRS disclosures, we employ the difference-in-differences estimator of Callaway and Sant'Anna (2021) and estimate the causal effect of state transparency laws on both the stock of foundation assets and the flow of gifts to foundations. We also test for changes in the net price paid by in-state students and institutional expenditures. We find no statistically significant effect on any outcome, a result robust to alternative treatment definitions, sample restrictions, control compositions, and an augmented synthetic control estimator. Our design rules out severe sustained donor flight, the strongest version of the policy concern, but cannot reject more modest gift reductions. We interpret these results as evidence that transparency mandates do not produce detectable medium-run harm to foundation finances.
+:::
+::::
+
+:::: {.paper}
+### A Method of Estimating the Impacts of Climate Change on Oregon Household Budgets
+
+[[Paper](assets/pdf/climate-household-impacts.pdf) (December 2025)]{.paper-links}
+
+::: {.callout-note appearance="simple" collapse="true" icon="false"}
+## Abstract
+Climate change communication faces challenges in polarized media environments. While economic framing generates stronger public engagement than health or geographical approaches, most analyses focus on macroeconomic outcomes rather than household budgets. This paper addresses that gap by estimating climate change impacts on typical Oregon household budgets. Synthesizing literature on sectoral price changes and consumer demand, I develop a translational framework making economic consequences accessible to non-experts. Results indicate that by 2050, medium-income households will experience annual welfare losses of $9,525, representing 9.1% of income. This household-level analysis helps communicate climate change’s tangible economic effects to the public.
 :::
 ::::
 

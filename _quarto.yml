@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  # research.qmd is generated from data/*.yml. Editing it directly does
+  # nothing lasting -- this step overwrites it on every render.
+  pre-render: python3 scripts/build.py
   # Legacy Squarespace files: always ship s/ so old /s/<file> URLs resolve,
   # even for files no page links to (e.g. the Monte Carlo zip).
   resources:

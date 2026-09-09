@@ -12,14 +12,19 @@ Everything is plain markdown:
 | File | Page |
 |---|---|
 | `index.qmd` | Home / about page |
-| `research.qmd` | Publications, working papers, work in progress, policy & media |
+| `data/*.yml` | Publications, working papers, policy & media — **the research page is generated from these** |
 | `teaching.qmd` | Courses, with collapsible descriptions |
 | `404.qmd` | Not-found page (points stale paper links to Research) |
 | `_quarto.yml` | Site title, navigation bar, footer |
 | `theme.scss` | Colors and fonts (University of Oregon palette) |
 
-To add a paper, copy one of the `:::: {.paper}` blocks in `research.qmd` and
-edit the title, authors, links, and abstract.
+The research page is the one exception to "plain markdown": `research.qmd` is
+**generated** from `data/*.yml` by `scripts/build.py`, which Quarto runs before
+every render. Editing `research.qmd` directly does nothing lasting — the next
+render overwrites it.
+
+See **[`data/README.md`](data/README.md)** for how to add a paper, mark one
+accepted, add a coauthor, or record press coverage.
 
 ## Where PDFs live
 
@@ -38,8 +43,8 @@ Two directories, on purpose:
 
 ### Updating a draft
 
-Overwrite the file in `assets/pdf/` under the same name, change the date in
-the link text in `research.qmd`, commit, push. The URL never changes, so
+Overwrite the file in `assets/pdf/` under the same name, update that link's
+`note:` in `data/works.yml`, commit, push. The URL never changes, so
 citations keep resolving to the current version. Superseded drafts remain in
 git history:
 
@@ -50,8 +55,9 @@ git show <commit>:assets/pdf/managed-competition.pdf > old-draft.pdf
 
 ### Adding a new paper
 
-Drop the PDF in `assets/pdf/` with a short slug name and add a block to
-`research.qmd`. Never put new files in `s/`.
+Drop the PDF in `assets/pdf/` with a short slug name and add a record to
+`data/works.yml` — use the PDF's basename as the paper's `id`. See
+[`data/README.md`](data/README.md). Never put new files in `s/`.
 
 ### Retired links
 
@@ -64,9 +70,21 @@ the navbar links to it directly).
 
 ## Previewing locally
 
+One-time setup — the render step needs PyYAML, in whichever `python3` Quarto
+finds on your PATH:
+
+```sh
+python3 -m pip install --user -r requirements.txt
+```
+
+Then:
+
 ```sh
 quarto preview
 ```
+
+`quarto preview` regenerates `research.qmd` from `data/` on every save, so
+edits to the YAML show up live.
 
 ## Publishing
 
