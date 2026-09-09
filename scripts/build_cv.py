@@ -93,6 +93,18 @@ def validate(works, people, cv):
                 errs.append(f"cv.yml: teaching[{i}] is missing {key!r}")
         if t.get("count") is not None and len(t.get("offerings") or []) > t["count"]:
             errs.append(f"cv.yml: teaching[{i}] lists more offerings than its count")
+        for term in t.get("offerings") or []:
+            if not is_term(term):
+                errs.append(f"cv.yml: teaching[{i}] offering {term!r} is not a "
+                            f"term like 'Fall 2023'")
+    # `completed` is a term, not a year: a review period is an arbitrary pair
+    # of dates and routinely splits an academic year.
+    for key in ("past", "undergraduate"):
+        for i, s_ in enumerate((cv.get("advising") or {}).get(key) or []):
+            done = s_.get("completed")
+            if done and not is_term(done):
+                errs.append(f"cv.yml: advising.{key}[{i}] completed {done!r} is "
+                            f"not a term like 'Spring 2026'")
 
     if SELF not in people:
         errs.append(f"people.yml: no {SELF!r} entry, so no name can be bolded")
@@ -275,8 +287,17 @@ TERM_MONTH = {"Winter": 1, "Spring": 4, "Summer": 7, "Fall": 10}
 
 def term_date(term):
     """'Fall 2023' -> the date its instruction roughly starts."""
-    name, year = term.split()
+    name, year = str(term).split()
     return datetime.date(int(year), TERM_MONTH[name], 1)
+
+
+def is_term(term):
+    """True if `term` parses as 'Season Year'."""
+    try:
+        term_date(term)
+    except (ValueError, KeyError):
+        return False
+    return True
 
 
 def span(years):
@@ -328,9 +349,9 @@ def coverage(works, cv, since, until):
 
     past = cv["advising"]["past"]
     done = [s for s in past if s.get("completed")]
-    inwin = [s for s in done if since.year <= int(s["completed"]) <= until.year]
+    inwin = [s for s in done if since <= term_date(s["completed"]) <= until]
     print(f"Graduate advising     {len(done)}/{len(past)} past students have a "
-          f"completion year  -> {len(inwin)} in window")
+          f"completion term  -> {len(inwin)} in window")
 
     pres = [(p["year"], i) for p in cv["presentations"] for i in p["items"]]
     kinds = sum(1 for _, i in pres if isinstance(i, dict) and i.get("kind"))

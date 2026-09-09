@@ -272,9 +272,10 @@ advising:
       stage: pre-prospectus
       status: in progress
 
-  # `completed` is the year the dissertation was defended. Unknown for the
-  # existing entries -- fill them in as they surface; nothing on the CV
-  # depends on it, but a review-period report does.
+  # `completed` is the term the dissertation was defended, as 'Spring 2026'
+  # -- a review window is an arbitrary pair of dates and routinely splits an
+  # academic year, so a year is not precise enough. Unknown for the existing
+  # entries; fill them in as they surface. Nothing on the CV depends on it.
   past:
     - name: Boyoon Chang
       role: chair
@@ -338,6 +339,12 @@ advising:
       what: Clark Honors College Thesis
       role: primary adviser
       completed:
+    # Nameless on purpose: this repo is public, so every name in cv.yml is
+    # published along with the CV. Keaton knows who this was.
+    - name: Undergraduate student
+      what: Reading and Conference in Industrial Organization
+      role: supervisor
+      completed: Spring 2026
 
 honors:
   - year: '2014'

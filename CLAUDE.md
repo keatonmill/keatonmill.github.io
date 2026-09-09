@@ -118,7 +118,9 @@ the CV never prints so that report can be generated.
   from the per-term course folders in `~/Dropbox/teaching` (one folder per
   course per term), cross-checked against each syllabus's CRN line. Every
   offering is now dated; `count` should equal `len(offerings)`.
-- `advising.past[].completed` is the defence year. Unknown for all 14.
+- `advising.past[].completed` is the defence **term** (`Spring 2026`), not
+  a year -- windows split academic years. Unknown for all 14. Undergraduate
+  advising takes the same field; it is not yet in the coverage report.
 - `python3 scripts/build_cv.py --coverage [--since --until]` reports what is
   dated and what falls in a window.
 - Sources: `~/Dropbox/portfolio/acceptance letters/` (dated filenames),
