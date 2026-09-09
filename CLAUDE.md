@@ -109,9 +109,13 @@ the CV never prints so that report can be generated.
 - Windows are arbitrary dates, not years — the 2026 merit window was
   Sept 16 2023 – Mar 20 2026, and the 3PTR used a different one. Never bake a
   window in.
-- `referee.assignments` in `cv.yml` is one line per report submitted. Empty
-  before September 2026; there is no historical record. `referee.journals`
-  remains the list the CV prints.
+- `referee.assignments` in `cv.yml` is one line per report submitted. 63 are
+  recorded, 2016–2026, recovered from `~/Dropbox/editorial` (one folder per
+  year; each report's own first line names its journal and manuscript id —
+  the filename prefixes are editorial-system codes and are not always the
+  journal you would guess). The date is the report file's mtime, the day the
+  report was finished. `referee.journals` remains the list the CV prints, and
+  a journal that appears only in `assignments` is added to it automatically.
 - `teaching[].offerings` are the terms actually taught; `count` is the
   lifetime total the CV prints. An offering is a **section**, not a term:
   Spring 2017 was two sections of EC 201, so it is listed twice. Terms come
@@ -124,6 +128,7 @@ the CV never prints so that report can be generated.
 - `python3 scripts/build_cv.py --coverage [--since --until]` reports what is
   dated and what falls in a window.
 - Sources: `~/Dropbox/portfolio/acceptance letters/` (dated filenames),
+  `~/Dropbox/editorial/<year>/` (referee reports),
   `~/Dropbox/department/faculty-activity-reports/`, and
   `~/Dropbox/portfolio/miller-cv-annotated-2026-02-13.docx` (the highlighted
   3PTR CV — highlight runs are recoverable from the docx XML).

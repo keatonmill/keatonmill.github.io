@@ -168,15 +168,165 @@ referee:
     - Scandinavian Journal of Economics
     - Southern Economic Journal
 
-  # One line per report submitted, newest last. There is no historical
-  # record before September 2026, so this starts empty and grows: add an
-  # entry each time a report goes in. A journal named here that is not in
-  # `journals` above is added to the CV list automatically.
+  # One line per report submitted, newest last. Recovered from
+  # ~/Dropbox/editorial, which keeps one folder per year holding the
+  # manuscript, Keaton's marked-up copy and the report itself. The date is
+  # the report file's last-modified time -- the day the report was finished,
+  # which is the day it went in or the day before. Each report names its own
+  # journal and manuscript id in its first line; that is where the journal
+  # here comes from, not the filename prefix. A journal named here that is
+  # not in `journals` above is added to the CV list automatically.
+  #
+  # `note` records which round a report is: an entry with no note is a first
+  # report on that manuscript.
+  #
+  # One report is not listed because it cannot be dated: Economic Inquiry
+  # ECIN-Sep-2015-13407, "Entry Deterrence and Strategic Alliances" (Gayle
+  # and Xie). The report survives only as a Google Docs PDF export with no
+  # embedded dates (2016/previous/), filed 2016-01-19; the manuscript id
+  # says it was assigned in or after September 2015.
   #
   #   - journal: Journal of Public Economics
   #     date: 2026-09-15
   #     note: second round          # optional
-  assignments: []
+  assignments:
+    - journal: Economic Inquiry
+      date: 2016-01-27
+    - journal: Drug and Alcohol Dependence
+      date: 2018-02-17
+    - journal: Journal of Cannabis Research
+      date: 2018-10-27
+    - journal: Economic Inquiry
+      date: 2018-11-13
+    - journal: National Tax Journal
+      date: 2019-01-23
+    - journal: Journal of Law and Economics
+      date: 2019-03-15
+    - journal: Scandinavian Journal of Economics
+      date: 2019-06-17
+    - journal: Scandinavian Journal of Economics
+      date: 2019-10-02
+      note: second round, resubmitted under a new manuscript number
+    - journal: American Journal of Health Economics
+      date: 2019-10-03
+    - journal: Canadian Public Policy
+      date: 2019-12-10
+    - journal: American Journal of Health Economics
+      date: 2020-06-02
+    - journal: Economic Inquiry
+      date: 2020-07-09
+    - journal: Review of Regional Studies
+      date: 2020-08-12
+    - journal: Journal of Policy Analysis and Management
+      date: 2020-11-03
+    - journal: Journal of Public Economics
+      date: 2020-11-25
+    - journal: Economic Inquiry
+      date: 2020-12-16
+      note: second round
+    - journal: Journal of Health Economics
+      date: 2021-02-22
+    - journal: Review of Regional Studies
+      date: 2021-03-11
+    - journal: Journal of Cannabis Research
+      date: 2021-03-26
+    - journal: Review of Regional Studies
+      date: 2021-05-07
+      note: second round, resubmitted under a new manuscript number
+    - journal: 'American Economic Review: Insights'
+      date: 2021-08-19
+    - journal: American Economic Review
+      date: 2021-08-26
+    - journal: Southern Economic Journal
+      date: 2021-09-15
+    - journal: Journal of Cannabis Research
+      date: 2021-10-05
+      note: second round
+    - journal: Review of Regional Studies
+      date: 2021-10-05
+      note: third round, resubmitted under a new manuscript number
+    - journal: American Journal of Health Economics
+      date: 2021-10-07
+    - journal: Contemporary Economic Policy
+      date: 2021-11-24
+    - journal: Empirical Economics
+      date: 2021-12-28
+      note: report on a revision; no first-round report on file
+    - journal: Oxford Economic Papers
+      date: 2022-01-13
+    - journal: Journal of Cannabis Research
+      date: 2022-02-03
+      note: third round
+    - journal: International Journal of Industrial Organization
+      date: 2022-04-13
+    - journal: Applied Economics
+      date: 2022-04-21
+    - journal: Journal of Public Economics
+      date: 2022-06-24
+      note: second round
+    - journal: Contemporary Economic Policy
+      date: 2022-09-12
+      note: second round
+    - journal: Applied Economics Letters
+      date: 2022-10-09
+    - journal: Criminology & Public Policy
+      date: 2022-11-11
+    - journal: 'American Economic Journal: Policy'
+      date: 2023-01-10
+    - journal: Public Finance Review
+      date: 2023-08-01
+    - journal: Journal of Human Resources
+      date: 2023-08-16
+    - journal: Journal of Health Economics
+      date: 2023-09-12
+    - journal: International Journal of Drug Policy
+      date: 2023-09-13
+    - journal: National Tax Journal
+      date: 2023-10-02
+    - journal: Journal of Urban Economics
+      date: 2023-12-07
+    - journal: Southern Economic Journal
+      date: 2024-06-16
+    - journal: Journal of Economic Behavior and Organization
+      date: 2024-09-06
+    - journal: Journal of Policy Analysis and Management
+      date: 2024-10-14
+    - journal: International Journal of Drug Policy
+      date: 2025-01-23
+    - journal: Journal of Policy Analysis and Management
+      date: 2025-03-11
+    - journal: Journal of Health Economics
+      date: 2025-04-04
+    - journal: International Journal of Drug Policy
+      date: 2025-04-25
+      note: second round
+    - journal: Information Economics and Policy
+      date: 2025-07-02
+    - journal: Southern Economic Journal
+      date: 2025-09-30
+    - journal: 'American Economic Journal: Policy'
+      date: 2025-10-27
+    - journal: Journal of Health Economics
+      date: 2025-11-25
+    - journal: 'American Economic Journal: Policy'
+      date: 2026-02-24
+    - journal: Journal of Industrial Economics
+      date: 2026-04-06
+    - journal: State and Local Government Review
+      date: 2026-04-07
+    - journal: Journal of Health Economics
+      date: 2026-05-05
+      note: second round
+    - journal: International Journal of Drug Policy
+      date: 2026-05-11
+    - journal: American Journal of Health Economics
+      date: 2026-05-16
+    - journal: RAND Journal of Economics
+      date: 2026-06-08
+    - journal: Review of Economics and Statistics
+      date: 2026-07-02
+    - journal: Journal of Policy Analysis and Management
+      date: 2026-08-30
 
 grant_review: [National Science Foundation, Russell Sage Foundation, Swiss National Science Foundation]
 
