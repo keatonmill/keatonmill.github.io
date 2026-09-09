@@ -116,6 +116,12 @@ the CV never prints so that report can be generated.
   journal you would guess). The date is the report file's mtime, the day the
   report was finished. `referee.journals` remains the list the CV prints, and
   a journal that appears only in `assignments` is added to it automatically.
+  `assignments` is journal peer review only. `~/Dropbox/editorial` also holds
+  grant reviews (NSF, Russell Sage, Swiss NSF — see `grant_review`, which
+  carries no dates) and, in `2023/`, a review of an internal Paragon Health
+  Institute report. Keaton has decided the Paragon one does not belong on the
+  CV: the piece is opinionated advocacy and he was checking its factual basis,
+  not refereeing it. Do not add it.
 - `teaching[].offerings` are the terms actually taught; `count` is the
   lifetime total the CV prints. An offering is a **section**, not a term:
   Spring 2017 was two sections of EC 201, so it is listed twice. Terms come
