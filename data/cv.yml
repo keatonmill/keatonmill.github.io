@@ -1,0 +1,203 @@
+# The CV's own sections: the parts of the CV that the website has no
+# equivalent for. Publications are NOT here -- they come from data/works.yml
+# and data/people.yml, so a paper is described in exactly one place.
+#
+# Rendered by scripts/build_cv.py into assets/pdf/Keaton-Miller-CV.pdf.
+# See data/README.md.
+
+meta:
+  name: Keaton S. Miller
+  role: Associate Professor of Economics · Director of Graduate Studies · University of Oregon
+  email: keatonm@uoregon.edu
+  website: keatonmiller.org
+  website_url: https://keatonmiller.org
+  address:
+    - Department of Economics
+    - 1285 University of Oregon
+    - Eugene, OR 97403-1285
+
+# `fields` and `honors` are not rendered on the current CV. They are kept here
+# so that restoring either section is a one-line change in scripts/cv/cv.typ
+# rather than re-typing the content.
+fields: Industrial Organization, Applied Microeconomics, Applied Econometrics, Health Economics
+
+positions:
+  - years: 2023–present
+    what: Associate Professor, Economics Department, University of Oregon, Eugene, OR, USA
+  - years: 2015–2023
+    what: Assistant Professor, Economics Department, University of Oregon, Eugene, OR, USA
+
+education:
+  - year: '2015'
+    lines:
+      - University of Minnesota – Twin Cities, Ph.D., Economics
+      - 'Adviser: Amil Petrin'
+  - year: '2014'
+    lines:
+      - University of Minnesota – Twin Cities, M.A., Economics
+  - year: '2008'
+    lines:
+      - University of Wisconsin – Madison, B.S., Economics and Mathematics,
+      - certificate in Computer Science
+
+grants:
+  - role: Principal Investigator
+    source: Worthington Fund for Environmental Economics
+    years: 2024–present
+    title: Climate Change Research at the University of Oregon
+    amount: 'Total to date: $400,000'
+  - role: Principal Investigator
+    source: Consumer Protection Research Grant, University of Oregon School of Law
+    years: 2023–2024
+    title: 'Measuring the Effectiveness of Mortgage Servicing Standards: Evidence from Senate Bill 98 of the 2017 Oregon Legislature'
+    amount: 'Total: $26,876'
+  - role: Co-Investigator
+    source: Consumer Protection Research Grant, University of Oregon School of Law
+    years: 2023–2024
+    title: The Commission Rate of App Distribution Platforms and its Impact on Consumers
+    amount: 'Total: $36,324'
+
+presentations:
+  - year: '2026'
+    items: [North American Summer Meeting of the Econometric Society, European Summer Meeting of the Econometric Society, EARIE Annual Conference]
+  - year: '2025'
+    items: [Western Economic Association International]
+  - year: '2024'
+    items: [International Industrial Organization Society, European Summer Meeting of the Econometric Society, EARIE Annual Conference]
+  - year: '2023'
+    items: [Iowa State University]
+  - year: '2022'
+    items: [Western Economic Association International, Burning Man Center Camp, Southern Methodist University, Cornerstone Economics]
+  - year: '2021'
+    items: [International Industrial Organization Society]
+  - year: '2020'
+    items: [American Society of Health Economists, University of Kentucky, International Industrial Organization Society (cancelled)]
+  - year: '2019'
+    items: [American Society of Health Economists, International Health Economics Association, Northwestern Healthcare Markets Conference, Banff Empirical Microeconomics Conference, Cannabis Political Economy Symposium, National Bureau of Economic Research, American Economic Association Annual Meeting]
+  - year: '2018'
+    items: [EARIE Annual Conference, European Summer Meeting of the Econometric Society, International Industrial Organization Society, International Society for the Study of Drug Policy, Asian Workshop on Econometrics and Health Economics, Midwest Economics Association, North American Summer Meeting of the Econometric Society, RAND Corporation, Western Economic Association International, Emerald Trade Alliance]
+  - year: '2017'
+    items: [International Industrial Organization Society, Western Economic Association International, Portland State University, Yamhill County, Burning Man Center Camp]
+  - year: '2016'
+    items: [International Industrial Organization Society, Cannabis Science and Policy Summit]
+  - year: '2015'
+    items: [Midwest Economics Association, International Industrial Organization Society, Indiana University, University of Connecticut, University of Oregon, University of Miami, University of Rochester, NERA Corporation]
+
+referee:
+  - 'American Economic Journal: Policy'
+  - American Economic Review
+  - 'American Economic Review: Insights'
+  - American Journal of Health Economics
+  - Applied Economics
+  - Applied Economics Letters
+  - Canadian Public Policy
+  - Contemporary Economic Policy
+  - Criminology & Public Policy
+  - Drug and Alcohol Dependence
+  - Economic Inquiry
+  - Empirical Economics
+  - Information Economics and Policy
+  - International Journal of Drug Policy
+  - International Journal of Industrial Organization
+  - Journal of Cannabis Research
+  - Journal of Economic Behavior and Organization
+  - Journal of Health Economics
+  - Journal of Human Resources
+  - Journal of Law and Economics
+  - Journal of Policy Analysis and Management
+  - Journal of Public Economics
+  - Journal of Urban Economics
+  - National Tax Journal
+  - Oxford Economic Papers
+  - Public Finance Review
+  - Review of Regional Studies
+  - Scandinavian Journal of Economics
+  - Southern Economic Journal
+
+grant_review: [National Science Foundation, Russell Sage Foundation, Swiss National Science Foundation]
+
+dept_service:
+  - years: 2025–2026
+    items: [Director of Graduate Studies, Executive Committee, 'PhD Admissions, Awards, and Program Committees']
+  - years: 2024–2025
+    items: [Faculty Search Committee (co-chair), Promotion and Tenure Committee (x2), Policy Revision Committee]
+  - years: 2023–2024
+    items: [Academic Continuity and Policy Revision Committee]
+  - years: 2022–2023
+    items: [Ph.D. Placement Chair, Ph.D. Admission Committee, Seminar Committee]
+  - years: 2021–2022
+    items: [Ph.D. Placement Chair, Masters Admission Committee, Undergraduate Program Committee]
+  - years: 2020–2021
+    items: [Ph.D. Placement Chair, Graduate Awards Committee]
+  - years: 2019–2020
+    items: [Ph.D. Placement Committee, Graduate Awards Committee]
+  - years: 2018–2019
+    items: [Graduate Awards Committee, Seminar Committee, Teaching Peer Reviewer]
+  - years: 2017–2018
+    items: [Graduate Placement Committee, Seminar Committee]
+  - years: 2016–2017
+    items: [Faculty Search Committee, Masters Program Committee, Undergraduate Program Committee, Graduate Placement Committee, Seminar Committee]
+  - years: 2015–2016
+    items: [Graduate Placement Committee, Undergraduate Program Committee, Seminar Committee]
+
+univ_service:
+  - years: 2025–2026
+    items: ['Treasurer, United Academics']
+  - years: 2024–2025
+    items: [Forum for Oregon Climate Economics, 'Mentor, Association for Mentoring and Inclusion in Economics', 'Treasurer and Bargaining Team, United Academics']
+  - years: 2023–2024
+    items: [Forum for Oregon Climate Economics, 'Bargaining Team, United Academics']
+  - years: 2021–2022
+    items: [Senate Budget Committee]
+  - years: 2020–2021
+    items: [Senate Budget Committee]
+  - years: 2019–2020
+    items: [Ad-Hoc Assistant to University of Oregon and United Academics Negotiators regarding the Progressive Pay Reduction Plan]
+  - years: 2018–2019
+    items: [Large Classroom Working Group]
+  - years: 2017–2018
+    items: [Joint Salary Equity Taskforce]
+  - years: 2016–2017
+    items: [Summer Academy to Inspire Learning Guest Lecturer]
+
+teaching:
+  - course: Economics 201 – Principles of Microeconomics
+    note: x19, undergraduate, typical enrollment 300–500
+  - course: Economics 410/510 – The Economics of Power
+    note: x1, undergraduate and masters, typical enrollment 30
+  - course: Economics 460/560 – Theories of Industrial Organization
+    note: x8, undergraduate and masters, typical enrollment 50
+  - course: Economics 607 – Structural Methods and Applications in Industrial Organization
+    note: x9, Ph.D., typical enrollment 10
+
+advising:
+  current:
+    - Connor Mulholland (pre-prospectus) – in progress
+    - David Hall (pre-prospectus) – in progress
+  past:
+    - Boyoon Chang (chair) – Postdoc, Dartmouth College
+    - Sichao Jiang (chair) – T-Mobile
+    - Colleen O’Briant (chair) – Visiting Assistant Professor, University of Arkansas
+    - Brietta Russell (chair) – Economist, Bureau of Business and Economic Research, University of Montana
+    - Micaela Wood (chair) – Assistant Professor, Oglethorpe University
+    - Tanner Bivins (member) – Assistant Professor, Frostburg State University
+    - Cory Briar (member) – Washington State Institute for Public Policy
+    - Curtis Dlouhy (member) – Oregon Public Utilities Commission
+    - Brett Garcia (member) – Positive Competition
+    - Edder Martinez-Lazo (member) – Visiting Assistant Professor, University of Arkansas
+    - Taylor McKenzie (member) – Sandia National Laboratory
+    - John Morehouse (member) – Freddie Mac
+    - Brock Wilson (member) – Research Assistant Professor, University of Alaska-Anchorage
+    - Nick Wood (member) – Army Corps of Engineers
+  undergraduate:
+    - Lucy Hudson – Clark Honors College Thesis (primary adviser)
+
+honors:
+  - year: '2014'
+    items: ['Doctoral Dissertation Fellowship, University of Minnesota']
+  - year: '2011'
+    items: ['Distinguished Instructor, Department of Economics, University of Minnesota', 'Distinguished Teaching Assistant, Department of Economics, University of Minnesota']
+  - year: '2010'
+    items: ['Hurwicz Fellowship in Economics, Department of Economics, University of Minnesota']
+  - year: '2008'
+    items: ['Mark H. Ingraham Prize for Excellence in Mathematics, University of Wisconsin–Madison', 'Phi Beta Kappa, University of Wisconsin–Madison']
