@@ -65,8 +65,27 @@ A request for any missing path gets `404.html`, which tells readers looking
 for a draft to go to the Research page. GitHub Pages cannot redirect a `.pdf`
 URL, so this is the whole mechanism.
 
-To update the CV, replace `assets/pdf/Keaton-Miller-CV.pdf` (same filename —
-the navbar links to it directly).
+### The CV
+
+The CV is **generated**, like the research page. `assets/pdf/Keaton-Miller-CV.pdf`
+is a build product — do not replace it by hand.
+
+```sh
+python3 scripts/build_cv.py
+```
+
+Publications come from `data/works.yml` and `data/people.yml`, the same files
+that drive the research page, so a paper is described in exactly one place.
+The CV's own sections — positions, education, grants, presentations, service,
+teaching, advising — live in `data/cv.yml`. The typesetting is
+`scripts/cv/cv.typ`.
+
+This needs Typst (`brew install typst`), so unlike `scripts/build.py` it is
+**not** a Quarto pre-render step: the PDF is committed, and it rebuilds when
+the CV changes rather than on every site render. `--check` exits non-zero if
+the committed PDF is out of date with `data/`.
+
+The filename never changes — the navbar links to it directly.
 
 ## Previewing locally
 

@@ -1,16 +1,22 @@
-# Editing the research page
+# Editing the research page and the CV
 
-The research page is **generated**. You edit `data/*.yml`; `research.qmd` is a
-build product and any edit you make to it is overwritten on the next render.
-
-Everything runs through one script:
+Both are **generated** from these files. `research.qmd` and
+`assets/pdf/Keaton-Miller-CV.pdf` are build products; edits made to either are
+overwritten on the next build.
 
 ```sh
-python3 scripts/build.py
+python3 scripts/build.py       # the research page
+python3 scripts/build_cv.py    # the CV
 ```
 
-Quarto also runs it automatically before every render, so `quarto preview`
-picks up your changes as you save.
+Quarto runs `build.py` automatically before every render, so `quarto preview`
+picks up your changes as you save. `build_cv.py` you run yourself when the CV
+changes — it needs Typst (`brew install typst`) and its output is a committed
+PDF, so it is deliberately not part of the site render.
+
+**A paper is described in exactly one place.** Both outputs read the same
+`works.yml` and `people.yml`, so adding a publication updates the research
+page and the CV together.
 
 ---
 
@@ -68,7 +74,55 @@ Put the PDF in `assets/pdf/`, then add a record. Use the PDF's basename as the
 ```
 
 Order within a section is the order in the file. Working papers are listed
-newest draft first.
+newest draft first — on the CV, sorted by the draft date.
+
+**The CV shows the date of the last draft**, which it takes from the `note:`
+on the `Paper` link. A paper with no link needs the date stated outright, or
+the CV build fails:
+
+```yaml
+- id: premerger-notification-matter-evidence
+  draft: July 2016             # only needed when there is no Paper link
+```
+
+### Add a book chapter
+
+Chapters take `editors`, which the CV cites and the research page ignores:
+
+```yaml
+- id: my-chapter
+  section: Book Chapters
+  outlet: Handbook of Something
+  editors: Zimmermann, K. and Marcotte, D.
+  pages: 338–344
+  year: 2024
+```
+
+### Add a report in a numbered series
+
+`number` gives both outputs the series number:
+
+```yaml
+- id: my-policy-brief
+  section: Policy Reports & Media
+  outlet: Cato Institute Research Brief in Economic Policy
+  number: '125'
+  year: 2018
+```
+
+### Change something on the CV only
+
+Positions, education, grants, presentations, referee service, department and
+university service, teaching, advising — none of these appear on the website,
+so they live in `cv.yml`. Edit it and rebuild:
+
+```sh
+python3 scripts/build_cv.py
+```
+
+`cv.yml` also still holds `fields` and `honors`, which the current CV does not
+render. They are kept so restoring either section is a change to
+`scripts/cv/cv.typ`, not a retyping job.
 
 ### Add a coauthor
 
@@ -186,10 +240,11 @@ instead. `git checkout research.qmd` also works.
 **Check without changing anything:**
 
 ```sh
-python3 scripts/build.py --check
+python3 scripts/build.py --check       # is research.qmd current?
+python3 scripts/build_cv.py --check    # is the CV PDF current?
 ```
 
-Exits non-zero if `research.qmd` is out of date with `data/`.
+Both exit non-zero if their output is out of date with `data/`.
 
 ---
 
@@ -201,5 +256,8 @@ Exits non-zero if `research.qmd` is out of date with `data/`.
 | `people.yml` | Coauthors: display name, homepage, citation form |
 | `media.yml` | Press coverage |
 | `_frontmatter.yml` | The research page's title and TOC settings |
-| `scripts/build.py` | Validates and generates. The only script you run. |
+| `cv.yml` | The CV's own sections: positions, education, grants, presentations, service, teaching, advising |
+| `scripts/build.py` | Validates and generates `research.qmd` |
+| `scripts/build_cv.py` | Validates and generates the CV PDF |
+| `scripts/cv/cv.typ` | The CV's typesetting |
 | `scripts/extract_research.py` | One-time bootstrap. Refuses to run now. Ignore it. |
