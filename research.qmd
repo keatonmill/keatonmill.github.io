@@ -11,7 +11,7 @@ toc-title: "Sections"
 :::: {.paper}
 ### Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
 
-[with Niru Ghoshal-Datta and [Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew)]{.authors}\
+[Niru Ghoshal-Datta, [Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew), Keaton Miller, [Michael McWilliams](https://hcp.hms.harvard.edu/people/j-michael-mcwilliams), Erica Everhart, and Aneesh Chopra]{.authors}\
 [Forthcoming, *Health Affairs*]{.outlet}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
@@ -23,7 +23,7 @@ Beginning in 2024, CMS implemented version 28 (V28) of the Medicare Advantage (M
 :::: {.paper}
 ### The Optimal Geographic Distribution of Managed Competition Subsidies
 
-[with [Amil Petrin](https://sites.google.com/umn.edu/amil-petrin/home), [Robert Town](https://liberalarts.utexas.edu/economics/faculty/rt24558), and [Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew)]{.authors}\
+[Keaton Miller, [Amil Petrin](https://sites.google.com/umn.edu/amil-petrin/home), [Robert Town](https://liberalarts.utexas.edu/economics/faculty/rt24558), and [Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew)]{.authors}\
 [Forthcoming, *RAND Journal of Economics*]{.outlet}
 
 [[Paper](assets/pdf/managed-competition.pdf) (September 2026) · [Monte Carlo code](s/mc_release.zip) (September 2022)]{.paper-links}
@@ -37,7 +37,7 @@ Governments often subsidize consumers’ purchases from competing firms rather t
 :::: {.paper}
 ### Shifting Tax Incidence: Evidence from the Washington State Cannabis Market
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/), [Kendall Houghton](https://www.kendallhoughton.com/), and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[[Benjamin Hansen](https://www.benjaminhansen.org/), [Kendall Houghton](https://www.kendallhoughton.com/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
 [*Journal of Policy Analysis and Management*, 45(3): e70041, 2026]{.outlet}
 
 [[Published version](https://doi.org/10.1002/pam.70041) · [NBER Working Paper](https://www.nber.org/papers/w23632)]{.paper-links}
@@ -51,7 +51,7 @@ We study how prices respond when a 25% gross receipts tax remitted by cannabis m
 :::: {.paper}
 ### Early Evidence on the Effects of Open Mobile In-App Payment Systems from South Korea
 
-[with [Boyoon Chang](https://irving.dartmouth.edu/people/boyoon-chang)]{.authors}\
+[[Boyoon Chang](https://irving.dartmouth.edu/people/boyoon-chang) and Keaton Miller]{.authors}\
 [*Journal of Competition Law & Economics*, nhaf034, 2025]{.outlet}
 
 [[Published version](https://doi.org/10.1093/joclec/nhaf034) · [Paper](s/2024-06-24-in_app_billing.pdf) (June 2024 draft)]{.paper-links}
@@ -78,7 +78,7 @@ Consumers in health insurance markets have inertia stemming from the desire to m
 :::: {.paper}
 ### Changes in Rail Rates for U.S. Commodity Grain Shipments Over Time
 
-[with [Wesley W. Wilson](https://blogs.uoregon.edu/wwilson/)]{.authors}\
+[Keaton Miller and [Wesley W. Wilson](https://blogs.uoregon.edu/wwilson/)]{.authors}\
 [*Research in Transportation Economics*, 102: 101359, 2023]{.outlet}
 
 [[Published version](https://www.sciencedirect.com/science/article/abs/pii/S0739885923000999)]{.paper-links}
@@ -92,7 +92,7 @@ The deregulation of the U.S. railroad industry has largely been considered a suc
 :::: {.paper}
 ### Reducing Medicare Advantage Benchmarks Will Decrease Plan Generosity, But Those Effects Will Likely Be Modest
 
-[with [Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew), [Amil Petrin](https://sites.google.com/umn.edu/amil-petrin/home), and [Robert Town](https://liberalarts.utexas.edu/economics/faculty/rt24558)]{.authors}\
+[[Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew), Keaton Miller, [Amil Petrin](https://sites.google.com/umn.edu/amil-petrin/home), and [Robert Town](https://liberalarts.utexas.edu/economics/faculty/rt24558)]{.authors}\
 [*Health Affairs*, 42(4): 479–487, 2023]{.outlet}
 
 [[Published version](https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2022.01031)]{.paper-links}
@@ -106,7 +106,7 @@ Concerns that Medicare Advantage (MA) plans are overpaid have motivated calls to
 :::: {.paper}
 ### Watching the Grass Grow: Does Recreational Cannabis Legalization Affect Retail and Agricultural Wages?
 
-[with Sichao Jiang]{.authors}\
+[Sichao Jiang and Keaton Miller]{.authors}\
 [*Journal of Cannabis Research*, 4(1): 42, 2022]{.outlet}
 
 [[Published version](https://jcannabisresearch.biomedcentral.com/articles/10.1186/s42238-022-00149-6) · [Paper](s/2022-01-27-cannabis-wages-resubmission.pdf) (January 2022 draft)]{.paper-links}
@@ -126,7 +126,7 @@ Concerns that Medicare Advantage (MA) plans are overpaid have motivated calls to
 :::: {.paper}
 ### Vertical Integration and Production Inefficiency in the Presence of a Gross Receipts Tax
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/) and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[[Benjamin Hansen](https://www.benjaminhansen.org/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
 [*Journal of Public Economics*, 212: 104693, 2022]{.outlet}
 
 [[Published version](https://www.sciencedirect.com/science/article/pii/S0047272722000950?dgcid=author) · [NBER Working Paper](https://www.nber.org/papers/w28478)]{.paper-links}
@@ -140,7 +140,7 @@ We quantify the effects of a gross receipts tax (GRT) on vertical integration fo
 :::: {.paper}
 ### The Effect of Cannabis Legalization on Substance Demand and Tax Revenues
 
-[with [Boyoung Seo](https://sites.google.com/a/iu.edu/boyoung-seo/)]{.authors}\
+[Keaton Miller and [Boyoung Seo](https://sites.google.com/a/iu.edu/boyoung-seo/)]{.authors}\
 [*National Tax Journal*, 74(1): 107–145, 2021]{.outlet}
 
 [[Published version](https://www.journals.uchicago.edu/doi/abs/10.1086/712915?journalCode=ntj) · [Paper](s/2019-01-05-tax-revenues-substances-RESTAT.pdf) (January 2019 draft) · [News coverage in the Wall Street Journal](https://www.wsj.com/articles/companies-betting-on-pot-may-be-worse-off-when-the-smoke-clears-1539338460)]{.paper-links}
@@ -154,7 +154,7 @@ Cannabis advocates argue that legalization will increase tax revenues. However, 
 :::: {.paper}
 ### Federalism, Partial Prohibition, and Cross Border Sales: Evidence from Recreational Marijuana
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/) and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[[Benjamin Hansen](https://www.benjaminhansen.org/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
 [*Journal of Public Economics*, 187: 104159, 2020]{.outlet}
 
 [[Published version](https://www.sciencedirect.com/science/article/abs/pii/S0047272720300232)]{.paper-links}
@@ -181,7 +181,7 @@ Faced with temporary revenue shocks, employers may implement wage reductions —
 :::: {.paper}
 ### Taxing the Potency of Sin Goods: Evidence from Recreational Cannabis and Liquor Markets
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/), [Boyoung Seo](https://sites.google.com/a/iu.edu/boyoung-seo/), and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[[Benjamin Hansen](https://www.benjaminhansen.org/), Keaton Miller, [Boyoung Seo](https://sites.google.com/a/iu.edu/boyoung-seo/), and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
 [*National Tax Journal*, 73(2): 511–544, 2020]{.outlet}
 
 [[Published version](https://ntanet.org/NTJ/73/2/ntj-v73n02p511-544-Taxing-Potency-of-Sin-Goods.html) · [Preprint](s/ntj-forum-preprint.pdf)]{.paper-links}
@@ -195,7 +195,7 @@ Cannabis is legal to purchase for over 28 percent of U.S. citizens. A central ar
 :::: {.paper}
 ### Environmentalism, Stimulus, and Inequality Reduction Through Industrial Policy: Did Cash for Clunkers Achieve the Trifecta?
 
-[with [Wesley W. Wilson](https://blogs.uoregon.edu/wwilson/) and Nick Wood]{.authors}\
+[Keaton Miller, [Wesley W. Wilson](https://blogs.uoregon.edu/wwilson/), and Nick Wood]{.authors}\
 [*Economic Inquiry*, 58(3): 1109–1128, 2020]{.outlet}
 
 [[Published version](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.12889)]{.paper-links}
@@ -209,7 +209,7 @@ The 2009 American Cash for Clunkers program, which subsidized consumers who scra
 :::: {.paper}
 ### Early Evidence on Recreational Marijuana Legalization and Traffic Fatalities
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/) and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[[Benjamin Hansen](https://www.benjaminhansen.org/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
 [*Economic Inquiry*, 58(2): 547–568, 2020]{.outlet}
 
 [[Published version](https://onlinelibrary.wiley.com/doi/10.1111/ecin.12751)]{.paper-links}
@@ -223,7 +223,7 @@ Over the last few years, marijuana has become legally available for recreational
 :::: {.paper}
 ### Governance Structure and Exit: Evidence from California Hospitals
 
-[with [Wesley W. Wilson](https://blogs.uoregon.edu/wwilson/)]{.authors}\
+[Keaton Miller and [Wesley W. Wilson](https://blogs.uoregon.edu/wwilson/)]{.authors}\
 [*Review of Industrial Organization*, 53(1): 31–55, 2018]{.outlet}
 
 [[Published version](https://link.springer.com/article/10.1007/s11151-017-9595-7)]{.paper-links}
@@ -252,7 +252,7 @@ The public–private partnership currently called "Medicare Advantage" has grown
 :::: {.paper}
 ### Up in Smoke? The Market for Cannabis
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/) and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[[Benjamin Hansen](https://www.benjaminhansen.org/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
 [In *Handbook of Labor, Human Resources and Population Economics*, 2021]{.outlet}
 
 [[Published version](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-57365-6_138-1)]{.paper-links}
@@ -268,7 +268,7 @@ Legal access to recreational cannabis continues to expand across the globe. With
 :::: {.paper}
 ### Faculty Unions, Faculty Salaries, and Tuition
 
-[with Tom Ben-Shahar]{.authors}
+[Keaton Miller and Tom Ben-Shahar]{.authors}
 
 [[Paper](assets/pdf/faculty-unions.pdf) (September 2026)]{.paper-links}
 
@@ -281,7 +281,7 @@ Faculty unionization has expanded substantially in U.S. higher education over th
 :::: {.paper}
 ### Do Donors Flee the Sunshine? Transparency Laws and Public University Foundation Finances
 
-[with Tom Ben-Shahar and Andrew Ducharme]{.authors}
+[Tom Ben-Shahar, Andrew Ducharme, and Keaton Miller]{.authors}
 
 [[Paper](assets/pdf/foundation-transparency.pdf) (September 2026)]{.paper-links}
 
@@ -294,7 +294,7 @@ Independent foundations play an increasing role in funding higher education, lea
 :::: {.paper}
 ### The Impacts of Mortgage Servicer Licensing Requirements
 
-[with [Edder Martinez-Lazo](https://www.emartinezlazo.com/)]{.authors}
+[[Edder Martinez-Lazo](https://www.emartinezlazo.com/) and Keaton Miller]{.authors}
 
 [[Paper](assets/pdf/mortgage-servicer-licensing.pdf) (June 2024)]{.paper-links}
 
@@ -307,7 +307,7 @@ The 2007-2008 U.S. financial crisis illustrated the way in which mortgage servic
 :::: {.paper}
 ### In Search of Peace and Quiet: The Heterogeneous Impacts of Short-Term Rentals on Housing Prices
 
-[with [Brett Garcia](https://www.thecgo.org/people/brett-garcia/) and [John Morehouse](https://www.johnmmorehouse.com/)]{.authors}
+[[Brett Garcia](https://www.thecgo.org/people/brett-garcia/), Keaton Miller, and [John Morehouse](https://www.johnmmorehouse.com/)]{.authors}
 
 [[Paper](assets/pdf/short-term-rentals.pdf) (April 2022)]{.paper-links}
 
@@ -320,7 +320,7 @@ The supply of housing for short-term rental (STR) has grown dramatically with th
 :::: {.paper}
 ### Are Firms' Cost Predictions Accurate? Evidence from Medicare Advantage
 
-[with Sichao Jiang]{.authors}
+[Sichao Jiang and Keaton Miller]{.authors}
 
 [[Paper](assets/pdf/ma-cost-predictions.pdf) (February 2022)]{.paper-links}
 
@@ -344,7 +344,7 @@ When consumers have inertia, firms have an intertemporal pricing incentive to ca
 :::: {.paper}
 ### Modeling the Costs and Benefits of Civil Court Case Resolution
 
-[with [Amil Petrin](https://sites.google.com/umn.edu/amil-petrin/home)]{.authors}
+[Keaton Miller and [Amil Petrin](https://sites.google.com/umn.edu/amil-petrin/home)]{.authors}
 
 [[Paper](assets/pdf/civil-court-costs-benefits.pdf) (February 2018)]{.paper-links}
 
@@ -357,7 +357,7 @@ Civil courts provide a setting in which society's citizens can right a believed 
 :::: {.paper}
 ### Retail Price Holidays: Theory and Evidence
 
-[with [Benjamin Hansen](https://www.benjaminhansen.org/), [Kendall Houghton](https://www.kendallhoughton.com/), and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}
+[[Benjamin Hansen](https://www.benjaminhansen.org/), [Kendall Houghton](https://www.kendallhoughton.com/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}
 
 [[Paper](assets/pdf/retail-price-holidays.pdf) (June 2018)]{.paper-links}
 
@@ -370,7 +370,7 @@ Many retail industries feature price promotion holidays: periods close to calend
 :::: {.paper}
 ### Does Premerger Notification Matter? Evidence from Cable Television
 
-[with [Kailin Clarke](https://www.amazon.science/author/kailin-clarke)]{.authors}
+[Keaton Miller and [Kailin Clarke](https://www.amazon.science/author/kailin-clarke)]{.authors}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
@@ -383,7 +383,7 @@ U.S. antitrust policy requires firms to disclose sizable acquisition plans to th
 :::: {.paper}
 ### The Economic Costs of Climate Change for Oregonians: A First Look
 
-[with [Noelwah R. Netusil](https://www.reed.edu/faculty-profiles/profiles/netusil-noelwah-r.html), [Ernie Niemi](https://www.nreconomics.com/), [Joshua Skov](https://business.uoregon.edu/directory/faculty-staff/all/jskov), and [John Talberth](https://www.sustainable-economy.org/john-talberth)]{.authors}\
+[Keaton Miller, [Noelwah R. Netusil](https://www.reed.edu/faculty-profiles/profiles/netusil-noelwah-r.html), [Ernie Niemi](https://www.nreconomics.com/), [Joshua Skov](https://business.uoregon.edu/directory/faculty-staff/all/jskov), and [John Talberth](https://www.sustainable-economy.org/john-talberth)]{.authors}\
 [Forum on Oregon Climate Economics, October 2024]{.outlet}
 
 [[Report](https://www.oregonforce.org/s/economic-cost-of-climate-change-oregonians.pdf)]{.paper-links}
