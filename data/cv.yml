@@ -252,12 +252,10 @@ teaching:
     count: 8
     offerings: [Spring 2018, Spring 2019, Winter 2020, Spring 2020, Spring 2021,
                 Spring 2022, Fall 2022, Spring 2023]
-  # One 607 offering before Fall 2023 has no folder in ~/Dropbox/teaching and
-  # is not in any activity report; the count keeps it, hence 8 dated of 9.
   - course: Economics 607 – Structural Methods and Applications in Industrial Organization
     level: Ph.D.
     enrollment: '10'
-    count: 9
+    count: 8
     offerings: [Spring 2016, Fall 2016, Fall 2017, Winter 2019, Winter 2021,
                 Winter 2022, Fall 2023, Fall 2025]
   - course: Computation Bootcamp for Economics PhD Students

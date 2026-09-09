@@ -116,9 +116,8 @@ the CV never prints so that report can be generated.
   lifetime total the CV prints. An offering is a **section**, not a term:
   Spring 2017 was two sections of EC 201, so it is listed twice. Terms come
   from the per-term course folders in `~/Dropbox/teaching` (one folder per
-  course per term), cross-checked against each syllabus's CRN line. One
-  EC 607 offering before Fall 2023 is in no folder and stays undated, so
-  `count` is 9 against 8 terms.
+  course per term), cross-checked against each syllabus's CRN line. Every
+  offering is now dated; `count` should equal `len(offerings)`.
 - `advising.past[].completed` is the defence year. Unknown for all 14.
 - `python3 scripts/build_cv.py --coverage [--since --until]` reports what is
   dated and what falls in a window.
