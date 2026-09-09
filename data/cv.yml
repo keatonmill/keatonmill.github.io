@@ -181,9 +181,12 @@ referee:
   # report on that manuscript.
   #
   # A manuscript whose id ends in R1/R2/R3 is a revision, and Keaton writes a
-  # report on one only when he is not yet satisfied. So a revision sitting in
-  # `~/Dropbox/editorial` with no report next to it is a sign-off, not a
-  # missing entry -- do not go looking for the report.
+  # report on one only when he is not yet satisfied. A revision sitting in
+  # `~/Dropbox/editorial` with no report next to it is therefore a sign-off,
+  # not a missing entry -- do not go looking for the report. Sign-offs are
+  # logged too, as `sign-off, no report`, because reading the revision is
+  # still the work. Their date is the day the revision arrived, which is the
+  # only date there is: every other entry is dated by its report.
   #
   #   - journal: Journal of Public Economics
   #     date: 2026-09-15
@@ -201,6 +204,9 @@ referee:
       date: 2018-11-13
     - journal: National Tax Journal
       date: 2019-01-23
+    - journal: Economic Inquiry
+      date: 2019-03-04
+      note: second round; sign-off, no report
     - journal: Journal of Law and Economics
       date: 2019-03-15
     - journal: Scandinavian Journal of Economics
@@ -262,9 +268,15 @@ referee:
       date: 2022-04-13
     - journal: Applied Economics
       date: 2022-04-21
+    - journal: Journal of Cannabis Research
+      date: 2022-04-26
+      note: fourth round; sign-off, no report
     - journal: Journal of Public Economics
       date: 2022-06-24
       note: second round
+    - journal: Empirical Economics
+      date: 2022-07-14
+      note: sign-off, no report
     - journal: Contemporary Economic Policy
       date: 2022-09-12
       note: second round
@@ -301,6 +313,9 @@ referee:
     - journal: International Journal of Drug Policy
       date: 2025-04-25
       note: second round
+    - journal: Southern Economic Journal
+      date: 2025-05-19
+      note: second round; sign-off, no report
     - journal: Information Economics and Policy
       date: 2025-07-02
     - journal: Southern Economic Journal
@@ -311,6 +326,9 @@ referee:
       date: 2025-11-25
     - journal: 'American Economic Journal: Policy'
       date: 2026-02-24
+    - journal: Information Economics and Policy
+      date: 2026-02-26
+      note: second round; sign-off, no report
     - journal: Journal of Industrial Economics
       date: 2026-04-06
     - journal: State and Local Government Review
@@ -324,8 +342,14 @@ referee:
       date: 2026-05-16
     - journal: RAND Journal of Economics
       date: 2026-06-08
+    - journal: State and Local Government Review
+      date: 2026-06-16
+      note: second round; sign-off, no report
     - journal: Review of Economics and Statistics
       date: 2026-07-02
+    - journal: Journal of Health Economics
+      date: 2026-08-25
+      note: third round; sign-off, no report
     - journal: Journal of Policy Analysis and Management
       date: 2026-08-30
 
