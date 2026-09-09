@@ -124,6 +124,46 @@ python3 scripts/build_cv.py
 render. They are kept so restoring either section is a change to
 `scripts/cv/cv.typ`, not a retyping job.
 
+### Log a referee report
+
+Every time you submit one, add a line. This is the record the review-period
+report reads; there is no historical data before September 2026, so it only
+gets useful if you keep it up.
+
+```yaml
+referee:
+  assignments:
+    - journal: Journal of Public Economics
+      date: 2026-09-15
+      note: second round        # optional
+```
+
+A journal that appears here and not in `referee.journals` is added to the CV's
+list automatically, so a first report for a new journal needs only this.
+
+### Record dates that the CV does not print
+
+Some fields exist only so that a review-period report can be generated. The CV
+ignores all of them.
+
+| Where | Field | What it is |
+|---|---|---|
+| `works.yml` | `accepted:` | Date on the acceptance letter. **This, not the publication year, is what merit and promotion reviews count.** |
+| `cv.yml` teaching | `offerings:` | The terms a course was actually taught, e.g. `[Fall 2023, Winter 2025]` |
+| `cv.yml` advising | `completed:` | Year a student defended |
+| `cv.yml` presentations | `kind:` | `conference` or `invited`, which merit reports ask for |
+| `cv.yml` grants | `buyout:` | Whether it paid for course buyouts |
+
+Acceptance dates come from `~/Dropbox/portfolio/acceptance letters/`, whose
+filenames are dated.
+
+To see what is missing:
+
+```sh
+python3 scripts/build_cv.py --coverage
+python3 scripts/build_cv.py --coverage --since 2023-09-16 --until 2026-03-20
+```
+
 ### Add a coauthor
 
 New people go in `people.yml`:
@@ -256,7 +296,7 @@ Both exit non-zero if their output is out of date with `data/`.
 | `people.yml` | Coauthors: display name, homepage, citation form |
 | `media.yml` | Press coverage |
 | `_frontmatter.yml` | The research page's title and TOC settings |
-| `cv.yml` | The CV's own sections: positions, education, grants, presentations, service, teaching, advising |
+| `cv.yml` | The CV's own sections: positions, education, grants, presentations, service, teaching, advising. Also carries dates the CV does not print. |
 | `scripts/build.py` | Validates and generates `research.qmd` |
 | `scripts/build_cv.py` | Validates and generates the CV PDF |
 | `scripts/cv/cv.typ` | The CV's typesetting |

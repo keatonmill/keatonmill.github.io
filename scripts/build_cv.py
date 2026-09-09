@@ -19,8 +19,10 @@ and its output is a committed binary, so it runs when the CV changes and not
 on every site render.
 """
 import argparse
+import datetime
 import json
 import os
+import re
 import shutil
 import subprocess
 import tempfile
@@ -75,6 +77,17 @@ def validate(works, people, cv):
     for key in ("current", "past", "undergraduate"):
         if not (cv.get("advising") or {}).get(key):
             errs.append(f"cv.yml: advising is missing {key!r}")
+    if not (cv.get("referee") or {}).get("journals"):
+        errs.append("cv.yml: referee.journals is missing or empty")
+    for i, a in enumerate((cv.get("referee") or {}).get("assignments") or []):
+        if not a.get("journal") or not a.get("date"):
+            errs.append(f"cv.yml: referee.assignments[{i}] needs a journal and a date")
+    for i, t in enumerate(cv.get("teaching") or []):
+        for key in ("course", "level", "enrollment", "count"):
+            if t.get(key) in (None, ""):
+                errs.append(f"cv.yml: teaching[{i}] is missing {key!r}")
+        if t.get("count") is not None and len(t.get("offerings") or []) > t["count"]:
+            errs.append(f"cv.yml: teaching[{i}] lists more offerings than its count")
 
     if SELF not in people:
         errs.append(f"people.yml: no {SELF!r} entry, so no name can be bolded")
@@ -186,6 +199,38 @@ def entry(w, people, kind):
     return e
 
 
+def cv_sections(cv):
+    """Flatten cv.yml's dated records into the flat strings the CV prints.
+
+    The data carries more than the CV shows -- referee assignment dates,
+    teaching terms, when a student finished -- because a review-period report
+    needs them and the CV does not.
+    """
+    ref = cv["referee"]
+    journals = sorted(set(ref["journals"])
+                      | {a["journal"] for a in (ref.get("assignments") or [])})
+
+    teaching = [{"course": t["course"],
+                 "note": f"x{t['count']}, {t['level']}, "
+                         f"typical enrollment {t['enrollment']}"}
+                for t in cv["teaching"]]
+
+    adv = cv["advising"]
+    past = [f"{s['name']} ({s['role']}) – {s['placement']}" for s in adv["past"]]
+    current = [f"{s['name']} ({s['stage']}) – {s['status']}" for s in adv["current"]]
+    under = [f"{s['name']} – {s['what']} ({s['role']})" for s in adv["undergraduate"]]
+
+    return {
+        "referee": journals,
+        "teaching": teaching,
+        "advising": {"current": current, "past": past, "undergraduate": under},
+        "presentations": [{"year": p["year"],
+                           "items": [i if isinstance(i, str) else i["name"]
+                                     for i in p["items"]]}
+                          for p in cv["presentations"]],
+    }
+
+
 def build_content(works, people, cv):
     buckets = {name: [] for name in SECTION_OF.values()}
     for w in works:
@@ -197,15 +242,89 @@ def build_content(works, people, cv):
     buckets["other"].sort(key=lambda e: -(e["year"] or 9999))
 
     content = {k: cv[k] for k in
-               ("meta", "grants", "presentations", "referee", "grant_review",
-                "dept_service", "univ_service", "teaching", "advising",
-                "positions", "education")}
+               ("meta", "grants", "grant_review", "dept_service",
+                "univ_service", "positions", "education")}
+    content.update(cv_sections(cv))
     content.update(buckets)
     return content
 
 
 # --------------------------------------------------------------------------
 # main
+
+
+TERM_MONTH = {"Winter": 1, "Spring": 4, "Summer": 7, "Fall": 10}
+
+
+def term_date(term):
+    """'Fall 2023' -> the date its instruction roughly starts."""
+    name, year = term.split()
+    return datetime.date(int(year), TERM_MONTH[name], 1)
+
+
+def span(years):
+    """'2023-2024' or '2024-present' -> (first year, last year or None)."""
+    parts = re.split(r"[–-]", str(years))
+    first = int(parts[0])
+    if len(parts) == 1:
+        return first, first
+    return first, None if not parts[1].strip().isdigit() else int(parts[1])
+
+
+def coverage(works, cv, since, until):
+    """What is dated, what is not, and what falls inside a review window."""
+    print(f"Review window: {since} to {until}\n")
+
+    pubs = [w for w in works if w.get("section") in
+            ("Journal Articles", "Book Chapters", "Policy Reports & Media")]
+    dated = [w for w in pubs if w.get("accepted")]
+    inwin = [w for w in dated if since <= w["accepted"] <= until]
+    print(f"Publications          {len(dated)}/{len(pubs)} have an acceptance date"
+          f"  -> {len(inwin)} accepted in window")
+    for w in pubs:
+        if not w.get("accepted"):
+            print(f"    no acceptance date: {w['title'][:62]}")
+
+    wps = [w for w in works if w.get("section") == "Working Papers"]
+    print(f"Working papers        {sum(1 for w in wps if draft_of(w))}/{len(wps)} "
+          f"have a draft date")
+
+    ref = cv["referee"]
+    asg = ref.get("assignments") or []
+    inwin = [a for a in asg if since <= a["date"] <= until]
+    print(f"Referee reports       {len(asg)} logged across "
+          f"{len({a['journal'] for a in asg})} journals"
+          f"  -> {len(inwin)} in window")
+    if not asg:
+        print(f"    nothing logged yet; the CV still lists all "
+              f"{len(ref['journals'])} journals")
+
+    tot = sum(t["count"] for t in cv["teaching"])
+    rec = sum(len(t.get("offerings") or []) for t in cv["teaching"])
+    print(f"Teaching              {rec}/{tot} offerings have a term recorded")
+    for t in cv["teaching"]:
+        off = [o for o in (t.get("offerings") or [])
+               if since <= term_date(o) <= until]
+        gap = t["count"] - len(t.get("offerings") or [])
+        note = f", {gap} undated" if gap else ""
+        print(f"    {len(off)} in window  {t['course'][:52]}{note}")
+
+    past = cv["advising"]["past"]
+    done = [s for s in past if s.get("completed")]
+    inwin = [s for s in done if since.year <= int(s["completed"]) <= until.year]
+    print(f"Graduate advising     {len(done)}/{len(past)} past students have a "
+          f"completion year  -> {len(inwin)} in window")
+
+    pres = [(p["year"], i) for p in cv["presentations"] for i in p["items"]]
+    kinds = sum(1 for _, i in pres if isinstance(i, dict) and i.get("kind"))
+    inwin = [y for y, _ in pres if since.year <= int(y) <= until.year]
+    print(f"Presentations         {kinds}/{len(pres)} say whether they were a "
+          f"conference or an invited seminar  -> {len(inwin)} in window (by year)")
+
+    print("\nYear-granularity sections (presentations, service, grants) can only "
+          "\nbe matched to a window by year, so a window that starts mid-year "
+          "\nover-counts. Acceptance dates, referee dates and teaching terms "
+          "\nare exact.")
 
 
 def text_of(path):
@@ -218,11 +337,22 @@ def main():
     ap.add_argument("--check", action="store_true",
                     help="rebuild to a temporary file and fail if the "
                          "committed PDF's text differs")
+    ap.add_argument("--coverage", action="store_true",
+                    help="report which records carry dates, and how many fall "
+                         "inside a review window")
+    ap.add_argument("--since", default="2023-09-16", help="window start (ISO)")
+    ap.add_argument("--until", default="2026-03-20", help="window end (ISO)")
     args = ap.parse_args()
 
     works = load(os.path.join(ROOT, "data", "works.yml"))
     people = load(os.path.join(ROOT, "data", "people.yml"))
     cv = load(os.path.join(ROOT, "data", "cv.yml"))
+
+    if args.coverage:
+        coverage(works, cv,
+                 datetime.date.fromisoformat(args.since),
+                 datetime.date.fromisoformat(args.until))
+        return
 
     errs = validate(works, people, cv)
     if errs:

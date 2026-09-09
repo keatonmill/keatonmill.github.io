@@ -84,35 +84,47 @@ presentations:
     items: [Midwest Economics Association, International Industrial Organization Society, Indiana University, University of Connecticut, University of Oregon, University of Miami, University of Rochester, NERA Corporation]
 
 referee:
-  - 'American Economic Journal: Policy'
-  - American Economic Review
-  - 'American Economic Review: Insights'
-  - American Journal of Health Economics
-  - Applied Economics
-  - Applied Economics Letters
-  - Canadian Public Policy
-  - Contemporary Economic Policy
-  - Criminology & Public Policy
-  - Drug and Alcohol Dependence
-  - Economic Inquiry
-  - Empirical Economics
-  - Information Economics and Policy
-  - International Journal of Drug Policy
-  - International Journal of Industrial Organization
-  - Journal of Cannabis Research
-  - Journal of Economic Behavior and Organization
-  - Journal of Health Economics
-  - Journal of Human Resources
-  - Journal of Law and Economics
-  - Journal of Policy Analysis and Management
-  - Journal of Public Economics
-  - Journal of Urban Economics
-  - National Tax Journal
-  - Oxford Economic Papers
-  - Public Finance Review
-  - Review of Regional Studies
-  - Scandinavian Journal of Economics
-  - Southern Economic Journal
+  # Journals refereed for at least once. The CV prints these.
+  journals:
+    - 'American Economic Journal: Policy'
+    - American Economic Review
+    - 'American Economic Review: Insights'
+    - American Journal of Health Economics
+    - Applied Economics
+    - Applied Economics Letters
+    - Canadian Public Policy
+    - Contemporary Economic Policy
+    - Criminology & Public Policy
+    - Drug and Alcohol Dependence
+    - Economic Inquiry
+    - Empirical Economics
+    - Information Economics and Policy
+    - International Journal of Drug Policy
+    - International Journal of Industrial Organization
+    - Journal of Cannabis Research
+    - Journal of Economic Behavior and Organization
+    - Journal of Health Economics
+    - Journal of Human Resources
+    - Journal of Law and Economics
+    - Journal of Policy Analysis and Management
+    - Journal of Public Economics
+    - Journal of Urban Economics
+    - National Tax Journal
+    - Oxford Economic Papers
+    - Public Finance Review
+    - Review of Regional Studies
+    - Scandinavian Journal of Economics
+    - Southern Economic Journal
+
+  # One line per report submitted, newest last. There is no historical
+  # record before September 2026, so this starts empty and grows: add an
+  # entry each time a report goes in. A journal named here that is not in
+  # `journals` above is added to the CV list automatically.
+  #
+  #   - journal: Journal of Public Economics
+  #     date: 2026-09-15
+  #     note: second round          # optional
+  assignments: []
 
 grant_review: [National Science Foundation, Russell Sage Foundation, Swiss National Science Foundation]
 
@@ -161,36 +173,106 @@ univ_service:
     items: [Summer Academy to Inspire Learning Guest Lecturer]
 
 teaching:
+  # `count` is the lifetime number of offerings and is what the CV prints.
+  # `offerings` is the dated record, used to count offerings inside a review
+  # period. It is incomplete before 2023 -- only terms with a written record
+  # are listed, so count > len(offerings) for now.
   - course: Economics 201 – Principles of Microeconomics
-    note: x19, undergraduate, typical enrollment 300–500
+    level: undergraduate
+    enrollment: '300–500'
+    count: 19
+    offerings: [Fall 2023, Winter 2025, Spring 2025, Winter 2026]
   - course: Economics 410/510 – The Economics of Power
-    note: x1, undergraduate and masters, typical enrollment 30
+    level: undergraduate and masters
+    enrollment: '30'
+    count: 1
+    offerings: [Spring 2025]
   - course: Economics 460/560 – Theories of Industrial Organization
-    note: x8, undergraduate and masters, typical enrollment 50
+    level: undergraduate and masters
+    enrollment: '50'
+    count: 8
+    offerings: []
   - course: Economics 607 – Structural Methods and Applications in Industrial Organization
-    note: x9, Ph.D., typical enrollment 10
+    level: Ph.D.
+    enrollment: '10'
+    count: 9
+    offerings: [Fall 2023, Fall 2025]
 
 advising:
   current:
-    - Connor Mulholland (pre-prospectus) – in progress
-    - David Hall (pre-prospectus) – in progress
+    - name: Connor Mulholland
+      stage: pre-prospectus
+      status: in progress
+    - name: David Hall
+      stage: pre-prospectus
+      status: in progress
+
+  # `completed` is the year the dissertation was defended. Unknown for the
+  # existing entries -- fill them in as they surface; nothing on the CV
+  # depends on it, but a review-period report does.
   past:
-    - Boyoon Chang (chair) – Postdoc, Dartmouth College
-    - Sichao Jiang (chair) – T-Mobile
-    - Colleen O’Briant (chair) – Visiting Assistant Professor, University of Arkansas
-    - Brietta Russell (chair) – Economist, Bureau of Business and Economic Research, University of Montana
-    - Micaela Wood (chair) – Assistant Professor, Oglethorpe University
-    - Tanner Bivins (member) – Assistant Professor, Frostburg State University
-    - Cory Briar (member) – Washington State Institute for Public Policy
-    - Curtis Dlouhy (member) – Oregon Public Utilities Commission
-    - Brett Garcia (member) – Positive Competition
-    - Edder Martinez-Lazo (member) – Visiting Assistant Professor, University of Arkansas
-    - Taylor McKenzie (member) – Sandia National Laboratory
-    - John Morehouse (member) – Freddie Mac
-    - Brock Wilson (member) – Research Assistant Professor, University of Alaska-Anchorage
-    - Nick Wood (member) – Army Corps of Engineers
+    - name: Boyoon Chang
+      role: chair
+      placement: Postdoc, Dartmouth College
+      completed:
+    - name: Sichao Jiang
+      role: chair
+      placement: T-Mobile
+      completed:
+    - name: Colleen O’Briant
+      role: chair
+      placement: Visiting Assistant Professor, University of Arkansas
+      completed:
+    - name: Brietta Russell
+      role: chair
+      placement: Economist, Bureau of Business and Economic Research, University of Montana
+      completed:
+    - name: Micaela Wood
+      role: chair
+      placement: Assistant Professor, Oglethorpe University
+      completed:
+    - name: Tanner Bivins
+      role: member
+      placement: Assistant Professor, Frostburg State University
+      completed:
+    - name: Cory Briar
+      role: member
+      placement: Washington State Institute for Public Policy
+      completed:
+    - name: Curtis Dlouhy
+      role: member
+      placement: Oregon Public Utilities Commission
+      completed:
+    - name: Brett Garcia
+      role: member
+      placement: Positive Competition
+      completed:
+    - name: Edder Martinez-Lazo
+      role: member
+      placement: Visiting Assistant Professor, University of Arkansas
+      completed:
+    - name: Taylor McKenzie
+      role: member
+      placement: Sandia National Laboratory
+      completed:
+    - name: John Morehouse
+      role: member
+      placement: Freddie Mac
+      completed:
+    - name: Brock Wilson
+      role: member
+      placement: Research Assistant Professor, University of Alaska-Anchorage
+      completed:
+    - name: Nick Wood
+      role: member
+      placement: Army Corps of Engineers
+      completed:
+
   undergraduate:
-    - Lucy Hudson – Clark Honors College Thesis (primary adviser)
+    - name: Lucy Hudson
+      what: Clark Honors College Thesis
+      role: primary adviser
+      completed:
 
 honors:
   - year: '2014'

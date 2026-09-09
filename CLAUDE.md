@@ -96,6 +96,32 @@ python3 scripts/build_cv.py
   `miller-cv-web-<date>.{docx,pdf}`. The Word pipeline is retired;
   `scripts/cv-prototype/` still holds it if a `.docx` is ever needed.
 
+## Date tracking, for review-period reports
+
+Merit and 3PTR reviews need "what did you do between date A and date B",
+usually as the CV with the period's items highlighted. The data carries dates
+the CV never prints so that report can be generated.
+
+- **`accepted:` in `works.yml` is the operative date for a publication**, not
+  `year`. The department's merit form is explicit: the date on the editor's
+  acceptance letter marks the timing. Three works were accepted in a different
+  year than they were published.
+- Windows are arbitrary dates, not years — the 2026 merit window was
+  Sept 16 2023 – Mar 20 2026, and the 3PTR used a different one. Never bake a
+  window in.
+- `referee.assignments` in `cv.yml` is one line per report submitted. Empty
+  before September 2026; there is no historical record. `referee.journals`
+  remains the list the CV prints.
+- `teaching[].offerings` are the terms actually taught; `count` is the
+  lifetime total the CV prints. `offerings` is incomplete before 2023.
+- `advising.past[].completed` is the defence year. Unknown for all 14.
+- `python3 scripts/build_cv.py --coverage [--since --until]` reports what is
+  dated and what falls in a window.
+- Sources: `~/Dropbox/portfolio/acceptance letters/` (dated filenames),
+  `~/Dropbox/department/faculty-activity-reports/`, and
+  `~/Dropbox/portfolio/miller-cv-annotated-2026-02-13.docx` (the highlighted
+  3PTR CV — highlight runs are recoverable from the docx XML).
+
 ## Environment notes
 
 - The Bash tool's shell sometimes has a stripped PATH; start commands with
