@@ -188,6 +188,11 @@ referee:
   # still the work. Their date is the day the revision arrived, which is the
   # only date there is: every other entry is dated by its report.
   #
+  # Any entry whose date did not come from a report file says so in its note.
+  # Besides the sign-offs there is one: Applied Economics Letters
+  # RAEL-2023-0283, a short review Keaton recalls giving but did not keep,
+  # dated a week after the manuscript arrived on 2023-06-20.
+  #
   #   - journal: Journal of Public Economics
   #     date: 2026-09-15
   #     note: second round          # optional
@@ -286,6 +291,9 @@ referee:
       date: 2022-11-11
     - journal: 'American Economic Journal: Policy'
       date: 2023-01-10
+    - journal: Applied Economics Letters
+      date: 2023-06-27
+      note: date estimated; short review, no report on file
     - journal: Public Finance Review
       date: 2023-08-01
     - journal: Journal of Human Resources
