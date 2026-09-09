@@ -203,7 +203,8 @@ const doc = new Document({
                    tabStops: [{type: TabStopType.LEFT, position: COL}]}},
       {id: "CVTight", name: "CV Tight List", basedOn: "Normal", next: "CVTight", quickFormat: true,
        run: {font: FONT, size: SZ},
-       paragraph: {spacing: {after: 0}, indent: {left: 360}, keepLines: true}},
+       // hanging indent so a wrapped entry cannot be mistaken for a new one
+       paragraph: {spacing: {after: 0}, indent: {left: 720, hanging: 360}, keepLines: true}},
     ],
   },
   sections: [{
