@@ -180,16 +180,17 @@ referee:
   # `note` records which round a report is: an entry with no note is a first
   # report on that manuscript.
   #
-  # One report is not listed because it cannot be dated: Economic Inquiry
-  # ECIN-Sep-2015-13407, "Entry Deterrence and Strategic Alliances" (Gayle
-  # and Xie). The report survives only as a Google Docs PDF export with no
-  # embedded dates (2016/previous/), filed 2016-01-19; the manuscript id
-  # says it was assigned in or after September 2015.
+  # A manuscript whose id ends in R1/R2/R3 is a revision, and Keaton writes a
+  # report on one only when he is not yet satisfied. So a revision sitting in
+  # `~/Dropbox/editorial` with no report next to it is a sign-off, not a
+  # missing entry -- do not go looking for the report.
   #
   #   - journal: Journal of Public Economics
   #     date: 2026-09-15
   #     note: second round          # optional
   assignments:
+    - journal: Economic Inquiry
+      date: 2016-01-19
     - journal: Economic Inquiry
       date: 2016-01-27
     - journal: Drug and Alcohol Dependence

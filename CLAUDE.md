@@ -114,7 +114,10 @@ the CV never prints so that report can be generated.
   year; each report's own first line names its journal and manuscript id —
   the filename prefixes are editorial-system codes and are not always the
   journal you would guess). The date is the report file's mtime, the day the
-  report was finished. `referee.journals` remains the list the CV prints, and
+  report was finished. A manuscript id ending in R1/R2/R3 is a revision, and
+  Keaton writes a report on one only when he is not yet satisfied — a
+  revision on disk with no report beside it is a sign-off, not a gap.
+  `referee.journals` remains the list the CV prints, and
   a journal that appears only in `assignments` is added to it automatically.
   `assignments` is journal peer review only. `~/Dropbox/editorial` also holds
   grant reviews (NSF, Russell Sage, Swiss NSF — see `grant_review`, which
