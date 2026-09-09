@@ -1,0 +1,49 @@
+- outlet: Ashland Daily Tidings
+  month: November
+  year: 2024
+  title: Research shows economic effects of climate change include significant cost to Oregon households
+  url: https://www.dailytidings.com/research-shows-economic-effects-of-climate-change-include-significant-cost-to-oregon-households/
+  work: climate-costs-first-look
+- outlet: KTVL
+  month: November
+  year: 2024
+  title: Oregon group calculates economic impacts of climate change
+  url: https://ktvl.com/news/local/oregon-group-calculates-economic-impacts-of-climate-change
+  work: climate-costs-first-look
+- outlet: University of Oregon News
+  month: October
+  year: 2024
+  title: New economic forum begins to tally costs of climate change for Oregonians
+  url: https://news.uoregon.edu/climate-change-cost-report
+  work: climate-costs-first-look
+- outlet: University of Oregon News
+  month: January
+  year: 2022
+  title: Supply chain woes have precedent, UO economist says
+  url: https://news.uoregon.edu/content/supply-chain-woes-have-precedent-uo-economist-says
+- outlet: NPR Planet Money
+  month: March
+  year: 2021
+  title: The data on legalizing weed
+  url: https://www.npr.org/sections/money/2021/03/16/976265525/the-data-on-legalizing-weed
+  note: citing our work on legalization and traffic fatalities
+  work: cannabis-traffic-fatalities
+- outlet: Wall Street Journal
+  month: October
+  year: 2018
+  title: Companies betting on pot may be worse off when the smoke clears
+  url: https://www.wsj.com/articles/companies-betting-on-pot-may-be-worse-off-when-the-smoke-clears-1539338460
+  note: on cannabis tax revenues and substance demand
+  work: cannabis-alcohol-tobacco
+- outlet: University of Oregon News
+  month: September
+  year: 2017
+  title: Oregon's legalization quickly cut Washington border pot sales
+  url: https://around.uoregon.edu/content/oregons-legalization-quickly-cut-washington-border-pot-sales
+  work: cannabis-cross-border
+- outlet: ScienceDaily
+  month: September
+  year: 2017
+  title: Oregon's marijuana legalization prompted big drop in sales in Washington's border counties
+  url: https://www.sciencedaily.com/releases/2017/09/170905134452.htm
+  work: cannabis-cross-border
