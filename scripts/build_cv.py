@@ -82,6 +82,9 @@ def validate(works, people, cv):
     for i, a in enumerate((cv.get("referee") or {}).get("assignments") or []):
         if not a.get("journal") or not a.get("date"):
             errs.append(f"cv.yml: referee.assignments[{i}] needs a journal and a date")
+        if a.get("kind") not in (None, "sign-off"):
+            errs.append(f"cv.yml: referee.assignments[{i}] has kind {a['kind']!r}; "
+                        f"expected 'sign-off', or nothing for a written report")
     for i, p in enumerate(cv.get("presentations") or []):
         for item in p.get("items") or []:
             if isinstance(item, dict) and item.get("kind") not in KINDS:
@@ -329,11 +332,22 @@ def coverage(works, cv, since, until):
 
     ref = cv["referee"]
     asg = ref.get("assignments") or []
-    inwin = [a for a in asg if since <= a["date"] <= until]
-    print(f"Referee reports       {len(asg)} logged across "
-          f"{len({a['journal'] for a in asg})} journals"
+    # A sign-off is a revision Keaton read and was satisfied by, so no report
+    # was written. It is service either way, but a merit form that asks for
+    # reports is asking for the other number -- so never merge the two.
+    reports = [a for a in asg if a.get("kind") != "sign-off"]
+    signoffs = [a for a in asg if a.get("kind") == "sign-off"]
+    inwin = [a for a in reports if since <= a["date"] <= until]
+    print(f"Referee reports       {len(reports)} written"
           f"  -> {len(inwin)} in window")
-    if not asg:
+    if signoffs:
+        sw = [a for a in signoffs if since <= a["date"] <= until]
+        print(f"    plus {len(signoffs)} revision sign-offs, read but not "
+              f"written up  -> {len(sw)} in window")
+    if asg:
+        print(f"    {len(asg)} assignments in all, across "
+              f"{len({a['journal'] for a in asg})} journals")
+    else:
         print(f"    nothing logged yet; the CV still lists all "
               f"{len(ref['journals'])} journals")
 

@@ -117,8 +117,10 @@ the CV never prints so that report can be generated.
   report was finished. A manuscript id ending in R1/R2/R3 is a revision, and
   Keaton writes a report on one only when he is not yet satisfied — a
   revision on disk with no report beside it is a sign-off, not a gap. The 7
-  sign-offs are logged too, noted `sign-off, no report` and dated by the day
-  the revision arrived, since there is no report to date them by.
+  sign-offs are logged too, marked `kind: sign-off` and dated by the day the
+  revision arrived, since there is no report to date them by. `--coverage`
+  counts them on their own line: a merit form asking for reports wants the
+  other number, so never merge the two.
   `referee.journals` remains the list the CV prints, and
   a journal that appears only in `assignments` is added to it automatically.
   `assignments` is journal peer review only. `~/Dropbox/editorial` also holds

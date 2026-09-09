@@ -184,9 +184,13 @@ referee:
   # report on one only when he is not yet satisfied. A revision sitting in
   # `~/Dropbox/editorial` with no report next to it is therefore a sign-off,
   # not a missing entry -- do not go looking for the report. Sign-offs are
-  # logged too, as `sign-off, no report`, because reading the revision is
-  # still the work. Their date is the day the revision arrived, which is the
-  # only date there is: every other entry is dated by its report.
+  # logged too, marked `kind: sign-off`, because reading the revision is
+  # still the work; the coverage report counts them on their own line. Their
+  # date is the day the revision arrived, which is the only date there is:
+  # every other entry is dated by its report.
+  #
+  # `kind` is the only key anything parses, so it is a field and not prose in
+  # `note`. Omit it for a written report; `sign-off` is the one other value.
   #
   # Any entry whose date did not come from a report file says so in its note.
   # Besides the sign-offs there is one: Applied Economics Letters
@@ -196,6 +200,7 @@ referee:
   #   - journal: Journal of Public Economics
   #     date: 2026-09-15
   #     note: second round          # optional
+  #     kind: sign-off              # optional; omit for a written report
   assignments:
     - journal: Economic Inquiry
       date: 2016-01-19
@@ -211,7 +216,8 @@ referee:
       date: 2019-01-23
     - journal: Economic Inquiry
       date: 2019-03-04
-      note: second round; sign-off, no report
+      note: second round
+      kind: sign-off
     - journal: Journal of Law and Economics
       date: 2019-03-15
     - journal: Scandinavian Journal of Economics
@@ -263,7 +269,7 @@ referee:
       date: 2021-11-24
     - journal: Empirical Economics
       date: 2021-12-28
-      note: report on a revision; no first-round report on file
+      note: second round; no first-round report on file
     - journal: Oxford Economic Papers
       date: 2022-01-13
     - journal: Journal of Cannabis Research
@@ -275,13 +281,15 @@ referee:
       date: 2022-04-21
     - journal: Journal of Cannabis Research
       date: 2022-04-26
-      note: fourth round; sign-off, no report
+      note: fourth round
+      kind: sign-off
     - journal: Journal of Public Economics
       date: 2022-06-24
       note: second round
     - journal: Empirical Economics
       date: 2022-07-14
-      note: sign-off, no report
+      note: third round
+      kind: sign-off
     - journal: Contemporary Economic Policy
       date: 2022-09-12
       note: second round
@@ -323,7 +331,8 @@ referee:
       note: second round
     - journal: Southern Economic Journal
       date: 2025-05-19
-      note: second round; sign-off, no report
+      note: second round
+      kind: sign-off
     - journal: Information Economics and Policy
       date: 2025-07-02
     - journal: Southern Economic Journal
@@ -336,7 +345,8 @@ referee:
       date: 2026-02-24
     - journal: Information Economics and Policy
       date: 2026-02-26
-      note: second round; sign-off, no report
+      note: second round
+      kind: sign-off
     - journal: Journal of Industrial Economics
       date: 2026-04-06
     - journal: State and Local Government Review
@@ -352,12 +362,14 @@ referee:
       date: 2026-06-08
     - journal: State and Local Government Review
       date: 2026-06-16
-      note: second round; sign-off, no report
+      note: second round
+      kind: sign-off
     - journal: Review of Economics and Statistics
       date: 2026-07-02
     - journal: Journal of Health Economics
       date: 2026-08-25
-      note: third round; sign-off, no report
+      note: third round
+      kind: sign-off
     - journal: Journal of Policy Analysis and Management
       date: 2026-08-30
 
