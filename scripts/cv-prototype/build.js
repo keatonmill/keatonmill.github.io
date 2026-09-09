@@ -98,13 +98,17 @@ body.push(new Paragraph({
 }));
 
 // contact (phone removed)
+// CVTight carries hanging: 360 for wrapped list entries. In here the left
+// indent is 0, so an inherited hanging indent puts the first line at -360 --
+// outside the cell, where Word clips it. Both have to be cleared.
+const FLUSH = {left: 0, hanging: 0};
 const addr = ["Department of Economics", "1285 University of Oregon", "Eugene, OR 97403-1285"]
-  .map(t => new Paragraph({style: "CVTight", indent: {left: 0}, children: [new TextRun(t)]}));
+  .map(t => new Paragraph({style: "CVTight", indent: FLUSH, children: [new TextRun(t)]}));
 const reach = [
-  new Paragraph({style: "CVTight", indent: {left: 0}, alignment: AlignmentType.RIGHT, children: [
+  new Paragraph({style: "CVTight", indent: FLUSH, alignment: AlignmentType.RIGHT, children: [
     new TextRun("Email: "),
     new ExternalHyperlink({link: "mailto:keatonm@uoregon.edu", children: [new TextRun({text: "keatonm@uoregon.edu", style: "Hyperlink"})]})]}),
-  new Paragraph({style: "CVTight", indent: {left: 0}, alignment: AlignmentType.RIGHT, children: [
+  new Paragraph({style: "CVTight", indent: FLUSH, alignment: AlignmentType.RIGHT, children: [
     new TextRun("Website: "),
     new ExternalHyperlink({link: "https://keatonmiller.org", children: [new TextRun({text: "keatonmiller.org", style: "Hyperlink"})]})]}),
 ];
