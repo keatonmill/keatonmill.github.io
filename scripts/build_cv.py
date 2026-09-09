@@ -82,8 +82,13 @@ def validate(works, people, cv):
     for i, a in enumerate((cv.get("referee") or {}).get("assignments") or []):
         if not a.get("journal") or not a.get("date"):
             errs.append(f"cv.yml: referee.assignments[{i}] needs a journal and a date")
+    for i, p in enumerate(cv.get("presentations") or []):
+        for item in p.get("items") or []:
+            if isinstance(item, dict) and item.get("kind") not in KINDS:
+                errs.append(f"cv.yml: presentation {item.get('name')!r} has kind "
+                            f"{item.get('kind')!r}; expected one of {sorted(KINDS)}")
     for i, t in enumerate(cv.get("teaching") or []):
-        for key in ("course", "level", "enrollment", "count"):
+        for key in ("course", "level", "count"):
             if t.get(key) in (None, ""):
                 errs.append(f"cv.yml: teaching[{i}] is missing {key!r}")
         if t.get("count") is not None and len(t.get("offerings") or []) > t["count"]:
@@ -199,6 +204,15 @@ def entry(w, people, kind):
     return e
 
 
+KINDS = {"conference", "invited", "public"}
+
+
+def venue(item):
+    if isinstance(item, str):
+        return item
+    return f"{item['name']} ({item['note']})" if item.get("note") else item["name"]
+
+
 def cv_sections(cv):
     """Flatten cv.yml's dated records into the flat strings the CV prints.
 
@@ -210,10 +224,13 @@ def cv_sections(cv):
     journals = sorted(set(ref["journals"])
                       | {a["journal"] for a in (ref.get("assignments") or [])})
 
-    teaching = [{"course": t["course"],
-                 "note": f"x{t['count']}, {t['level']}, "
-                         f"typical enrollment {t['enrollment']}"}
-                for t in cv["teaching"]]
+    def note(t):
+        bits = [f"x{t['count']}", t["level"]]
+        if t.get("enrollment"):                 # not recorded for every course
+            bits.append(f"typical enrollment {t['enrollment']}")
+        return ", ".join(bits)
+
+    teaching = [{"course": t["course"], "note": note(t)} for t in cv["teaching"]]
 
     adv = cv["advising"]
     past = [f"{s['name']} ({s['role']}) – {s['placement']}" for s in adv["past"]]
@@ -224,9 +241,9 @@ def cv_sections(cv):
         "referee": journals,
         "teaching": teaching,
         "advising": {"current": current, "past": past, "undergraduate": under},
+        # the CV prints the venue and any annotation; `kind` is for reports
         "presentations": [{"year": p["year"],
-                           "items": [i if isinstance(i, str) else i["name"]
-                                     for i in p["items"]]}
+                           "items": [venue(i) for i in p["items"]]}
                           for p in cv["presentations"]],
     }
 
