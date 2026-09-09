@@ -9,9 +9,9 @@ project:
 website:
   title: "Keaton Miller"
   description: "Associate Professor of Economics and Director of Graduate Studies, University of Oregon"
-  # Switch to https://keatonmiller.org at the DNS cutover. Drives the sitemap,
-  # canonical URLs, and absolute image URLs in link previews.
-  site-url: https://keatonmill.github.io
+  # Drives the sitemap, canonical URLs, and absolute image URLs in link
+  # previews.
+  site-url: https://keatonmiller.org
   favicon: assets/img/favicon.ico
   image: assets/img/headshot.jpg
   open-graph: true

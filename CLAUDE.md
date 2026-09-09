@@ -11,18 +11,20 @@ source of truth. This file covers what the README doesn't.
 ## Status (as of 2026-09-08)
 
 - Migration from Squarespace is complete and live at
-  https://keatonmill.github.io (repo `keatonmill/keatonmill.github.io`,
+  https://keatonmiller.org (repo `keatonmill/keatonmill.github.io`,
   Pages source: GitHub Actions).
-- **Not yet done: DNS cutover** of keatonmiller.org. Squarespace is still
-  live and must stay untouched until Keaton says go. Registrar still to be
-  confirmed. Steps are in the README under "Custom domain".
+- DNS cutover is done. The domain is registered at Tucows via Squarespace
+  and still uses Squarespace's nameservers; only the records changed. The
+  README's "Custom domain" section records the setup and the rollback.
+- Still open: cancel the Squarespace **website** plan after a few days of
+  clean operation — never the domain registration.
 - `_scrape/migration-notes.md` records what changed vs. the old site and
   what Keaton has resolved.
 
 ## Ground rules
 
-- Do not touch DNS or Squarespace settings; never delete anything from
-  Squarespace.
+- Do not touch DNS or Squarespace settings without Keaton doing the
+  clicking; never delete anything from Squarespace.
 - Never add to, rename, or delete files in `s/` (frozen legacy URLs).
 - Do not invent paper metadata (dates, outlets, coauthors, DOIs). Sources are
   the scrape, Google Scholar (Keaton has approved it as a source), publisher

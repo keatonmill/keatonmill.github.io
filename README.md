@@ -1,9 +1,9 @@
 # keatonmiller.org — Quarto website
 
 Academic website for Keaton Miller, built with [Quarto](https://quarto.org) and
-published to GitHub Pages at https://keatonmill.github.io (custom domain
-keatonmiller.org pending). The layout and theme are adapted from David Evans's
-site (`dgevans/dgevans.github.io`).
+published to GitHub Pages at https://keatonmiller.org (the repo is
+`keatonmill/keatonmill.github.io`). The layout and theme are adapted from
+David Evans's site (`dgevans/dgevans.github.io`).
 
 ## Editing
 
@@ -79,20 +79,29 @@ Actions deploy; if the live site ever shows this README, re-run the
 
 ### Custom domain (keatonmiller.org)
 
-1. After the site is live, set **Settings → Pages → Custom domain** to
-   `keatonmiller.org`. (No CNAME file is needed with Actions-based deploys.)
-2. Recommended: verify the domain account-wide (GitHub account
-   **Settings → Pages → Add a verified domain**; add the provided
-   `_github-pages-challenge-...` TXT record at the registrar).
-3. At the registrar, replace the old Squarespace records with:
-   - **A** record on the apex (blank record name) →
-     `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
-     `185.199.111.153` (one per line)
-   - **CNAME** record `www` → `keatonmill.github.io`
-4. Once the DNS check passes in **Settings → Pages**, enable
-   **Enforce HTTPS**. GitHub then redirects www → apex automatically.
-5. After a day of verified operation, cancel the Squarespace **website**
-   plan — never the domain registration.
+Done on 8 September 2026. The current setup, for reference:
+
+- **Registrar:** Tucows, managed through the Squarespace dashboard. Renews
+  2027-01-22 — leave auto-renew on. Cancelling the Squarespace *website*
+  plan must never touch the *domain registration*.
+- **Nameservers:** unchanged, still Squarespace's
+  (`ns01–04.squarespacedns.com` plus `dns1–4.p06.nsone.net`), so DNS
+  records are edited in the Squarespace DNS panel.
+- **Records:** apex A → `185.199.108.153`, `185.199.109.153`,
+  `185.199.110.153`, `185.199.111.153`; `www` CNAME →
+  `keatonmill.github.io`; plus the `_github-pages-challenge-keatonmill` TXT
+  record that verifies the domain against the GitHub account (keep it — it
+  stops anyone else claiming the domain on their own Pages site). There are
+  no MX records; the domain carries no email.
+- **Repo side:** **Settings → Pages → Custom domain** is
+  `keatonmiller.org` with **Enforce HTTPS** on. No `CNAME` file is needed
+  with Actions-based deploys — the setting lives in the Pages config. If a
+  deploy ever clears it, add a `CNAME` file containing the domain to
+  `project.resources` in `_quarto.yml`.
+
+To roll back to Squarespace: restore the apex A records
+`198.185.159.144/145` and `198.49.23.144/145`, point `www` at
+`ext-sq.squarespace.com`, and reconnect the domain to the Squarespace site.
 
 `_scrape/` holds the raw scrape of the old Squarespace site and the Google
 Scholar profile for reference; it starts with an underscore, so Quarto
