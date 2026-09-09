@@ -318,6 +318,7 @@
   section: Book Chapters
   status: published
   outlet: Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust
+  editors: Noel, M.
   pages: 338–344
   year: 2024
   links:
@@ -337,6 +338,7 @@
   - miller
   - caroline-weber
   outlet: Handbook of Labor, Human Resources and Population Economics
+  editors: Zimmermann, K. and Marcotte, D.
   year: 2021
   links:
   - label: Published version
@@ -474,6 +476,7 @@
     Many retail industries feature price promotion holidays: periods close to calendar anchors when most firms simultaneously offer discounts, such as back-to-school sales in August or Black Friday sales after Thanksgiving. Models of sales by individual firms rely on supply side mechanisms, such as cost or inventory shocks, to explain discounting behavior. We analyze a price promotion holiday in the recreational marijuana industry and document facts that conflict with these traditional models. Despite an arguably exogenous increase in demand due to the proximity to a cultural event and constant marginal costs and inventories, firms choose to lower prices substantially. To explain these observations, we present a stylized model of price competition in which firms compete for customers with heterogeneous price sensitivities. An exogenous demand shock increases demand from both consumers types, and crucially increases the ratio of price-sensitive to price-insensitive consumers leading to a different optimal pricing strategy for the firm.
 - id: premerger-notification-matter-evidence
   title: Does Premerger Notification Matter? Evidence from Cable Television
+  draft: July 2016
   section: Working Papers
   status: working
   authors:
@@ -493,6 +496,7 @@
   - joshua-skov
   - john-talberth
   outlet: Forum on Oregon Climate Economics
+  number: '1'
   month: October
   year: 2024
   links:
@@ -501,3 +505,14 @@
   abstract_heading: Summary
   abstract: |-
     By increasing the frequency and intensity of heatwaves, wildfires, droughts, flooding and other impacts, climate change imposes costs on Oregon's economy every year, on every Oregonian. We present a review of public data and research results to provide an initial, partial assessment of these costs both today and into the future.
+- id: cannabis-traffic-fatalities-cato
+  title: Early Evidence on Recreational Marijuana Legalization and Traffic Fatalities
+  section: Policy Reports & Media
+  status: published
+  authors:
+  - benjamin-hansen
+  - miller
+  - caroline-weber
+  outlet: Cato Institute Research Brief in Economic Policy
+  number: '125'
+  year: 2018

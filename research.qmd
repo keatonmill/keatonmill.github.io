@@ -396,7 +396,7 @@ U.S. antitrust policy requires firms to disclose sizable acquisition plans to th
 ### The Economic Costs of Climate Change for Oregonians: A First Look
 
 [Keaton Miller, [Noelwah R. Netusil](https://www.reed.edu/faculty-profiles/profiles/netusil-noelwah-r.html), [Ernie Niemi](https://www.nreconomics.com/), [Joshua Skov](https://business.uoregon.edu/directory/faculty-staff/all/jskov), and [John Talberth](https://www.sustainable-economy.org/john-talberth)]{.authors}\
-[Forum on Oregon Climate Economics, October 2024]{.outlet}
+[Forum on Oregon Climate Economics No. 1, October 2024]{.outlet}
 
 [[Report](https://www.oregonforce.org/s/economic-cost-of-climate-change-oregonians.pdf)]{.paper-links}
 
@@ -404,6 +404,14 @@ U.S. antitrust policy requires firms to disclose sizable acquisition plans to th
 ## Summary
 By increasing the frequency and intensity of heatwaves, wildfires, droughts, flooding and other impacts, climate change imposes costs on Oregon's economy every year, on every Oregonian. We present a review of public data and research results to provide an initial, partial assessment of these costs both today and into the future.
 :::
+::::
+
+:::: {.paper}
+### Early Evidence on Recreational Marijuana Legalization and Traffic Fatalities
+
+[[Benjamin Hansen](https://www.benjaminhansen.org/), Keaton Miller, and [Caroline Weber](https://www.caroline-weber.com/)]{.authors}\
+[Cato Institute Research Brief in Economic Policy No. 125, 2018]{.outlet}
+
 ::::
 
 :::: {.paper}

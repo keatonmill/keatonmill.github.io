@@ -119,6 +119,9 @@ def outlet_line(w):
     if w["section"] == "Book Chapters":
         pp = f", pp. {w['pages']}" if w.get("pages") else ""
         return f"[In *{w['outlet']}*{pp}, {w['year']}]{{.outlet}}"
+    if w.get("number"):                                   # numbered report series
+        when = f"{w['month']} {w['year']}" if w.get("month") else str(w["year"])
+        return f"[{w['outlet']} No. {w['number']}, {when}]{{.outlet}}"
     if w.get("month"):                                    # non-italic report
         return f"[{w['outlet']}, {w['month']} {w['year']}]{{.outlet}}"
     if w.get("volume") and w.get("issue"):
