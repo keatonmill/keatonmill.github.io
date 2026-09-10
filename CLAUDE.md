@@ -175,4 +175,8 @@ the CV never prints so that report can be generated.
   Chicago Press both return 403 to automated requests): the *Journal of
   Public Economics* vertical-integration paper and the *National Tax
   Journal* cannabis-legalization paper.
-- Theme: still David's UO green/yellow; Keaton hasn't asked for changes.
+- Theme: slate, matching the CV. `theme.scss` sets `$slate: #33556e`, which
+  is `ACCENTS.slate` in `scripts/cv/cv.typ` verbatim — change it in both or
+  the site and the CV drift apart. `$brass: #c08a3e` is the warm second
+  colour that replaced the UO yellow keyline; it has no CV counterpart.
+  Body ink and dim grey also track the CV's `INK` and `DIM`.

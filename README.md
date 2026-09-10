@@ -16,7 +16,7 @@ Everything is plain markdown:
 | `teaching.qmd` | Courses, with collapsible descriptions |
 | `404.qmd` | Not-found page (points stale paper links to Research) |
 | `_quarto.yml` | Site title, navigation bar, footer |
-| `theme.scss` | Colors and fonts (University of Oregon palette) |
+| `theme.scss` | Colors and fonts (slate palette, shared with the CV) |
 
 The research page is the one exception to "plain markdown": `research.qmd` is
 **generated** from `data/*.yml` by `scripts/build.py`, which Quarto runs before

@@ -1,35 +1,40 @@
 /*-- scss:defaults --*/
 
-// University of Oregon palette, used sparingly
-$uo-green: #154733;
-$uo-green-light: #1d6442;
-$uo-yellow: #fee123;
+// Slate palette, shared with the CV. $slate is the CV's accent verbatim
+// (ACCENTS.slate in scripts/cv/cv.typ); change it in both places or the
+// two stop matching. $slate-light is a lighter step for body links, and
+// $brass is the warm complement (~25°) that carries the keylines the UO
+// yellow used to.
+$slate: #33556e;
+$slate-light: #40688a;
+$brass: #c08a3e;
 
-$primary: $uo-green;
-$link-color: $uo-green-light;
-$body-color: #2b2b2b;
+$primary: $slate;
+$link-color: $slate-light;
+// Ink and dim are the CV's INK and DIM.
+$body-color: #222222;
 
 $navbar-bg: #ffffff;
-$navbar-fg: $uo-green;
-$navbar-hl: $uo-green;
+$navbar-fg: $slate;
+$navbar-hl: $slate;
 
 $footer-bg: #ffffff;
-$footer-fg: #6c6c6c;
+$footer-fg: #6a6a6a;
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap');
 
 $font-family-sans-serif: "Source Sans 3", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 $headings-font-family: "Merriweather", Georgia, serif;
-$headings-color: $uo-green;
+$headings-color: $slate;
 $font-size-root: 17px;
 
 /*-- scss:rules --*/
 
-// Thin green rule under the navbar with a slim yellow keyline — the one
-// overt nod to UO branding
+// Thin slate rule under the navbar with a slim brass keyline — the site's
+// one warm accent, and the counterpart to the CV's rule under the name
 .navbar {
-  border-bottom: 3px solid $uo-green;
-  box-shadow: 0 3px 0 rgba($uo-yellow, 0.55);
+  border-bottom: 3px solid $slate;
+  box-shadow: 0 3px 0 rgba($brass, 0.55);
 
   .navbar-title {
     font-family: $headings-font-family;
@@ -42,7 +47,7 @@ $font-size-root: 17px;
   }
 
   .nav-link.active {
-    box-shadow: inset 0 -3px 0 $uo-yellow;
+    box-shadow: inset 0 -3px 0 $brass;
   }
 }
 
@@ -50,8 +55,10 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+// The CV rules each section heading in the accent; this is the same move,
+// softened for a page that has more of them.
 h2 {
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid rgba($slate, 0.28);
   padding-bottom: 0.3rem;
   margin-top: 2.2rem;
 }
@@ -61,14 +68,14 @@ a {
   text-underline-offset: 3px;
 
   &:hover {
-    color: $uo-green;
-    text-decoration-color: $uo-yellow;
+    color: $slate;
+    text-decoration-color: $brass;
     text-decoration-thickness: 2px;
   }
 }
 
 .nav-footer {
-  border-top: 2px solid $uo-green;
+  border-top: 2px solid $slate;
   font-size: 0.85rem;
 }
 
@@ -82,7 +89,7 @@ a {
   }
 
   .authors {
-    color: #5a5a5a;
+    color: #6a6a6a;
     font-style: italic;
     margin-bottom: 0.15rem;
 
@@ -94,7 +101,7 @@ a {
 
   .outlet {
     font-weight: 600;
-    color: $uo-green;
+    color: $slate;
   }
 
   .paper-links {
@@ -104,7 +111,7 @@ a {
   }
 
   .terms {
-    color: #5a5a5a;
+    color: #6a6a6a;
     font-size: 0.95rem;
   }
 
@@ -113,9 +120,13 @@ a {
   }
 }
 
-// Collapsible abstracts: quieter than default callouts
-.callout.callout-style-simple {
-  border-left: 3px solid rgba($uo-green, 0.35);
+// Collapsible abstracts: quieter than default callouts. The abstracts are
+// note callouts, and Quarto colours those with `div.callout-note.callout`,
+// which outranks a bare `.callout.callout-style-simple` — hence the
+// doubled-up selector, without which the bars stay Quarto's default blue.
+.callout.callout-style-simple,
+div.callout-note.callout {
+  border-left: 3px solid rgba($slate, 0.35);
 }
 
 // About page tweaks
