@@ -401,7 +401,8 @@ dept_service:
 
 univ_service:
   - years: 2025–2026
-    items: ['Treasurer, United Academics']
+    items: ['Treasurer, United Academics',
+            'Sustainable Health Care Cost Growth Target Workgroup for 2026–2030, Oregon Health Authority']
   - years: 2024–2025
     items: [Forum for Oregon Climate Economics, 'Mentor, Association for Mentoring and Inclusion in Economics', 'Treasurer and Bargaining Team, United Academics']
   - years: 2023–2024
