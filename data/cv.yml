@@ -372,6 +372,9 @@ referee:
       kind: sign-off
     - journal: Journal of Policy Analysis and Management
       date: 2026-08-30
+    - journal: Journal of Health Economics
+      date: 2026-09-18
+      note: final round, no report written
 
 grant_review: [National Science Foundation, Russell Sage Foundation, Swiss National Science Foundation]
 
