@@ -54,8 +54,26 @@ SECTION_OF = {
 
 
 def load(path):
+    """Parse a data file, reporting a syntax error the way validate() does.
+
+    A bad line otherwise surfaces as a PyYAML traceback, which buries the one
+    fact that matters: which line. Note that PyYAML ends a plain scalar at `?`
+    inside a flow mapping, so `{name: What is Research?, ...}` needs quoting
+    even though the same text is fine unquoted in block style.
+    """
+    rel = os.path.relpath(path, ROOT)
     with open(path) as f:
-        return yaml.safe_load(f)
+        try:
+            return yaml.safe_load(f)
+        except yaml.YAMLError as e:
+            mark = getattr(e, "problem_mark", None)
+            where = f" line {mark.line + 1}, column {mark.column + 1}" if mark else ""
+            problem = getattr(e, "problem", None) or str(e).splitlines()[0]
+            hint = ""
+            if mark and "'?'" in problem:
+                hint = ("\n  hint: a name containing '?' must be quoted inside "
+                        "{...} — write {name: 'What is Research?', ...}")
+            sys.exit(f"error: {rel}{where}: {problem}{hint}")
 
 
 # --------------------------------------------------------------------------
