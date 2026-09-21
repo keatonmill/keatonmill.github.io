@@ -84,7 +84,7 @@ presentations:
       - {name: Western Economic Association International, kind: conference}
       - {name: Burning Man Center Camp, kind: public}
       - {name: Southern Methodist University, kind: invited}
-      - {name: Cornerstone Economics, kind: invited}   # CHECK
+      - {name: Cornerstone Economics, kind: invited}
   - year: '2021'
     items:
       - {name: International Industrial Organization Society, kind: conference}
@@ -100,7 +100,7 @@ presentations:
       - {name: Northwestern Healthcare Markets Conference, kind: conference}
       - {name: Banff Empirical Microeconomics Conference, kind: conference}
       - {name: Cannabis Political Economy Symposium, kind: conference}
-      - {name: National Bureau of Economic Research, kind: conference}   # CHECK
+      - {name: National Bureau of Economic Research, kind: conference}
       - {name: American Economic Association Annual Meeting, kind: conference}
   - year: '2018'
     items:
@@ -111,9 +111,9 @@ presentations:
       - {name: Asian Workshop on Econometrics and Health Economics, kind: conference}
       - {name: Midwest Economics Association, kind: conference}
       - {name: North American Summer Meeting of the Econometric Society, kind: conference}
-      - {name: RAND Corporation, kind: invited}   # CHECK
+      - {name: RAND Corporation, kind: invited}
       - {name: Western Economic Association International, kind: conference}
-      - {name: Emerald Trade Alliance, kind: invited}   # CHECK
+      - {name: Emerald Trade Alliance, kind: invited}
   - year: '2017'
     items:
       - {name: International Industrial Organization Society, kind: conference}
@@ -134,7 +134,7 @@ presentations:
       - {name: University of Oregon, kind: invited}
       - {name: University of Miami, kind: invited}
       - {name: University of Rochester, kind: invited}
-      - {name: NERA Corporation, kind: invited}   # CHECK
+      - {name: NERA Corporation, kind: invited}
 
 referee:
   # Journals refereed for at least once. The CV prints these.
