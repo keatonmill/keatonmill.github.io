@@ -64,6 +64,7 @@ presentations:
   # The CV prints the name only.
   - year: '2026'
     items:
+      - {name: 'What is Research?', kind: conference}
       - {name: North American Summer Meeting of the Econometric Society, kind: conference}
       - {name: European Summer Meeting of the Econometric Society, kind: conference}
       - {name: EARIE Annual Conference, kind: conference}
