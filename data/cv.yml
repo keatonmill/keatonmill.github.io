@@ -465,12 +465,18 @@ teaching:
 
 advising:
   current:
-    - name: Connor Mulholland
-      stage: pre-prospectus
-      status: in progress
     - name: David Hall
+      stage: PhD Candidate
+      status: in progress
+    - name: Connor Mulholland
+      stage: PhD Candidate
+      status: in progress
+    - name: Dirghayu Shah
       stage: pre-prospectus
       status: in progress
+    - name: Cindy Yuan
+      stage: pre-prospectus
+      status: in progress    
 
   # `completed` is the term the dissertation was defended, as 'Spring 2026'
   # -- a review window is an arbitrary pair of dates and routinely splits an
@@ -535,10 +541,14 @@ advising:
       completed:
 
   undergraduate:
+    - name: Kalen Tepavich
+      what: Clark Honors College Thesis
+      role: primary adviser
+      completed: 
     - name: Lucy Hudson
       what: Clark Honors College Thesis
       role: primary adviser
-      completed:
+      completed: Spring 2021
     # Nameless on purpose: this repo is public, so every name in cv.yml is
     # published along with the CV. Keaton knows who this was.
     - name: Undergraduate student
