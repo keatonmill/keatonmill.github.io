@@ -404,6 +404,9 @@ dept_service:
     items: [Graduate Placement Committee, Undergraduate Program Committee, Seminar Committee]
 
 univ_service:
+  - years: 2026-2027
+    items: ['Treasurer, United Academics',
+            'Senate Committee on Oversight & Shared Governance']
   - years: 2025–2026
     items: ['Treasurer, United Academics',
             'Sustainable Health Care Cost Growth Target Workgroup for 2026–2030, Oregon Health Authority']
@@ -468,15 +471,23 @@ advising:
     - name: David Hall
       stage: PhD Candidate
       status: in progress
+      role: member
     - name: Connor Mulholland
       stage: PhD Candidate
       status: in progress
+      role: member
     - name: Dirghayu Shah
       stage: pre-prospectus
       status: in progress
+      role: primary adviser
     - name: Cindy Yuan
       stage: pre-prospectus
-      status: in progress    
+      status: in progress
+      role: co-adviser with Jori Barash
+    - name: Leslie Wooten
+      stage: pre-prosectus
+      status: in progress
+      role: co-adviser with Michael Kuhn
 
   # `completed` is the term the dissertation was defended, as 'Spring 2026'
   # -- a review window is an arbitrary pair of dates and routinely splits an
