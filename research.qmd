@@ -10,14 +10,16 @@ toc-title: "Sections"
 ## Journal Articles
 
 :::: {.paper}
-### Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
+### New MA Risk-Adjustment Model Had Limited Effects On Premiums And Cost Sharing, Small Effects On Benefit Generosity
 
 [Niru Ghoshal-Datta, [Michael Chernew](https://hcp.hms.harvard.edu/people/michael-e-chernew), Keaton Miller, [Michael McWilliams](https://hcp.hms.harvard.edu/people/j-michael-mcwilliams), Erica Everhart, and Aneesh Chopra]{.authors}\
-[Forthcoming, *Health Affairs*]{.outlet}
+[*Health Affairs*, 45(9): 1002-1009, 2026]{.outlet}
+
+[[Published version](https://doi.org/10.1377/hlthaff.2025.01612)]{.paper-links}
 
 ::: {.callout-note appearance="simple" collapse="true" icon="false"}
 ## Abstract
-Beginning in 2024, CMS implemented version 28 (V28) of the Medicare Advantage (MA) risk adjustment algorithm, which altered payments to MA plans. This paper examines how these risk-adjustment changes, which were expected to reduce payments to most plans, affected plan premiums, cost sharing, and benefits. Our findings suggest that V28 did not significantly affect plan premiums, but was associated with modest increases in cost-sharing and reductions in some supplemental benefits, thus partially contributing to broader declines in supplemental benefit generosity in MA during this period. Overall, our results suggest that modest payment cuts are likely to lead to small reductions in non-premium benefits. However, the value of these foregone benefits to beneficiaries and the potential impact of larger cuts remain uncertain. Policy makers must weigh whether the fiscal savings resulting from reduced payments justify potential declines in benefit generosity, which remains higher than historical norms.
+Beginning in 2024, the Centers for Medicare and Medicaid Services implemented version 28 of the Medicare Advantage (MA) risk-adjustment algorithm, which altered payments to MA plans. This article examines how these risk-adjustment changes, which were expected to reduce payments to most plans, affected plan premiums, cost sharing, and benefits. Our findings suggest that version 28 did not significantly affect plan premiums or most forms of cost sharing, but it was associated with less than 1-percentage-point reductions in the availability of some supplemental benefits. These findings suggest that moderate payment reductions to MA plans are unlikely to substantially reduce benefit generosity. However, the value of forgone benefits to beneficiaries and the potential impact of larger cuts remain uncertain. Policy makers must weigh whether the fiscal savings resulting from reduced payments justify any potential declines in benefit generosity.
 :::
 ::::
 
@@ -417,6 +419,7 @@ By increasing the frequency and intensity of heatwaves, wildfires, droughts, flo
 :::: {.paper}
 ### Media coverage
 
+- *KVAL*, October 2026: [Dozens line up for Lane County job fair as AI screening reshapes hiring](https://nbc16.com/news/local/dozens-line-up-for-lane-county-job-fair-as-ai-screening-reshapes-hiring)
 - *Ashland Daily Tidings*, November 2024: [Research shows economic effects of climate change include significant cost to Oregon households](https://www.dailytidings.com/research-shows-economic-effects-of-climate-change-include-significant-cost-to-oregon-households/)
 - *KTVL*, November 2024: [Oregon group calculates economic impacts of climate change](https://ktvl.com/news/local/oregon-group-calculates-economic-impacts-of-climate-change)
 - *University of Oregon News*, October 2024: [New economic forum begins to tally costs of climate change for Oregonians](https://news.uoregon.edu/climate-change-cost-report)
