@@ -1,7 +1,8 @@
 - id: medicare-advantage-v28
-  title: Payment Shocks to Medicare Advantage Plans and Their Impact on Plan Generosity
+  title: New MA Risk-Adjustment Model Had Limited Effects On Premiums And Cost Sharing, Small Effects On Benefit Generosity
   section: Journal Articles
-  status: forthcoming
+  status: published
+  accepted: 2026-09-09
   authors:
   - niru-ghoshal-datta
   - michael-chernew
@@ -10,9 +11,16 @@
   - everhart
   - chopra
   outlet: Health Affairs
+  volume: 45
+  issue: 9
+  pages: 1002-1009
+  year: 2026
+  links:
+  - label: Published version
+    url: https://doi.org/10.1377/hlthaff.2025.01612
   abstract_heading: Abstract
   abstract: |-
-    Beginning in 2024, CMS implemented version 28 (V28) of the Medicare Advantage (MA) risk adjustment algorithm, which altered payments to MA plans. This paper examines how these risk-adjustment changes, which were expected to reduce payments to most plans, affected plan premiums, cost sharing, and benefits. Our findings suggest that V28 did not significantly affect plan premiums, but was associated with modest increases in cost-sharing and reductions in some supplemental benefits, thus partially contributing to broader declines in supplemental benefit generosity in MA during this period. Overall, our results suggest that modest payment cuts are likely to lead to small reductions in non-premium benefits. However, the value of these foregone benefits to beneficiaries and the potential impact of larger cuts remain uncertain. Policy makers must weigh whether the fiscal savings resulting from reduced payments justify potential declines in benefit generosity, which remains higher than historical norms.
+    Beginning in 2024, the Centers for Medicare and Medicaid Services implemented version 28 of the Medicare Advantage (MA) risk-adjustment algorithm, which altered payments to MA plans. This article examines how these risk-adjustment changes, which were expected to reduce payments to most plans, affected plan premiums, cost sharing, and benefits. Our findings suggest that version 28 did not significantly affect plan premiums or most forms of cost sharing, but it was associated with less than 1-percentage-point reductions in the availability of some supplemental benefits. These findings suggest that moderate payment reductions to MA plans are unlikely to substantially reduce benefit generosity. However, the value of forgone benefits to beneficiaries and the potential impact of larger cuts remain uncertain. Policy makers must weigh whether the fiscal savings resulting from reduced payments justify any potential declines in benefit generosity.
 - id: optimal-managed-competition-subsidies
   title: The Optimal Geographic Distribution of Managed Competition Subsidies
   section: Journal Articles
